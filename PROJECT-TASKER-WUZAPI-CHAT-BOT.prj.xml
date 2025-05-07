@@ -2,7 +2,7 @@
 	<dmetric>1080.0,2400.0</dmetric>
 	<Profile sr="prof1486" ve="2">
 		<cdate>1746648469951</cdate>
-		<edate>1746660048443</edate>
+		<edate>1746660574433</edate>
 		<flags>8</flags>
 		<id>1486</id>
 		<mid0>1487</mid0>
@@ -117,9 +117,9 @@ Porta
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEBER/ENVIAR</name>
-		<pids>908,910,909,1486</pids>
-		<scenes>UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),WAITING-FOR-SETTINGS v(1.0),CONNECTION_STATUS v(1.0),INSTALLATION_INFORMATION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),CHECK_DISCONNECTION v(1.0)</scenes>
-		<tids>905,904,898,902,903,896,899,907,894,889,891,890,892,906,900,1487,1506,897,895</tids>
+		<pids>910,1486,908,909</pids>
+		<scenes>WAITING-FOR-SETTINGS v(1.0),INSTALLATION_INFORMATION v(1.0),CHECK_DISCONNECTION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),CONNECTION_STATUS v(1.0)</scenes>
+		<tids>899,891,894,902,1506,890,907,906,900,892,898,895,896,1487,903,905,904,889,897</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
 		</Img>
@@ -1125,7 +1125,7 @@ Porta
 	</Scene>
 	<Task sr="task1487">
 		<cdate>1746648503426</cdate>
-		<edate>1746660048443</edate>
+		<edate>1746660574433</edate>
 		<id>1487</id>
 		<nme>#WUZAPI_UPDATES v(1.0)</nme>
 		<rty>2</rty>
@@ -1189,13 +1189,55 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		<Action sr="act3" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%project_url</Str>
-			<Str sr="arg1" ve="3">\bDOOR IDENTIFIER\b</Str>
+			<Str sr="arg1" ve="3">v(1.0)</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">%port</Str>
+			<Str sr="arg7" ve="3">v(1.1)</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<label>WUZAPI_CHAT_BOOT_v_1.0__RECEBER_ENVIAR.prj.xml</label>
+			<Str sr="arg0" ve="3">%name_arq</Str>
+			<Str sr="arg1" ve="3">WUZAPI_CHAT_BOOT_v_1.0__RECEBER_ENVIAR.prj.xml</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">Download/WUZAPI-CHATBOT-TASKS/%name_arq</Str>
+			<Str sr="arg1" ve="3">%project_url</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>365</code>
+			<label>FilePathToContentUri(Download/WUZAPI-CHATBOT-TASKS/%name_arq)</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%content_uri
+URI de Conteúdo
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">FilePathToContentUri(/storage/emulated/0/Download/WUZAPI-CHATBOT-TASKS/%name_arq)</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>com.joaomgcd.taskerm.datashare.import.ActivityImportTaskerDataFromXml</appClass>
+				<appPkg>net.dinglisch.android.taskerm</appPkg>
+				<label>Tasker:com.joaomgcd.taskerm.datashare.import.ActivityImportTaskerDataFromXml</label>
+			</App>
+			<Str sr="arg1" ve="3">%content_uri</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
 		</Action>
 		<ProfileVariable sr="pv0">
 			<clearout>false</clearout>
@@ -6389,7 +6431,7 @@ try {
 	</Task>
 	<Task sr="task895">
 		<cdate>1743412289073</cdate>
-		<edate>1746649432493</edate>
+		<edate>1746660540253</edate>
 		<id>895</id>
 		<nme>☛ TASKERS_DOWNLOAD_TASKS v(1.0) ☚</nme>
 		<pri>100</pri>
