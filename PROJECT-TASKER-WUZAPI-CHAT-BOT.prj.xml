@@ -1257,7 +1257,7 @@ URI de Conteúdo
 		<cdate>1746619373833</cdate>
 		<edate>1746648552353</edate>
 		<id>1506</id>
-		<nme>#TASK_SEND_ICONS (v1.0)</nme>
+		<nme>#TASK_SEND_ICONS (v(1.1))</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -6596,7 +6596,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act18" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">#TASK_SEND_ICONS (v1.0)</Str>
+			<Str sr="arg0" ve="3">#TASK_SEND_ICONS (v(1.1))</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
