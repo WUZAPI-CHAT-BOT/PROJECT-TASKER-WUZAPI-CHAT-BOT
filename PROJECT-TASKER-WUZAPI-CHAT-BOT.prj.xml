@@ -3,7 +3,7 @@
 	<Profile sr="prof2121" ve="2">
 		<cdate>1746665750319</cdate>
 		<clp>true</clp>
-		<edate>1746707690377</edate>
+		<edate>1746751266434</edate>
 		<flags>8</flags>
 		<id>2121</id>
 		<mid0>2113</mid0>
@@ -23,13 +23,12 @@
 	</Profile>
 	<Profile sr="prof2122" ve="2">
 		<cdate>1746665750320</cdate>
-		<clp>true</clp>
-		<edate>1746707687573</edate>
+		<edate>1746755023856</edate>
 		<flags>8</flags>
 		<id>2122</id>
 		<mid0>2118</mid0>
 		<nme>PARSE_RECEIVED_MESSAGES v(1.0)</nme>
-		<pri>50</pri>
+		<pri>10</pri>
 		<Event sr="con0" ve="2">
 			<code>2089</code>
 			<pri>0</pri>
@@ -73,7 +72,7 @@ Porta
 	<Profile sr="prof2123" ve="2">
 		<cdate>1746665750321</cdate>
 		<clp>true</clp>
-		<edate>1746707689782</edate>
+		<edate>1746718996920</edate>
 		<flags>8</flags>
 		<id>2123</id>
 		<mid0>2114</mid0>
@@ -84,11 +83,13 @@ Porta
 	</Profile>
 	<Profile sr="prof2124" ve="2">
 		<cdate>1746665750321</cdate>
-		<edate>1746707967797</edate>
-		<flags>8</flags>
+		<clp>true</clp>
+		<edate>1746751243681</edate>
+		<flags>24</flags>
 		<id>2124</id>
 		<mid0>2105</mid0>
 		<nme>ICON_DOWNLOAD v(1.0)</nme>
+		<pri>50</pri>
 		<Event sr="con0" ve="2">
 			<code>2095</code>
 			<pri>0</pri>
@@ -117,9 +118,9 @@ Porta
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEBER/ENVIAR</name>
-		<pids>2122,2121,2124,2123</pids>
-		<scenes>SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),WAITING-FOR-SETTINGS v(1.0),CONNECTION_STATUS v(1.0),INSTALLATION_INFORMATION v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),CHECK_DISCONNECTION v(1.0)</scenes>
-		<tids>2109,2112,2119,2107,2108,2106,2118,2110,2113,2102,2116,2117,2114,2105,2111,2115,2103,2104,2120</tids>
+		<pids>2121,2124,2122,2123</pids>
+		<scenes>INSTALLATION_INFORMATION v(1.0),CONNECTION_STATUS v(1.0),CHECK_DISCONNECTION v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),WAITING-FOR-SETTINGS v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</scenes>
+		<tids>2117,2119,2105,2102,2118,2106,2113,2109,2114,2112,2116,2110,2111,2115,2120,2107,2108,2103,2104</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
 		</Img>
@@ -1125,7 +1126,7 @@ Porta
 	</Scene>
 	<Task sr="task2102">
 		<cdate>1742993227139</cdate>
-		<edate>1746684542432</edate>
+		<edate>1746750167660</edate>
 		<id>2102</id>
 		<nme>☛ RECEIVE MESSAGE INFORMATION  v(1.0) ☚</nme>
 		<pri>100</pri>
@@ -1558,10 +1559,10 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 	</Task>
 	<Task sr="task2105">
 		<cdate>1746553999747</cdate>
-		<edate>1746707967797</edate>
+		<edate>1746751243681</edate>
 		<id>2105</id>
 		<nme>#ICON_DOWNLOAD v(1.0)</nme>
-		<pri>100</pri>
+		<pri>51</pri>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>137</code>
@@ -1605,8 +1606,8 @@ Tipo
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%name_img</Str>
-			<Str sr="arg3" ve="3">Baixando icones
-Download Icons</Str>
+			<Str sr="arg3" ve="3">Baixando icones do wuzapi
+Download Icons end wuzapi</Str>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
@@ -6933,14 +6934,13 @@ if (missingVariables.length &gt; 0) {
 	</Task>
 	<Task sr="task2113">
 		<cdate>1733522055846</cdate>
-		<edate>1746687693213</edate>
+		<edate>1746751266434</edate>
 		<id>2113</id>
 		<nme>#RESET_CONNECTION_TO_THE_SERVER v(1.0)</nme>
 		<pri>51</pri>
-		<rty>2</rty>
+		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>137</code>
-			<on>false</on>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 			<ConditionList sr="if">
@@ -7725,7 +7725,7 @@ WAITING-FOR-SETTINGS v(1.0)</label>
 	</Task>
 	<Task sr="task2114">
 		<cdate>1746648503426</cdate>
-		<edate>1746687696387</edate>
+		<edate>1746718996920</edate>
 		<id>2114</id>
 		<nme>#WUZAPI_UPDATES v(1.0)</nme>
 		<rty>2</rty>
@@ -12269,10 +12269,10 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task2118">
 		<cdate>1745605035679</cdate>
-		<edate>1746687425684</edate>
+		<edate>1746754657495</edate>
 		<id>2118</id>
 		<nme>#PARSE_RECEIVED_MESSAGES v(1.0)</nme>
-		<pri>51</pri>
+		<pri>11</pri>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>137</code>
