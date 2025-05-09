@@ -2,6 +2,7 @@
 	<dmetric>1080.0,2400.0</dmetric>
 	<Profile sr="prof293" ve="2">
 		<cdate>1746755571395</cdate>
+		<clp>true</clp>
 		<edate>1746768637872</edate>
 		<flags>8</flags>
 		<id>293</id>
@@ -51,10 +52,9 @@ Porta
 	<Profile sr="prof296" ve="2">
 		<cdate>1746755571396</cdate>
 		<clp>true</clp>
-		<edate>1746755620480</edate>
+		<edate>1746810321246</edate>
 		<flags>8</flags>
 		<id>296</id>
-		<limit>true</limit>
 		<mid0>267</mid0>
 		<nme>WUZAPI_UPDATES v(1.0)</nme>
 		<Day sr="con0">
@@ -64,10 +64,9 @@ Porta
 	<Profile sr="prof297" ve="2">
 		<cdate>1746755571397</cdate>
 		<clp>true</clp>
-		<edate>1746755626188</edate>
+		<edate>1746810321703</edate>
 		<flags>24</flags>
 		<id>297</id>
-		<limit>true</limit>
 		<mid0>277</mid0>
 		<nme>ICON_DOWNLOAD v(1.0)</nme>
 		<pri>50</pri>
@@ -98,7 +97,6 @@ Porta
 	</Profile>
 	<Profile sr="prof298" ve="2">
 		<cdate>1746755571397</cdate>
-		<clp>true</clp>
 		<edate>1746768629794</edate>
 		<flags>8</flags>
 		<id>298</id>
@@ -120,9 +118,9 @@ Porta
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEBER/ENVIAR</name>
-		<pids>293,298,297,296</pids>
-		<scenes>WAITING-FOR-SETTINGS v(1.0),CONNECTION_STATUS v(1.0),INSTALLATION_INFORMATION v(1.0),CHECK_DISCONNECTION v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</scenes>
-		<tids>281,265,272,278,271,274,283,269,263,277,282,270,267,280,268,284,273,275,276</tids>
+		<pids>298,293,296,297</pids>
+		<scenes>WAITING-FOR-SETTINGS v(1.0),CONNECTION_STATUS v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),CHECK_DISCONNECTION v(1.0),INSTALLATION_INFORMATION v(1.0)</scenes>
+		<tids>281,272,274,268,271,263,276,270,277,278,265,282,283,269,284,267,280,273,275</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
 		</Img>
@@ -9565,13 +9563,14 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 	</Task>
 	<Task sr="task277">
 		<cdate>1746553999747</cdate>
-		<edate>1746751243681</edate>
+		<edate>1746810319770</edate>
 		<id>277</id>
 		<nme>#ICON_DOWNLOAD v(1.0)</nme>
-		<pri>51</pri>
+		<pri>100</pri>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>137</code>
+			<on>false</on>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 			<ConditionList sr="if">
@@ -9684,6 +9683,11 @@ Download Icons</Str>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#ICON_DOWNLOAD v(1.0)</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>354</code>
