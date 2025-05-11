@@ -2,7 +2,7 @@
 	<dmetric>1080.0,2400.0</dmetric>
 	<Profile sr="prof1250" ve="2">
 		<cdate>1746992014492</cdate>
-		<edate>1746994048122</edate>
+		<edate>1746994344311</edate>
 		<flags>8</flags>
 		<id>1250</id>
 		<limit>true</limit>
@@ -151,9 +151,9 @@ Porta
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
-		<pids>1251,1253,1252,1250</pids>
-		<scenes>CONNECTION_STATUS v(1.0),INSTALLATION_INFORMATION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),CHECK_DISCONNECTION v(1.0),WAITING-FOR-SETTINGS v(1.0)</scenes>
-		<tids>1247,1238,1240,1232,1239,1235,1243,1237,1246,1244,1248,1236,1233,1245,1249,1234,1242,1241</tids>
+		<pids>1251,1253,1250,1252</pids>
+		<scenes>WAITING-FOR-SETTINGS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),INSTALLATION_INFORMATION v(1.0),CHECK_DISCONNECTION v(1.0),CONNECTION_STATUS v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</scenes>
+		<tids>1240,1236,1249,1235,1234,1237,1243,1247,1246,1239,1233,1244,1238,1242,1248,1232,1241,1245</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
 		</Img>
@@ -1159,7 +1159,7 @@ Porta
 	</Scene>
 	<Task sr="task1232">
 		<cdate>1746553999747</cdate>
-		<edate>1746994048122</edate>
+		<edate>1746994261745</edate>
 		<id>1232</id>
 		<nme>#ICON_DOWNLOAD v(1.0)</nme>
 		<pri>6</pri>
@@ -1376,7 +1376,9 @@ https://i.ibb.co/SDCdKLHY/wuzapi-icon.png
 ---
 https://i.ibb.co/mVkjd75x/link-icons.png
 ---
-https://i.ibb.co/0p4WHXpM/update.png</Str>
+https://i.ibb.co/0p4WHXpM/update.png
+---
+https://i.ibb.co/fYL0sjnb/received.png</Str>
 			<Str sr="arg2" ve="3">---</Str>
 		</Action>
 		<Action sr="act20" ve="7">
