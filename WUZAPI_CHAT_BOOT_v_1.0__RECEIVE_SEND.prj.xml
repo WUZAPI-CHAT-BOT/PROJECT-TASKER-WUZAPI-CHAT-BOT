@@ -51,7 +51,7 @@ Porta
 	</Profile>
 	<Profile sr="prof296" ve="2">
 		<cdate>1746755571396</cdate>
-		<edate>1746982878698</edate>
+		<edate>1746984487481</edate>
 		<flags>8</flags>
 		<id>296</id>
 		<limit>true</limit>
@@ -91,7 +91,7 @@ Porta
 	<Profile sr="prof889" ve="2">
 		<cdate>1746836778031</cdate>
 		<clp>true</clp>
-		<edate>1746982469132</edate>
+		<edate>1746984097662</edate>
 		<flags>8</flags>
 		<id>889</id>
 		<limit>true</limit>
@@ -151,10 +151,10 @@ Porta
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
-		<name>WUZAPI_CHAT_BOOT_progvers(vcod)_RECEIVE/SEND</name>
-		<pids>298,293,296,889</pids>
-		<scenes>WAITING-FOR-SETTINGS v(1.0),CONNECTION_STATUS v(1.0),INSTALLATION_INFORMATION v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),CHECK_DISCONNECTION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</scenes>
-		<tids>272,275,271,278,283,281,263,270,273,265,267,268,277,276,269,282,280,284</tids>
+		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
+		<pids>293,889,298,296</pids>
+		<scenes>CONNECTION_STATUS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),INSTALLATION_INFORMATION v(1.0),WAITING-FOR-SETTINGS v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),CHECK_DISCONNECTION v(1.0)</scenes>
+		<tids>276,278,272,284,270,282,280,271,269,275,277,273,281,263,265,268,267,283</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
 		</Img>
@@ -3508,7 +3508,7 @@ WAITING-FOR-SETTINGS v(1.0)</label>
 	</Task>
 	<Task sr="task267">
 		<cdate>1746648503426</cdate>
-		<edate>1746982878698</edate>
+		<edate>1746984487481</edate>
 		<id>267</id>
 		<nme>#WUZAPI_UPDATES v(1.0)</nme>
 		<pri>100</pri>
@@ -3556,6 +3556,24 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%project_url</Str>
+			<Str sr="arg1" ve="3">v\(\d+\.\d+\)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">v(%version)</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%version_url</lhs>
+					<op>3</op>
+					<rhs>%version</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">%version</Str>
 			<Int sr="arg1" val="0"/>
@@ -3574,7 +3592,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>547</code>
 			<label>WUZAPI_CHAT_BOOT_v_1.0__RECEBER_ENVIAR.prj.xml</label>
 			<Str sr="arg0" ve="3">%name_arq</Str>
@@ -3585,14 +3603,14 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>410</code>
 			<Str sr="arg0" ve="3">Download/WUZAPI-CHATBOT-TASKS/%name_arq</Str>
 			<Str sr="arg1" ve="3">%project_url</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>365</code>
 			<label>FilePathToContentUri(Download/WUZAPI-CHATBOT-TASKS/%name_arq)</label>
 			<Bundle sr="arg0">
@@ -3605,7 +3623,7 @@ URI de Conteúdo
 			</Bundle>
 			<Str sr="arg1" ve="3">FilePathToContentUri(/storage/emulated/0/Download/WUZAPI-CHATBOT-TASKS/%name_arq)</Str>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>20</code>
 			<App sr="arg0">
 				<appClass>com.joaomgcd.taskerm.datashare.import.ActivityImportTaskerDataFromXml</appClass>
@@ -3614,7 +3632,7 @@ URI de Conteúdo
 			</App>
 			<Str sr="arg1" ve="3">%content_uri</Str>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg3" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
@@ -3718,14 +3736,15 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>598</code>
-			<Str sr="arg0" ve="3">%project_url</Str>
-			<Str sr="arg1" ve="3">progvers\(vcod\)</Str>
+			<label>remove a quebra de linha</label>
+			<Str sr="arg0" ve="3">%version_url</Str>
+			<Str sr="arg1" ve="3">\n</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">v(%version)</Str>
+			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/update.png</fle>
@@ -8929,7 +8948,7 @@ O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEV
 	</Task>
 	<Task sr="task273">
 		<cdate>1743412289073</cdate>
-		<edate>1746982060191</edate>
+		<edate>1746983912167</edate>
 		<id>273</id>
 		<nme>☛ TASKERS_DOWNLOAD_TASKS v(1.0) ☚</nme>
 		<pri>100</pri>
