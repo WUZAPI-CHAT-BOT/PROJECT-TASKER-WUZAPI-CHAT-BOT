@@ -1,29 +1,11 @@
 <TaskerData sr="" dvi="1" tv="6.5.5-beta">
 	<dmetric>1080.0,2400.0</dmetric>
-	<Profile sr="prof219" ve="2">
-		<cdate>1746984800274</cdate>
-		<edate>1746984906794</edate>
+	<Profile sr="prof651" ve="2">
+		<cdate>1746985212149</cdate>
+		<edate>1746985299770</edate>
 		<flags>8</flags>
-		<id>219</id>
-		<mid0>195</mid0>
-		<nme>WUZAPI_UPDATES v(1.0)</nme>
-		<Day sr="con0">
-			<wday0>7</wday0>
-		</Day>
-		<Time sr="con1">
-			<fh>8</fh>
-			<fm>0</fm>
-			<th>8</th>
-			<tm>0</tm>
-		</Time>
-	</Profile>
-	<Profile sr="prof220" ve="2">
-		<cdate>1746984800275</cdate>
-		<clp>true</clp>
-		<edate>1746980319049</edate>
-		<flags>8</flags>
-		<id>220</id>
-		<mid0>192</mid0>
+		<id>651</id>
+		<mid0>533</mid0>
 		<nme>RESET_CONNECTION_TO_THE_SERVER v(1.0)</nme>
 		<pri>50</pri>
 		<Event sr="con0" ve="2">
@@ -38,13 +20,13 @@
 			<Str sr="arg1" ve="3">25000</Str>
 		</Event>
 	</Profile>
-	<Profile sr="prof221" ve="2">
-		<cdate>1746984800275</cdate>
+	<Profile sr="prof652" ve="2">
+		<cdate>1746985212150</cdate>
 		<clp>true</clp>
-		<edate>1746984097662</edate>
+		<edate>1746985280758</edate>
 		<flags>8</flags>
-		<id>221</id>
-		<mid0>212</mid0>
+		<id>652</id>
+		<mid0>643</mid0>
 		<nme>ICON_DOWNLOAD v(1.0)</nme>
 		<Day sr="con0">
 			<mday0>1</mday0>
@@ -90,7 +72,7 @@
 			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>889</pvid>
+			<pvid>652</pvid>
 			<pvit>pr</pvit>
 			<pvn>%start_time</pvn>
 			<pvt>t</pvt>
@@ -98,13 +80,13 @@
 			<strout>true</strout>
 		</ProfileVariable>
 	</Profile>
-	<Profile sr="prof222" ve="2">
-		<cdate>1746984800275</cdate>
+	<Profile sr="prof653" ve="2">
+		<cdate>1746985212151</cdate>
 		<clp>true</clp>
 		<edate>1746984824528</edate>
 		<flags>8</flags>
-		<id>222</id>
-		<mid0>207</mid0>
+		<id>653</id>
+		<mid0>638</mid0>
 		<nme>PARSE_RECEIVED_MESSAGES v(1.0)</nme>
 		<pri>10</pri>
 		<Event sr="con0" ve="2">
@@ -147,12 +129,30 @@ Porta
 			<Str sr="arg7" ve="3"/>
 		</Event>
 	</Profile>
+	<Profile sr="prof654" ve="2">
+		<cdate>1746985212151</cdate>
+		<clp>true</clp>
+		<edate>1746984906794</edate>
+		<flags>8</flags>
+		<id>654</id>
+		<mid0>541</mid0>
+		<nme>WUZAPI_UPDATES v(1.0)</nme>
+		<Day sr="con0">
+			<wday0>7</wday0>
+		</Day>
+		<Time sr="con1">
+			<fh>8</fh>
+			<fm>0</fm>
+			<th>8</th>
+			<tm>0</tm>
+		</Time>
+	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
-		<pids>222,221,220,219</pids>
-		<scenes>UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),INSTALLATION_INFORMATION v(1.0),CONNECTION_STATUS v(1.0),WAITING-FOR-SETTINGS v(1.0),CHECK_DISCONNECTION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</scenes>
-		<tids>204,191,211,195,203,215,207,208,210,213,192,214,212,216,202,209,218,217</tids>
+		<pids>653,651,654,652</pids>
+		<scenes>UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),WAITING-FOR-SETTINGS v(1.0),INSTALLATION_INFORMATION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),CONNECTION_STATUS v(1.0),CHECK_DISCONNECTION v(1.0)</scenes>
+		<tids>644,638,639,640,646,533,650,642,648,637,647,641,634,643,541,649,633,645</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
 		</Img>
@@ -676,7 +676,7 @@ Porta
 			</RectElement>
 		</WebElement>
 		<TextElement sr="elements7" ve="3">
-			<clickTask>203</clickTask>
+			<clickTask>634</clickTask>
 			<flags>4</flags>
 			<geom>929,0,146,125,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Sair</Str>
@@ -1156,1553 +1156,15 @@ Porta
 			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
 	</Scene>
-	<Task sr="task191">
-		<cdate>1743280624629</cdate>
-		<edate>1746768589529</edate>
-		<id>191</id>
-		<nme>#CHECK_VARIABLE_ERRORS v(1.0)</nme>
-		<pri>100</pri>
-		<rty>2</rty>
-		<Action sr="act0" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%caller1</lhs>
-					<op>2</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>image_message</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>text_message</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act100" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>gets_avatar</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act101" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-var phone = local('number');
-
-var missingVariables = [];
-
-if (!port) {
-    missingVariables.push("| %port |");
-}
-if (!phone) {
-    missingVariables.push("| %number |");
-}
-
-if (missingVariables.length &gt; 0) {
-    if (missingVariables.length === 1) {
-        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
-        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    } else {
-        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
-        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    }
-} else {
-    variable_status = "Todas as variáveis estão definidas.\n\n";
-    variable_status += "All variables are defined.";
-    setLocal('variable_status', variable_status);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act102" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%variable_err</lhs>
-					<op>12</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act103" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%variable_status</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">5000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act104" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
-		</Action>
-		<Action sr="act105" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act106" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act107" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act108" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act109" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>get_contacts</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-var number = local('number');
-var path = local('path');
-var caption = local('caption');
-
-var missingVariables = [];
-
-if (!port) {
-    missingVariables.push("| %port |");
-}
-if (!number) {
-    missingVariables.push("| %number |");
-}
-if (!caption) {
-    missingVariables.push("| %caption |");
-}
-
-if (missingVariables.length &gt; 0) {
-    if (missingVariables.length === 1) {
-        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
-        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    } else {
-        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
-        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    }
-} else {
-    variable_status = "Todas as variáveis estão definidas.\n\n";
-    variable_status += "All variables are defined.";
-    setLocal('variable_status', variable_status);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act110" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-
-var missingVariables = [];
-
-if (!port) {
-    missingVariables.push("| %port |");
-}
-
-if (missingVariables.length &gt; 0) {
-    variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
-    variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
-    setLocal('variable_status', variable_status);
-    setLocal('variable_err', "no variable");
-} else {
-    variable_status = "Todas as variáveis estão definidas.\n\n";
-    variable_status += "All variables are defined.";
-    setLocal('variable_status', variable_status);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act111" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%variable_err</lhs>
-					<op>12</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act112" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%variable_status</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">5000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act113" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
-		</Action>
-		<Action sr="act114" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act115" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act116" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act117" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act118" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>react_message</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act119" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-var number = local('number');
-var message_id = local('message_id');
-var reaction = local('reaction');
-
-var missingVariables = [];
-
-if (!port) {
-    missingVariables.push("| %port |");
-}
-if (!number) {
-    missingVariables.push("| %number |");
-}
-if (!message_id) {
-    missingVariables.push("| %message_id |");
-}
-if (!reaction) {
-    missingVariables.push("| %reaction |");
-}
-
-if (missingVariables.length &gt; 0) {
-    if (missingVariables.length === 1) {
-        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
-        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    } else {
-        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
-        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    }
-} else {
-    variable_status = "Todas as variáveis estão definidas.\n\n";
-    variable_status += "All variables are defined.";
-    setLocal('variable_status', variable_status);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%variable_err</lhs>
-					<op>12</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act120" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%variable_err</lhs>
-					<op>12</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act121" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%variable_status</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">5000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act122" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
-		</Action>
-		<Action sr="act123" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act124" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act125" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act126" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act127" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>sub_groups</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act128" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-
-var missingVariables = [];
-
-if (!port) {
-    missingVariables.push("| %port |");
-}
-
-if (missingVariables.length &gt; 0) {
-    variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
-    variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
-    setLocal('variable_status', variable_status);
-    setLocal('variable_err', "no variable");
-} else {
-    variable_status = "Todas as variáveis estão definidas.\n\n";
-    variable_status += "All variables are defined.";
-    setLocal('variable_status', variable_status);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act129" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%variable_err</lhs>
-					<op>12</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%variable_status</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">5000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act130" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%variable_status</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">5000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act131" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
-		</Action>
-		<Action sr="act132" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act133" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act134" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act135" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>audio_message</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-var number = local('number');
-var path = local('path');
-var caption = local('caption');
-
-var missingVariables = [];
-
-if (!port) {
-    missingVariables.push("| %port |");
-}
-if (!number) {
-    missingVariables.push("| %number |");
-}
-if (!path) {
-    missingVariables.push("| %path |");
-}
-if (!caption) {
-    missingVariables.push("| %caption |");
-}
-
-if (missingVariables.length &gt; 0) {
-    if (missingVariables.length === 1) {
-        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
-        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    } else {
-        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
-        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    }
-} else {
-    variable_status = "Todas as variáveis estão definidas.\n\n";
-    variable_status += "All variables are defined.";
-    setLocal('variable_status', variable_status);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act20" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-var number = local('number');
-var path = local('path');
-var auto_del = local('auto_del');
-
-var missingVariables = [];
-
-if (!port) {
-    missingVariables.push("| %port |");
-}
-if (!number) {
-    missingVariables.push("| %number |");
-}
-if (!path) {
-    missingVariables.push("| %path |");
-}
-if (!auto_del) {
-    missingVariables.push("| %auto_del |");
-}
-
-if (missingVariables.length &gt; 0) {
-    if (missingVariables.length === 1) {
-        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
-        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    } else {
-        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
-        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    }
-} else {
-    variable_status = "Todas as variáveis estão definidas.\n\n";
-    variable_status += "All variables are defined.";
-    setLocal('variable_status', variable_status);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%variable_err</lhs>
-					<op>12</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%variable_status</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">5000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
-		</Action>
-		<Action sr="act24" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act25" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>text_response_message</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-var number = local('number');
-var caption = local('caption');
-var message_id = local('message_id');
-
-var missingVariables = [];
-
-if (!port) {
-    missingVariables.push("| %port |");
-}
-if (!number) {
-    missingVariables.push("| %number |");
-}
-if (!caption) {
-    missingVariables.push("| %caption |");
-}
-if (!message_id) {
-    missingVariables.push("| %message_id |");
-}
-
-if (missingVariables.length &gt; 0) {
-    if (missingVariables.length === 1) {
-        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
-        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    } else {
-        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
-        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    }
-} else {
-    variable_status = "Todas as variáveis estão definidas.\n\n";
-    variable_status += "All variables are defined.";
-    setLocal('variable_status', variable_status);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%variable_err</lhs>
-					<op>12</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act30" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%variable_err</lhs>
-					<op>12</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act31" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%variable_status</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">5000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act32" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
-		</Action>
-		<Action sr="act33" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act34" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act35" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act36" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act37" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>presence_message</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act38" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-var number = local('number');
-var indication = local('indication');
-
-var missingVariables = [];
-
-if (!port) {
-    missingVariables.push("| %port |");
-}
-if (!number) {
-    missingVariables.push("| %number |");
-}
-if (!indication) {
-    missingVariables.push("| %indication |");
-}
-
-if (missingVariables.length &gt; 0) {
-    if (missingVariables.length === 1) {
-        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
-        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    } else {
-        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
-        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    }
-} else {
-    variable_status = "Todas as variáveis estão definidas.\n\n";
-    variable_status += "All variables are defined.";
-    setLocal('variable_status', variable_status);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act39" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%variable_err</lhs>
-					<op>12</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%variable_status</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">5000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act40" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%variable_status</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">5000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act41" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
-		</Action>
-		<Action sr="act42" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act43" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act44" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act45" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act46" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>video_message</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act47" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-var number = local('number');
-var path = local('path');
-var caption = local('caption');
-
-var missingVariables = [];
-
-if (!port) {
-    missingVariables.push("| %port |");
-}
-if (!number) {
-    missingVariables.push("| %number |");
-}
-if (!path) {
-    missingVariables.push("| %path |");
-}
-if (!caption) {
-    missingVariables.push("| %caption |");
-}
-
-if (missingVariables.length &gt; 0) {
-    if (missingVariables.length === 1) {
-        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
-        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    } else {
-        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
-        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    }
-} else {
-    variable_status = "Todas as variáveis estão definidas.\n\n";
-    variable_status += "All variables are defined.";
-    setLocal('variable_status', variable_status);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act48" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%variable_err</lhs>
-					<op>12</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act49" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%variable_status</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">5000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
-		</Action>
-		<Action sr="act50" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
-		</Action>
-		<Action sr="act51" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act52" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act53" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act54" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act55" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>document_message</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act56" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-var number = local('number');
-var path = local('path');
-
-var missingVariables = [];
-
-if (!port) {
-    missingVariables.push("| %port |");
-}
-if (!number) {
-    missingVariables.push("| %number |");
-}
-if (!path) {
-    missingVariables.push("| %path |");
-}
-
-if (missingVariables.length &gt; 0) {
-    if (missingVariables.length === 1) {
-        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
-        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    } else {
-        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
-        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    }
-} else {
-    variable_status = "Todas as variáveis estão definidas.\n\n";
-    variable_status += "All variables are defined.";
-    setLocal('variable_status', variable_status);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act57" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%variable_err</lhs>
-					<op>12</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act58" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%variable_status</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">5000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act59" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act60" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act61" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act62" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act63" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act64" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>location_message</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act65" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-var number = local('number');
-var lat = local('lat');
-var log = local('log');
-
-var missingVariables = [];
-
-if (!port) {
-    missingVariables.push("| %port |");
-}
-if (!number) {
-    missingVariables.push("| %number |");
-}
-if (!lat) {
-    missingVariables.push("| %lat |");
-}
-if (!log) {
-    missingVariables.push("| %log |");
-}
-
-if (missingVariables.length &gt; 0) {
-    if (missingVariables.length === 1) {
-        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
-        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    } else {
-        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
-        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    }
-} else {
-    variable_status = "Todas as variáveis estão definidas.\n\n";
-    variable_status += "All variables are defined.";
-    setLocal('variable_status', variable_status);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act66" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%variable_err</lhs>
-					<op>12</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act67" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%variable_status</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">5000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act68" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
-		</Action>
-		<Action sr="act69" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act70" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act71" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act72" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act73" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>phone_contact</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act74" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-var number = local('number');
-var cod = local('cod');
-var phone = local('phone');
-var name = local('name');
-var create_link = local('create_link');
-
-var missingVariables = [];
-
-if (!port) {
-    missingVariables.push("| %port |");
-}
-if (!number) {
-    missingVariables.push("| %number |");
-}
-if (!cod) {
-    missingVariables.push("| %cod |");
-}
-if (!phone) {
-    missingVariables.push("| %phone |");
-}
-if (!name) {
-    missingVariables.push("| %name |");
-}
-if (!create_link) {
-    missingVariables.push("| %create_link |");
-}
-
-if (missingVariables.length &gt; 0) {
-    if (missingVariables.length === 1) {
-        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
-        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    } else {
-        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
-        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    }
-} else {
-    variable_status = "Todas as variáveis estão definidas.\n\n";
-    variable_status += "All variables are defined.";
-    setLocal('variable_status', variable_status);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act75" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%variable_err</lhs>
-					<op>12</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act76" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%variable_status</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">5000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act77" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
-		</Action>
-		<Action sr="act78" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act79" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act80" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act81" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act82" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>mark_as_read</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act83" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-var number = local('number');
-var message_id = local('message_id');
-
-var missingVariables = [];
-
-if (!port) {
-    missingVariables.push("| %port |");
-}
-if (!number) {
-    missingVariables.push("| %number |");
-}
-if (!message_id) {
-    missingVariables.push("| %message_id |");
-}
-
-if (missingVariables.length &gt; 0) {
-    if (missingVariables.length === 1) {
-        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
-        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    } else {
-        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
-        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    }
-} else {
-    variable_status = "Todas as variáveis estão definidas.\n\n";
-    variable_status += "All variables are defined.";
-    setLocal('variable_status', variable_status);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act84" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%variable_err</lhs>
-					<op>12</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act85" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%variable_status</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">5000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act86" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
-		</Action>
-		<Action sr="act87" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act88" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act89" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act90" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act91" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>check_whatsapp</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act92" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-var phone_numbers = local('phone_numbers');
-
-var missingVariables = [];
-
-if (!port) {
-    missingVariables.push("| %port |");
-}
-if (!phone_numbers) {
-    missingVariables.push("| %phone_numbers |");
-}
-
-if (missingVariables.length &gt; 0) {
-    if (missingVariables.length === 1) {
-        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
-        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    } else {
-        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
-        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
-        setLocal('variable_status', variable_status);
-        setLocal('variable_err', "no variable");
-    }
-} else {
-    variable_status = "Todas as variáveis estão definidas.\n\n";
-    variable_status += "All variables are defined.";
-    setLocal('variable_status', variable_status);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act93" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%variable_err</lhs>
-					<op>12</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act94" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%variable_status</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">5000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act95" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
-		</Action>
-		<Action sr="act96" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act97" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act98" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act99" ve="7">
-			<code>38</code>
-		</Action>
-		<Img sr="icn" ve="2">
-			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/capture-number.png</fle>
-		</Img>
-	</Task>
-	<Task sr="task192">
+	<Task sr="task533">
 		<cdate>1733522055846</cdate>
-		<edate>1746984871696</edate>
-		<id>192</id>
+		<edate>1746985299770</edate>
+		<id>533</id>
 		<nme>#RESET_CONNECTION_TO_THE_SERVER v(1.0)</nme>
 		<pri>51</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>137</code>
-			<on>false</on>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 			<ConditionList sr="if">
@@ -2714,114 +1176,6 @@ if (missingVariables.length &gt; 0) {
 			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>547</code>
-			<label>Variável responsável por da start nos downloads dos ícones
-vinculado com a tarefa #ICON_DOWNLOAD</label>
-			<Str sr="arg0" ve="3">%start_time</Str>
-			<Str sr="arg1" ve="3">%TIMES+5000</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="1"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%start_time</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>547</code>
-			<label>margem da cena
-WAITING-FOR-SETTINGS v(1.0)</label>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%margin</Str>
-			<Str sr="arg1" ve="3">0%</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>547</code>
-			<label>cor da informação do texto na cena
-WAITING-FOR-SETTINGS v(1.0)</label>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%color_container</Str>
-			<Str sr="arg1" ve="3">rgb(255, 0, 0)</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>547</code>
-			<label>informação que irá ser exibido na cena
-WAITING-FOR-SETTINGS v(1.0)</label>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%text_inf</Str>
-			<Str sr="arg1" ve="3">Sem conexão com a internet.</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>49</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>61</code>
-			<on>false</on>
-			<Int sr="arg0" val="1000"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>47</code>
-			<on>false</on>
-			<se>false</se>
-			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="0"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>30</code>
-			<on>false</on>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="3"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>49</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>137</code>
-			<on>false</on>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>38</code>
-			<on>false</on>
-		</Action>
-		<Action sr="act2" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">#REWRITE_USER v(1.0)</Str>
 			<Int sr="arg1">
@@ -2837,7 +1191,83 @@ WAITING-FOR-SETTINGS v(1.0)</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<label>cor da informação do texto na cena
+WAITING-FOR-SETTINGS v(1.0)</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%color_container</Str>
+			<Str sr="arg1" ve="3">rgb(255, 0, 0)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<label>informação que irá ser exibido na cena
+WAITING-FOR-SETTINGS v(1.0)</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%text_inf</Str>
+			<Str sr="arg1" ve="3">Sem conexão com a internet.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>49</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>61</code>
+			<on>false</on>
+			<Int sr="arg0" val="1000"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>47</code>
+			<on>false</on>
+			<se>false</se>
+			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>30</code>
+			<on>false</on>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>49</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>137</code>
+			<on>false</on>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+			<on>false</on>
+		</Action>
+		<Action sr="act19" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<on>false</on>
@@ -2849,7 +1279,15 @@ WAITING-FOR-SETTINGS v(1.0)</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act2" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="50"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>547</code>
 			<label>cor da informação do texto na cena
 WAITING-FOR-SETTINGS v(1.0)</label>
@@ -2862,7 +1300,7 @@ WAITING-FOR-SETTINGS v(1.0)</label>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act21" ve="7">
 			<code>547</code>
 			<label>margem da cena
 WAITING-FOR-SETTINGS v(1.0)</label>
@@ -2875,7 +1313,7 @@ WAITING-FOR-SETTINGS v(1.0)</label>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act22" ve="7">
 			<code>547</code>
 			<label>cor da informação do texto na cena
 WAITING-FOR-SETTINGS v(1.0)</label>
@@ -2888,7 +1326,7 @@ WAITING-FOR-SETTINGS v(1.0)</label>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act23" ve="7">
 			<code>547</code>
 			<label>informação que irá ser exibido na cena
 WAITING-FOR-SETTINGS v(1.0)</label>
@@ -2901,17 +1339,17 @@ WAITING-FOR-SETTINGS v(1.0)</label>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act24" ve="7">
 			<code>49</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act25" ve="7">
 			<code>61</code>
 			<on>false</on>
 			<Int sr="arg0" val="1000"/>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act26" ve="7">
 			<code>47</code>
 			<on>false</on>
 			<se>false</se>
@@ -2927,7 +1365,7 @@ WAITING-FOR-SETTINGS v(1.0)</label>
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act27" ve="7">
 			<code>30</code>
 			<on>false</on>
 			<Int sr="arg0" val="0"/>
@@ -2936,24 +1374,28 @@ WAITING-FOR-SETTINGS v(1.0)</label>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act28" ve="7">
 			<code>49</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="50"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act29" ve="7">
 			<code>38</code>
 			<on>false</on>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<label>atualização de imagens e ícones</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%users</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<label>inicio</label>
@@ -2965,25 +1407,25 @@ WAITING-FOR-SETTINGS v(1.0)</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act31" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">RESET_CONNECTION_TO_THE_SERVER v(1.0)</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act32" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">PARSE_RECEIVED_MESSAGES v(1.0)</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act33" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act34" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act35" ve="7">
 			<code>129</code>
 			<label>extrai as portas dos usuários conectados</label>
 			<Str sr="arg0" ve="3">let Users = JSON.parse(local('users'));
@@ -2996,13 +1438,13 @@ setLocal("ports_users", ports_extracted);</Str>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="45"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act36" ve="7">
 			<code>354</code>
 			<Str sr="arg0" ve="3">%ports_users</Str>
 			<Str sr="arg1" ve="3">%ports_users</Str>
 			<Str sr="arg2" ve="3">,</Str>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act37" ve="7">
 			<code>39</code>
 			<coll>false</coll>
 			<label>laco</label>
@@ -3010,7 +1452,7 @@ setLocal("ports_users", ports_extracted);</Str>
 			<Str sr="arg1" ve="3">%ports_users()</Str>
 			<Int sr="arg2" val="1"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act38" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -3044,19 +1486,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="10"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<label>atualização de imagens e ícones</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%users</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act39" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -3067,14 +1497,30 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">#VIEW_AND_RESTORE_CONNECTION_DELETE_COPY v(1.0)</Str>
+			<Int sr="arg1">
+				<var>%priority+10</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>341</code>
 			<label>conectar ip ao servidor</label>
 			<Int sr="arg0" val="11"/>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3">%local_ip</Str>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act41" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -3108,22 +1554,22 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act42" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">laco</Str>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act43" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act44" ve="7">
 			<code>354</code>
 			<Str sr="arg0" ve="3">%ports_users</Str>
 			<Str sr="arg1" ve="3">%ports_users</Str>
 			<Str sr="arg2" ve="3">,</Str>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act45" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -3134,7 +1580,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act46" ve="7">
 			<code>523</code>
 			<Str sr="arg0" ve="3">Servidor Desconectado</Str>
 			<Str sr="arg1" ve="3"/>
@@ -3153,7 +1599,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="0"/>
 			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act47" ve="7">
 			<code>365</code>
 			<label>reconectar</label>
 			<se>false</se>
@@ -3165,7 +1611,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			</Bundle>
 			<Str sr="arg1" ve="3">TermuxCommand(/data/data/com.termux/files/home/WUZAPI-CHAT-BOT/start_wuzapi.sh,,,true)</Str>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act48" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -3204,23 +1650,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">#VIEW_AND_RESTORE_CONNECTION_DELETE_COPY v(1.0)</Str>
-			<Int sr="arg1">
-				<var>%priority+10</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act49" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -3254,7 +1684,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -3262,7 +1695,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act51" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
@@ -3275,7 +1708,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act52" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -3286,7 +1719,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act53" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -3320,7 +1753,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act55" ve="7">
+		<Action sr="act54" ve="7">
 			<code>394</code>
 			<label>HH:m  dd/M/y</label>
 			<Bundle sr="arg0">
@@ -3354,7 +1787,7 @@ Seconds Since Epoch&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act56" ve="7">
+		<Action sr="act55" ve="7">
 			<code>523</code>
 			<Str sr="arg0" ve="3">Porta %port Reconectada Com O Servidor !!!</Str>
 			<Str sr="arg1" ve="3">%time_stamp</Str>
@@ -3373,27 +1806,24 @@ Seconds Since Epoch&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&
 			<Int sr="arg8" val="0"/>
 			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act57" ve="7">
+		<Action sr="act56" ve="7">
 			<code>779</code>
 			<Str sr="arg0" ve="3">Servidor Desconectado</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act58" ve="7">
+		<Action sr="act57" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">RESET_CONNECTION_TO_THE_SERVER v(1.0)</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act59" ve="7">
+		<Action sr="act58" ve="7">
 			<code>341</code>
 			<label>conectar ip ao servidor</label>
 			<Int sr="arg0" val="11"/>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3">%local_ip</Str>
 		</Action>
-		<Action sr="act6" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act60" ve="7">
+		<Action sr="act59" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -3427,19 +1857,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act61" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act62" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act63" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act64" ve="7">
-			<code>40</code>
-		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act6" ve="7">
 			<code>123</code>
 			<label>Verifica a conexão com a internet</label>
 			<on>false</on>
@@ -3475,7 +1893,19 @@ echo "$status"</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act60" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act61" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act62" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act63" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<on>false</on>
@@ -3487,7 +1917,7 @@ echo "$status"</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act8" ve="7">
 			<code>547</code>
 			<label>cor da informação do texto na cena
 WAITING-FOR-SETTINGS v(1.0)</label>
@@ -3500,14 +1930,27 @@ WAITING-FOR-SETTINGS v(1.0)</label>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<label>margem da cena
+WAITING-FOR-SETTINGS v(1.0)</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%margin</Str>
+			<Str sr="arg1" ve="3">0%</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
 		<Img sr="icn" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/check-errors.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task195">
+	<Task sr="task541">
 		<cdate>1746648503426</cdate>
 		<edate>1746984906794</edate>
-		<id>195</id>
+		<id>541</id>
 		<nme>#WUZAPI_UPDATES v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -3769,10 +2212,10 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
-	<Task sr="task202">
+	<Task sr="task633">
 		<cdate>1731950391571</cdate>
 		<edate>1746682829501</edate>
-		<id>202</id>
+		<id>633</id>
 		<nme>☛ INSTALL_AND_CONNECT_WHATSAPP _WEB v(1.0) ☚</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -4317,10 +2760,10 @@ The label of the button that was clicked&lt;/_array_net.dinglisch.android.tasker
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/conect-whatsapp.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task203">
+	<Task sr="task634">
 		<cdate>1733280908979</cdate>
 		<edate>1733280908979</edate>
-		<id>203</id>
+		<id>634</id>
 		<pri>112</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -4337,10 +2780,10 @@ The label of the button that was clicked&lt;/_array_net.dinglisch.android.tasker
 			<Str sr="arg0" ve="3">INSTALLATION_INFORMATION v(1.0)</Str>
 		</Action>
 	</Task>
-	<Task sr="task204">
+	<Task sr="task637">
 		<cdate>1742831555568</cdate>
 		<edate>1746769109101</edate>
-		<id>204</id>
+		<id>637</id>
 		<nme>#SEND_MESSAGES_AND_FILES v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -8340,10 +6783,10 @@ Content-Type:application/json</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/send-message.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task207">
+	<Task sr="task638">
 		<cdate>1745605035679</cdate>
 		<edate>1746984824528</edate>
-		<id>207</id>
+		<id>638</id>
 		<nme>#PARSE_RECEIVED_MESSAGES v(1.0)</nme>
 		<pri>11</pri>
 		<rty>2</rty>
@@ -8708,10 +7151,10 @@ setLocal('modo_op', foundUser ? foundUser.modo_op : '');</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/receiver.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task208">
+	<Task sr="task639">
 		<cdate>1746536799048</cdate>
 		<edate>1746984879869</edate>
-		<id>208</id>
+		<id>639</id>
 		<nme>#REWRITE_USER v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -8911,10 +7354,10 @@ try {
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/disconnect.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task209">
+	<Task sr="task640">
 		<cdate>1743412289073</cdate>
 		<edate>1746983912167</edate>
-		<id>209</id>
+		<id>640</id>
 		<nme>☛ TASKERS_DOWNLOAD_TASKS v(1.0) ☚</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -9287,10 +7730,10 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
-	<Task sr="task210">
+	<Task sr="task641">
 		<cdate>1733452720303</cdate>
 		<edate>1746682110974</edate>
-		<id>210</id>
+		<id>641</id>
 		<nme>☛ UNLINK_USER_FROM_WHATSAPP_WEB v(1.0) ☚</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -9397,10 +7840,10 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/desconect-whatsapp.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task211">
+	<Task sr="task642">
 		<cdate>1746619373833</cdate>
 		<edate>1746672215264</edate>
-		<id>211</id>
+		<id>642</id>
 		<nme>#TASK_SEND_ICONS v(1.0)</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -9519,10 +7962,10 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/link-icons.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task212">
+	<Task sr="task643">
 		<cdate>1746553999747</cdate>
-		<edate>1746976617420</edate>
-		<id>212</id>
+		<edate>1746985280758</edate>
+		<id>643</id>
 		<nme>#ICON_DOWNLOAD v(1.0)</nme>
 		<pri>6</pri>
 		<rty>2</rty>
@@ -9929,10 +8372,10 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
-	<Task sr="task213">
+	<Task sr="task644">
 		<cdate>1742857701235</cdate>
 		<edate>1746687463567</edate>
-		<id>213</id>
+		<id>644</id>
 		<nme>#VIEW_AND_RESTORE_CONNECTION_DELETE_COPY v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -10221,10 +8664,10 @@ setLocal("auto_del", auto_del);</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/reconect.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task214">
+	<Task sr="task645">
 		<cdate>1746316969002</cdate>
 		<edate>1746980281479</edate>
-		<id>214</id>
+		<id>645</id>
 		<nme>☛ CAPTURE_NUMBER_AND_JID v(1.0) ☚</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -10338,10 +8781,10 @@ setLocal("name", nome);</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/capture-number.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task215">
+	<Task sr="task646">
 		<cdate>1731963712394</cdate>
 		<edate>1746682484092</edate>
-		<id>215</id>
+		<id>646</id>
 		<nme>#GENERATE CODES ( JAVA SCRIPT - CSS - SH ) v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -11971,10 +10414,10 @@ Tipo
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/generate-codes.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task216">
+	<Task sr="task647">
 		<cdate>1732515010938</cdate>
 		<edate>1746584140555</edate>
-		<id>216</id>
+		<id>647</id>
 		<nme>#PROCESS_REQUISITIONS_REQUESTS v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -12510,10 +10953,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
-	<Task sr="task217">
+	<Task sr="task648">
 		<cdate>1729096715422</cdate>
 		<edate>1746687446489</edate>
-		<id>217</id>
+		<id>648</id>
 		<nme>#INSTALL_WUZAPI-CHAT-BOT_END_CONNECT_TO_WHATSAPP v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -13165,10 +11608,10 @@ setLocal("port_status", isPortInUse ? "false" : "true");</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/conect-user.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task218">
+	<Task sr="task649">
 		<cdate>1733454778508</cdate>
 		<edate>1746556925453</edate>
-		<id>218</id>
+		<id>649</id>
 		<nme>#DISCONNECT_USER_FROM_WHATSAPP v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -13471,6 +11914,1543 @@ storeInTasker(jsonUsers);</Str>
 		</Action>
 		<Img sr="icn" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/desconect-user.png</fle>
+		</Img>
+	</Task>
+	<Task sr="task650">
+		<cdate>1743280624629</cdate>
+		<edate>1746768589529</edate>
+		<id>650</id>
+		<nme>#CHECK_VARIABLE_ERRORS v(1.0)</nme>
+		<pri>100</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%caller1</lhs>
+					<op>2</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>image_message</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>text_message</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act100" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>gets_avatar</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act101" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+var phone = local('number');
+
+var missingVariables = [];
+
+if (!port) {
+    missingVariables.push("| %port |");
+}
+if (!phone) {
+    missingVariables.push("| %number |");
+}
+
+if (missingVariables.length &gt; 0) {
+    if (missingVariables.length === 1) {
+        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
+        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    } else {
+        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
+        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    }
+} else {
+    variable_status = "Todas as variáveis estão definidas.\n\n";
+    variable_status += "All variables are defined.";
+    setLocal('variable_status', variable_status);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act102" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%variable_err</lhs>
+					<op>12</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act103" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%variable_status</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">5000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act104" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
+		</Action>
+		<Action sr="act105" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act106" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act107" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act108" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act109" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>get_contacts</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+var number = local('number');
+var path = local('path');
+var caption = local('caption');
+
+var missingVariables = [];
+
+if (!port) {
+    missingVariables.push("| %port |");
+}
+if (!number) {
+    missingVariables.push("| %number |");
+}
+if (!caption) {
+    missingVariables.push("| %caption |");
+}
+
+if (missingVariables.length &gt; 0) {
+    if (missingVariables.length === 1) {
+        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
+        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    } else {
+        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
+        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    }
+} else {
+    variable_status = "Todas as variáveis estão definidas.\n\n";
+    variable_status += "All variables are defined.";
+    setLocal('variable_status', variable_status);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act110" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+
+var missingVariables = [];
+
+if (!port) {
+    missingVariables.push("| %port |");
+}
+
+if (missingVariables.length &gt; 0) {
+    variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
+    variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
+    setLocal('variable_status', variable_status);
+    setLocal('variable_err', "no variable");
+} else {
+    variable_status = "Todas as variáveis estão definidas.\n\n";
+    variable_status += "All variables are defined.";
+    setLocal('variable_status', variable_status);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act111" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%variable_err</lhs>
+					<op>12</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act112" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%variable_status</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">5000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act113" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
+		</Action>
+		<Action sr="act114" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act115" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act116" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act117" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act118" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>react_message</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act119" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+var number = local('number');
+var message_id = local('message_id');
+var reaction = local('reaction');
+
+var missingVariables = [];
+
+if (!port) {
+    missingVariables.push("| %port |");
+}
+if (!number) {
+    missingVariables.push("| %number |");
+}
+if (!message_id) {
+    missingVariables.push("| %message_id |");
+}
+if (!reaction) {
+    missingVariables.push("| %reaction |");
+}
+
+if (missingVariables.length &gt; 0) {
+    if (missingVariables.length === 1) {
+        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
+        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    } else {
+        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
+        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    }
+} else {
+    variable_status = "Todas as variáveis estão definidas.\n\n";
+    variable_status += "All variables are defined.";
+    setLocal('variable_status', variable_status);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%variable_err</lhs>
+					<op>12</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act120" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%variable_err</lhs>
+					<op>12</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act121" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%variable_status</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">5000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act122" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
+		</Action>
+		<Action sr="act123" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act124" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act125" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act126" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act127" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>sub_groups</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act128" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+
+var missingVariables = [];
+
+if (!port) {
+    missingVariables.push("| %port |");
+}
+
+if (missingVariables.length &gt; 0) {
+    variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
+    variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
+    setLocal('variable_status', variable_status);
+    setLocal('variable_err', "no variable");
+} else {
+    variable_status = "Todas as variáveis estão definidas.\n\n";
+    variable_status += "All variables are defined.";
+    setLocal('variable_status', variable_status);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act129" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%variable_err</lhs>
+					<op>12</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%variable_status</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">5000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act130" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%variable_status</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">5000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act131" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
+		</Action>
+		<Action sr="act132" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act133" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act134" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act135" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>audio_message</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+var number = local('number');
+var path = local('path');
+var caption = local('caption');
+
+var missingVariables = [];
+
+if (!port) {
+    missingVariables.push("| %port |");
+}
+if (!number) {
+    missingVariables.push("| %number |");
+}
+if (!path) {
+    missingVariables.push("| %path |");
+}
+if (!caption) {
+    missingVariables.push("| %caption |");
+}
+
+if (missingVariables.length &gt; 0) {
+    if (missingVariables.length === 1) {
+        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
+        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    } else {
+        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
+        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    }
+} else {
+    variable_status = "Todas as variáveis estão definidas.\n\n";
+    variable_status += "All variables are defined.";
+    setLocal('variable_status', variable_status);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+var number = local('number');
+var path = local('path');
+var auto_del = local('auto_del');
+
+var missingVariables = [];
+
+if (!port) {
+    missingVariables.push("| %port |");
+}
+if (!number) {
+    missingVariables.push("| %number |");
+}
+if (!path) {
+    missingVariables.push("| %path |");
+}
+if (!auto_del) {
+    missingVariables.push("| %auto_del |");
+}
+
+if (missingVariables.length &gt; 0) {
+    if (missingVariables.length === 1) {
+        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
+        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    } else {
+        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
+        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    }
+} else {
+    variable_status = "Todas as variáveis estão definidas.\n\n";
+    variable_status += "All variables are defined.";
+    setLocal('variable_status', variable_status);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%variable_err</lhs>
+					<op>12</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%variable_status</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">5000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>text_response_message</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+var number = local('number');
+var caption = local('caption');
+var message_id = local('message_id');
+
+var missingVariables = [];
+
+if (!port) {
+    missingVariables.push("| %port |");
+}
+if (!number) {
+    missingVariables.push("| %number |");
+}
+if (!caption) {
+    missingVariables.push("| %caption |");
+}
+if (!message_id) {
+    missingVariables.push("| %message_id |");
+}
+
+if (missingVariables.length &gt; 0) {
+    if (missingVariables.length === 1) {
+        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
+        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    } else {
+        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
+        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    }
+} else {
+    variable_status = "Todas as variáveis estão definidas.\n\n";
+    variable_status += "All variables are defined.";
+    setLocal('variable_status', variable_status);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%variable_err</lhs>
+					<op>12</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%variable_err</lhs>
+					<op>12</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%variable_status</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">5000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>presence_message</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+var number = local('number');
+var indication = local('indication');
+
+var missingVariables = [];
+
+if (!port) {
+    missingVariables.push("| %port |");
+}
+if (!number) {
+    missingVariables.push("| %number |");
+}
+if (!indication) {
+    missingVariables.push("| %indication |");
+}
+
+if (missingVariables.length &gt; 0) {
+    if (missingVariables.length === 1) {
+        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
+        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    } else {
+        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
+        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    }
+} else {
+    variable_status = "Todas as variáveis estão definidas.\n\n";
+    variable_status += "All variables are defined.";
+    setLocal('variable_status', variable_status);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%variable_err</lhs>
+					<op>12</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%variable_status</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">5000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%variable_status</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">5000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>video_message</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act47" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+var number = local('number');
+var path = local('path');
+var caption = local('caption');
+
+var missingVariables = [];
+
+if (!port) {
+    missingVariables.push("| %port |");
+}
+if (!number) {
+    missingVariables.push("| %number |");
+}
+if (!path) {
+    missingVariables.push("| %path |");
+}
+if (!caption) {
+    missingVariables.push("| %caption |");
+}
+
+if (missingVariables.length &gt; 0) {
+    if (missingVariables.length === 1) {
+        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
+        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    } else {
+        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
+        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    }
+} else {
+    variable_status = "Todas as variáveis estão definidas.\n\n";
+    variable_status += "All variables are defined.";
+    setLocal('variable_status', variable_status);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%variable_err</lhs>
+					<op>12</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%variable_status</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">5000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
+		</Action>
+		<Action sr="act50" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act53" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act54" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act55" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>document_message</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act56" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+var number = local('number');
+var path = local('path');
+
+var missingVariables = [];
+
+if (!port) {
+    missingVariables.push("| %port |");
+}
+if (!number) {
+    missingVariables.push("| %number |");
+}
+if (!path) {
+    missingVariables.push("| %path |");
+}
+
+if (missingVariables.length &gt; 0) {
+    if (missingVariables.length === 1) {
+        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
+        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    } else {
+        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
+        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    }
+} else {
+    variable_status = "Todas as variáveis estão definidas.\n\n";
+    variable_status += "All variables are defined.";
+    setLocal('variable_status', variable_status);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act57" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%variable_err</lhs>
+					<op>12</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act58" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%variable_status</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">5000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act59" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act60" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act61" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act62" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act63" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act64" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>location_message</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act65" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+var number = local('number');
+var lat = local('lat');
+var log = local('log');
+
+var missingVariables = [];
+
+if (!port) {
+    missingVariables.push("| %port |");
+}
+if (!number) {
+    missingVariables.push("| %number |");
+}
+if (!lat) {
+    missingVariables.push("| %lat |");
+}
+if (!log) {
+    missingVariables.push("| %log |");
+}
+
+if (missingVariables.length &gt; 0) {
+    if (missingVariables.length === 1) {
+        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
+        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    } else {
+        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
+        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    }
+} else {
+    variable_status = "Todas as variáveis estão definidas.\n\n";
+    variable_status += "All variables are defined.";
+    setLocal('variable_status', variable_status);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act66" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%variable_err</lhs>
+					<op>12</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act67" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%variable_status</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">5000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act68" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
+		</Action>
+		<Action sr="act69" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act70" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act71" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act72" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act73" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>phone_contact</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act74" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+var number = local('number');
+var cod = local('cod');
+var phone = local('phone');
+var name = local('name');
+var create_link = local('create_link');
+
+var missingVariables = [];
+
+if (!port) {
+    missingVariables.push("| %port |");
+}
+if (!number) {
+    missingVariables.push("| %number |");
+}
+if (!cod) {
+    missingVariables.push("| %cod |");
+}
+if (!phone) {
+    missingVariables.push("| %phone |");
+}
+if (!name) {
+    missingVariables.push("| %name |");
+}
+if (!create_link) {
+    missingVariables.push("| %create_link |");
+}
+
+if (missingVariables.length &gt; 0) {
+    if (missingVariables.length === 1) {
+        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
+        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    } else {
+        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
+        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    }
+} else {
+    variable_status = "Todas as variáveis estão definidas.\n\n";
+    variable_status += "All variables are defined.";
+    setLocal('variable_status', variable_status);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act75" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%variable_err</lhs>
+					<op>12</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act76" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%variable_status</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">5000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act77" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
+		</Action>
+		<Action sr="act78" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act79" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act80" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act81" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act82" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>mark_as_read</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act83" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+var number = local('number');
+var message_id = local('message_id');
+
+var missingVariables = [];
+
+if (!port) {
+    missingVariables.push("| %port |");
+}
+if (!number) {
+    missingVariables.push("| %number |");
+}
+if (!message_id) {
+    missingVariables.push("| %message_id |");
+}
+
+if (missingVariables.length &gt; 0) {
+    if (missingVariables.length === 1) {
+        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
+        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    } else {
+        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
+        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    }
+} else {
+    variable_status = "Todas as variáveis estão definidas.\n\n";
+    variable_status += "All variables are defined.";
+    setLocal('variable_status', variable_status);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act84" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%variable_err</lhs>
+					<op>12</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act85" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%variable_status</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">5000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act86" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
+		</Action>
+		<Action sr="act87" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act88" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act89" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act90" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act91" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>check_whatsapp</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act92" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+var phone_numbers = local('phone_numbers');
+
+var missingVariables = [];
+
+if (!port) {
+    missingVariables.push("| %port |");
+}
+if (!phone_numbers) {
+    missingVariables.push("| %phone_numbers |");
+}
+
+if (missingVariables.length &gt; 0) {
+    if (missingVariables.length === 1) {
+        variable_status = "A variável\n" + missingVariables[0] + "\n não está definida.\n\n";
+        variable_status += "The variable\n" + missingVariables[0] + "\n is not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    } else {
+        variable_status = "As variáveis\n" + missingVariables.join(", ") + "\n não estão definidas.\n\n";
+        variable_status += "The variables\n" + missingVariables.join(", ") + "\n are not defined.";
+        setLocal('variable_status', variable_status);
+        setLocal('variable_err', "no variable");
+    }
+} else {
+    variable_status = "Todas as variáveis estão definidas.\n\n";
+    variable_status += "All variables are defined.";
+    setLocal('variable_status', variable_status);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act93" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%variable_err</lhs>
+					<op>12</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act94" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%variable_status</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">5000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act95" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#SEND_MESSAGES_AND_FILES v(1.0)</Str>
+		</Action>
+		<Action sr="act96" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act97" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act98" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act99" ve="7">
+			<code>38</code>
+		</Action>
+		<Img sr="icn" ve="2">
+			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/capture-number.png</fle>
 		</Img>
 	</Task>
 </TaskerData>
