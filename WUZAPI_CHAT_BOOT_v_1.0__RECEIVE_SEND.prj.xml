@@ -51,7 +51,7 @@ Porta
 	</Profile>
 	<Profile sr="prof296" ve="2">
 		<cdate>1746755571396</cdate>
-		<edate>1746984487481</edate>
+		<edate>1746984602809</edate>
 		<flags>8</flags>
 		<id>296</id>
 		<limit>true</limit>
@@ -152,9 +152,9 @@ Porta
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
-		<pids>293,889,298,296</pids>
-		<scenes>CONNECTION_STATUS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),INSTALLATION_INFORMATION v(1.0),WAITING-FOR-SETTINGS v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),CHECK_DISCONNECTION v(1.0)</scenes>
-		<tids>276,278,272,284,270,282,280,271,269,275,277,273,281,263,265,268,267,283</tids>
+		<pids>293,298,296,889</pids>
+		<scenes>WAITING-FOR-SETTINGS v(1.0),CONNECTION_STATUS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),INSTALLATION_INFORMATION v(1.0),CHECK_DISCONNECTION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</scenes>
+		<tids>265,263,271,277,267,278,273,282,269,272,280,281,284,276,270,283,275,268</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
 		</Img>
@@ -3508,7 +3508,7 @@ WAITING-FOR-SETTINGS v(1.0)</label>
 	</Task>
 	<Task sr="task267">
 		<cdate>1746648503426</cdate>
-		<edate>1746984487481</edate>
+		<edate>1746984602809</edate>
 		<id>267</id>
 		<nme>#WUZAPI_UPDATES v(1.0)</nme>
 		<pri>100</pri>
@@ -3760,7 +3760,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<pvit>t</pvit>
 			<pvn>%template_url</pvn>
 			<pvt>t</pvt>
-			<pvv>https://raw.githubusercontent.com/WUZAPI-CHAT-BOT/PROJECT-TASKER-WUZAPI-CHAT-BOT/refs/heads/main/WUZAPI_CHAT_BOOT_progvers_vcod__RECEIVE_SEND.prj.xml</pvv>
+			<pvv>https://raw.githubusercontent.com/WUZAPI-CHAT-BOT/PROJECT-TASKER-WUZAPI-CHAT-BOT/refs/heads/main/WUZAPI_CHAT_BOOT_v_1.0__RECEIVE_SEND.prj.xml</pvv>
 			<strout>true</strout>
 		</ProfileVariable>
 		<ProfileVariable sr="pv1">
@@ -8948,7 +8948,7 @@ O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEV
 	</Task>
 	<Task sr="task273">
 		<cdate>1743412289073</cdate>
-		<edate>1746983912167</edate>
+		<edate>1746984610511</edate>
 		<id>273</id>
 		<nme>☛ TASKERS_DOWNLOAD_TASKS v(1.0) ☚</nme>
 		<pri>100</pri>
@@ -9304,7 +9304,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<pvit>t</pvit>
 			<pvn>%template_url</pvn>
 			<pvt>t</pvt>
-			<pvv>https://raw.githubusercontent.com/WUZAPI-CHAT-BOT/TAREFAS-DE-ENVIO/refs/heads/main/_ID__plchldr__progvers_vcod___Wuzapi_ChatBoot___tasks_submit.prj.xml</pvv>
+			<pvv>https://raw.githubusercontent.com/WUZAPI-CHAT-BOT/PROJECT-TASKER-WUZAPI-CHAT-BOT/refs/heads/main/WUZAPI_CHAT_BOOT_v_1.0__RECEIVE_SEND.prj.xml</pvv>
 			<strout>true</strout>
 		</ProfileVariable>
 		<ProfileVariable sr="pv1">
