@@ -51,6 +51,7 @@ Porta
 	</Profile>
 	<Profile sr="prof296" ve="2">
 		<cdate>1746755571396</cdate>
+		<clp>true</clp>
 		<edate>1746982383244</edate>
 		<flags>8</flags>
 		<id>296</id>
@@ -90,10 +91,10 @@ Porta
 	</Profile>
 	<Profile sr="prof889" ve="2">
 		<cdate>1746836778031</cdate>
-		<clp>true</clp>
-		<edate>1746976617420</edate>
+		<edate>1746982469132</edate>
 		<flags>8</flags>
 		<id>889</id>
+		<limit>true</limit>
 		<mid0>277</mid0>
 		<nme>ICON_DOWNLOAD v(1.0)</nme>
 		<Day sr="con0">
@@ -144,16 +145,16 @@ Porta
 			<pvit>pr</pvit>
 			<pvn>%start_time</pvn>
 			<pvt>t</pvt>
-			<pvv>05.00</pvv>
+			<pvv>%TIME</pvv>
 			<strout>true</strout>
 		</ProfileVariable>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_progvers(vcod)_RECEIVE/SEND</name>
-		<pids>298,293,889,296</pids>
-		<scenes>WAITING-FOR-SETTINGS v(1.0),CHECK_DISCONNECTION v(1.0),CONNECTION_STATUS v(1.0),INSTALLATION_INFORMATION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0)</scenes>
-		<tids>277,278,281,283,272,270,271,269,267,276,265,282,275,268,284,263,273,280</tids>
+		<pids>296,889,298,293</pids>
+		<scenes>WAITING-FOR-SETTINGS v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),CONNECTION_STATUS v(1.0),CHECK_DISCONNECTION v(1.0),INSTALLATION_INFORMATION v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0)</scenes>
+		<tids>271,281,267,278,283,282,276,273,275,263,280,269,270,272,277,265,268,284</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
 		</Img>
