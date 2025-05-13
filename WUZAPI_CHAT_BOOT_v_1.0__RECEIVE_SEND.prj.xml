@@ -154,7 +154,7 @@ Porta
 	</Profile>
 	<Profile sr="prof99" ve="2">
 		<cdate>1747053944390</cdate>
-		<edate>1747155757345</edate>
+		<edate>1747155895393</edate>
 		<flags>8</flags>
 		<id>99</id>
 		<mid0>86</mid0>
@@ -172,9 +172,9 @@ Porta
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
-		<pids>100,15,103,99,101</pids>
-		<scenes>UPDATES v(1.0),WAITING-FOR-SETTINGS v(1.0),CONNECTION_STATUS v(1.0),NO_UPDATES v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),CHECK_DISCONNECTION v(1.0),INSTALLATION_INFORMATION v(1.0)</scenes>
-		<tids>41,93,61,71,44,64,39,86,36,97,59,17,92,56,10,45,63,35,91,94</tids>
+		<pids>15,100,103,99,101</pids>
+		<scenes>UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),CHECK_DISCONNECTION v(1.0),NO_UPDATES v(1.0),WAITING-FOR-SETTINGS v(1.0),UPDATES v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),INSTALLATION_INFORMATION v(1.0),CONNECTION_STATUS v(1.0)</scenes>
+		<tids>71,44,93,35,41,86,45,61,36,17,97,56,92,59,64,94,39,91,63,10</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
 		</Img>
@@ -13260,7 +13260,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task86">
 		<cdate>1746648503426</cdate>
-		<edate>1747155757345</edate>
+		<edate>1747155895393</edate>
 		<id>86</id>
 		<nme>#WUZAPI_UPDATES v(1.0)</nme>
 		<pri>100</pri>
@@ -13832,7 +13832,8 @@ URI de Conteúdo
 			<pvt>t</pvt>
 			<pvv>Últimas atualizações
 ---------
-🟢 Não há atualizações no momento</pvv>
+🟢 Não há atualizações no momento
+</pvv>
 			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
