@@ -133,6 +133,7 @@ Porta
 	</Profile>
 	<Profile sr="prof15" ve="2">
 		<cdate>1747112390494</cdate>
+		<clp>true</clp>
 		<edate>1747155744057</edate>
 		<flags>8</flags>
 		<id>15</id>
@@ -172,9 +173,10 @@ Porta
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
-		<pids>103,100,15,99,101</pids>
-		<scenes>NO_UPDATES v(1.0),UPDATES v(1.0),WAITING-FOR-SETTINGS v(1.0),INSTALLATION_INFORMATION v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),CONNECTION_STATUS v(1.0),CHECK_DISCONNECTION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</scenes>
-		<tids>86,36,56,17,64,41,93,61,35,44,10,92,59,45,97,91,71,39,63,94</tids>
+		<pids>100,15,103,101,99</pids>
+		<scenes>INSTALLATION_INFORMATION v(1.0),UPDATES v(1.0),NO_UPDATES v(1.0),CONNECTION_STATUS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),WAITING-FOR-SETTINGS v(1.0),CHECK_DISCONNECTION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</scenes>
+		<tids>56,92,97,17,71,86,36,35,10,41,93,61,91,64,94,59,44,45,63,39</tids>
+		<tsort>UserReverse</tsort>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
 		</Img>
@@ -850,7 +852,7 @@ Porta
 	</Scene>
 	<Scene sr="sceneSCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)">
 		<cdate>1731968583541</cdate>
-		<edate>1747104236791</edate>
+		<edate>1747214471909</edate>
 		<heightLand>1035</heightLand>
 		<heightPort>2019</heightPort>
 		<nme>SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</nme>
@@ -2295,7 +2297,7 @@ setLocal("name", nome);</Str>
 	</Task>
 	<Task sr="task41">
 		<cdate>1731963712394</cdate>
-		<edate>1747139280375</edate>
+		<edate>1747215288095</edate>
 		<id>41</id>
 		<nme>#GENERATE CODES ( JAVA SCRIPT - CSS - SH ) v(1.0)</nme>
 		<pri>100</pri>
@@ -3333,51 +3335,50 @@ html {
 .header,
 .footer {
     text-align: center;
-    padding: 2vw;
+    padding: 1.5vw;
     color: white;
     background-color: var(--primary-color);
-    font-size: 2.5vw;
+    font-size: 1.8vw;
     color: #7f8c8d;
-    width: 100vw; /* Força largura total da tela */
-    margin-left: calc(-1 * (100vw - 90vw) / 2); /* Compensa o max-width do container */
-    margin-right: calc(-1 * (100vw - 90vw) / 2); /* Compensa o max-width do container */
+    width: 100vw;
+    margin-left: calc(-1 * (100vw - 90vw) / 2);
+    margin-right: calc(-1 * (100vw - 90vw) / 2);
 }
 
 .inputTel {
     text-align: center;
-    font-size: 3vw;
+    font-size: 2.2vw;
     font-weight: bold;
 }
 
 .header h1 {
-    font-size: 3vw;
+    font-size: 2.2vw;
 }
 
 .main {
     flex: 1;
-    padding: 4vw;
+    padding: 2vw;
     overflow-y: auto;
 }
 
 .form-section {
     border: 2px solid #ddd;
-    padding: 3vw;
-    margin-bottom: 2vw;
+    padding: 2vw;
+    margin-bottom: 1.5vw;
     border-radius: 5px;
 }
 
 .form-section h2 {
-    font-size: 3vw;
+    font-size: 2vw;
     color: var(--text-color);
-    margin-bottom: 2vw;
+    margin-bottom: 1.5vw;
 }
 
 fieldset legend {
     display: block;
-    font-size: 2.5vw;
+    font-size: 1.8vw;
     font-weight: bold;
-    padding: 0 1vw;
-    font-weight: bold;
+    padding: 0 0.8vw;
     color: var(--text-color);
 }
 
@@ -3389,14 +3390,14 @@ fieldset legend {
 }
 
 .input-icon {
-    width: 5vw;
-    height: 5vw;
-    margin: 0 2vw;
+    width: 4vw;
+    height: 4vw;
+    margin: 0 1.5vw;
 }
 
 input[type="tel"] {
     flex-grow: 1;
-    padding: 2vw;
+    padding: 1.5vw;
     border: none;
     outline: none;
 }
@@ -3407,56 +3408,57 @@ input[type="tel"] {
 }
 
 .radio-group input {
-    margin-right: 1vw;
+    margin-right: 0.8vw;
 }
 
 .selected-port {
-    margin-top: 2vw;
+    margin-top: 1.5vw;
     color: var(--primary-color);
     font-weight: bold;
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 1.8vw;
 }
 
 .ports-grid {
     height: auto;
-    max-height: 25vh;
+    max-height: 20vh;
     overflow-y: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 1vw;
+    gap: 0.8vw;
     justify-content: center;
-    padding: 2vw;
+    padding: 1.5vw;
 }
 
 .port-btn {
     color: #fff;
-    padding: 2vw 3vw;
+    padding: 1.2vw 2vw;
     border-radius: 5px;
     background: var(--secondary-color);
     border: none;
     font-weight: bold;
-    margin-top: 1vw;
+    margin-top: 0.8vw;
     margin-left: 0;
     transition: transform 0.2s;
+    font-size: 1.6vw;
 }
 
 .port-btn.selected {
     background: var(--primary-color);
     color: #2654fa;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .submit-button {
     margin: 0 auto;
-    width: 50%;
-    padding: 2vw;
+    width: 40%;
+    padding: 1.5vw;
     background-color: var(--secondary-color);
     color: white;
     font-weight: bold;
-    font-size: 2.5vw;
+    font-size: 1.8vw;
     border: none;
-    margin-top: 4vw;
+    margin-top: 2vw;
     border-radius: 5px;
     cursor: pointer;
     display: block;
@@ -3470,28 +3472,35 @@ input[type="tel"] {
 .error-message {
     font-weight: bold;
     color: red;
-    font-size: 2vw;
+    font-size: 1.6vw;
 }
 
 .success-message {
     text-align: center;
     font-weight: bold;
     color: var(--primary-color);
-    font-size: 2.5vw;
+    font-size: 1.8vw;
 }
 
 #help-button {
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
     font-weight: bold;
     border: none;
-    width: 20%;
-    color: #fff;
-    padding: 2vw;
-    border-radius: 5px;
-    margin-top: 4vh;
-    margin-left: auto;
-    margin-right: 2vw;
+    padding: 1.5vw;
+    border-radius: 50%;
     background: var(--primary-color);
-    display: block;
+    color: #fff;
+    font-size: 2vw;
+    width: 8vw;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
 }
 
 .help-modal {
@@ -3502,17 +3511,94 @@ input[type="tel"] {
     height: 100%;
     display: none;
     place-items: center;
-    background: rgba(0 0 0 / 30%);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .help-content {
-    padding: 2vw;
+    padding: 1.5vw;
     color: #fff;
     width: 80vw;
     height: 80vh;
     background: #000;
     overflow: auto;
     border-radius: 15px;
+}
+
+/* Media Queries para dispositivos móveis e tablets */
+@media (max-width: 768px) {
+    .header h1,
+    .inputTel,
+    .form-section h2,
+    .submit-button,
+    .selected-port,
+    fieldset legend {
+        font-size: 3vw;
+    }
+
+    .input-icon {
+        width: 6vw;
+        height: 6vw;
+    }
+
+    .port-btn {
+        padding: 2vw 3vw;
+        font-size: 2.5vw;
+    }
+
+    #help-button {
+        width: 10vw;
+        height: 10vw;
+        font-size: 3vw;
+        padding: 2vw;
+    }
+
+    .help-content {
+        width: 90vw;
+        height: 85vh;
+    }
+
+    .error-message,
+    .success-message {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1,
+    .inputTel,
+    .form-section h2,
+    .submit-button,
+    .selected-port,
+    fieldset legend {
+        font-size: 4vw;
+    }
+
+    .input-icon {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .port-btn {
+        padding: 2.5vw 3.5vw;
+        font-size: 3vw;
+    }
+
+    #help-button {
+        width: 12vw;
+        height: 12vw;
+        font-size: 4vw;
+        padding: 2.5vw;
+    }
+
+    .help-content {
+        width: 95vw;
+        height: 90vh;
+    }
+
+    .error-message,
+    .success-message {
+        font-size: 3vw;
+    }
 }</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -8645,7 +8731,7 @@ setLocal("ports_users", ports_extracted);</Str>
 	</Task>
 	<Task sr="task63">
 		<cdate>1731950391571</cdate>
-		<edate>1747074074879</edate>
+		<edate>1747215182086</edate>
 		<id>63</id>
 		<nme>☛ INSTALL_AND_CONNECT_WHATSAPP _WEB v(1.0) ☚</nme>
 		<pri>100</pri>
