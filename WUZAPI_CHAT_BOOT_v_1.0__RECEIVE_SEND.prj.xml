@@ -173,9 +173,9 @@ Porta
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
-		<pids>100,15,103,101,99</pids>
-		<scenes>INSTALLATION_INFORMATION v(1.0),UPDATES v(1.0),NO_UPDATES v(1.0),CONNECTION_STATUS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),WAITING-FOR-SETTINGS v(1.0),CHECK_DISCONNECTION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</scenes>
-		<tids>56,92,97,17,71,86,36,35,10,41,93,61,91,64,94,59,44,45,63,39</tids>
+		<pids>100,15,103,99,101</pids>
+		<scenes>CHECK_DISCONNECTION v(1.0),WAITING-FOR-SETTINGS v(1.0),INSTALLATION_INFORMATION v(1.0),NO_UPDATES v(1.0),UPDATES v(1.0),CONNECTION_STATUS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</scenes>
+		<tids>59,41,39,97,63,17,71,44,61,92,45,35,64,36,86,94,56,93,91,10</tids>
 		<tsort>UserReverse</tsort>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
@@ -1363,7 +1363,7 @@ Porta
 	</Scene>
 	<Task sr="task10">
 		<cdate>1747108748487</cdate>
-		<edate>1747160252206</edate>
+		<edate>1747215716399</edate>
 		<id>10</id>
 		<nme>☛ CHECK_FOR_UPDATES v(1.0) ☚</nme>
 		<pri>100</pri>
@@ -8731,7 +8731,7 @@ setLocal("ports_users", ports_extracted);</Str>
 	</Task>
 	<Task sr="task63">
 		<cdate>1731950391571</cdate>
-		<edate>1747215182086</edate>
+		<edate>1747215677022</edate>
 		<id>63</id>
 		<nme>☛ INSTALL_AND_CONNECT_WHATSAPP _WEB v(1.0) ☚</nme>
 		<pri>100</pri>
@@ -13346,13 +13346,14 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task86">
 		<cdate>1746648503426</cdate>
-		<edate>1747155895393</edate>
+		<edate>1747215800343</edate>
 		<id>86</id>
 		<nme>#WUZAPI_UPDATES v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>137</code>
+			<on>false</on>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 			<ConditionList sr="if">
@@ -13919,7 +13920,7 @@ URI de Conteúdo
 			<pvv>Últimas atualizações
 ---------
 🟢 Não há atualizações no momento
-    </pvv>
+</pvv>
 			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
