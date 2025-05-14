@@ -3,7 +3,7 @@
 	<Profile sr="prof100" ve="2">
 		<cdate>1747053944391</cdate>
 		<clp>true</clp>
-		<edate>1747160070205</edate>
+		<edate>1747232462773</edate>
 		<flags>8</flags>
 		<id>100</id>
 		<mid0>61</mid0>
@@ -24,7 +24,7 @@
 	<Profile sr="prof101" ve="2">
 		<cdate>1747053944393</cdate>
 		<clp>true</clp>
-		<edate>1747214266616</edate>
+		<edate>1747233058945</edate>
 		<flags>8</flags>
 		<id>101</id>
 		<limit>true</limit>
@@ -85,7 +85,7 @@
 	<Profile sr="prof103" ve="2">
 		<cdate>1747053944394</cdate>
 		<clp>true</clp>
-		<edate>1747160416203</edate>
+		<edate>1747232467532</edate>
 		<flags>8</flags>
 		<id>103</id>
 		<mid0>92</mid0>
@@ -134,7 +134,7 @@ Porta
 	<Profile sr="prof15" ve="2">
 		<cdate>1747112390494</cdate>
 		<clp>true</clp>
-		<edate>1747155744057</edate>
+		<edate>1747233063456</edate>
 		<flags>8</flags>
 		<id>15</id>
 		<limit>true</limit>
@@ -155,7 +155,7 @@ Porta
 	<Profile sr="prof99" ve="2">
 		<cdate>1747053944390</cdate>
 		<clp>true</clp>
-		<edate>1747155895393</edate>
+		<edate>1747232466213</edate>
 		<flags>8</flags>
 		<id>99</id>
 		<mid0>86</mid0>
@@ -173,9 +173,9 @@ Porta
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
-		<pids>101,100,15,99,103</pids>
-		<scenes>CONNECTION_STATUS v(1.0),CHECK_DISCONNECTION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),NO_UPDATES v(1.0),WAITING-FOR-SETTINGS v(1.0),INSTALLATION_INFORMATION v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),UPDATES v(1.0)</scenes>
-		<tids>17,61,41,44,91,64,39,36,71,59,92,35,93,97,86,94,63,45,56,10</tids>
+		<pids>103,100,15,101,99</pids>
+		<scenes>NO_UPDATES v(1.0),UPDATES v(1.0),CHECK_DISCONNECTION v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),CONNECTION_STATUS v(1.0),WAITING-FOR-SETTINGS v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),INSTALLATION_INFORMATION v(1.0)</scenes>
+		<tids>86,93,35,130,61,45,41,36,17,59,92,63,71,64,44,56,10,97,39,94,91</tids>
 		<tsort>UserReverse</tsort>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
@@ -184,10 +184,10 @@ Porta
 			<clearout>false</clearout>
 			<exportval></exportval>
 			<immutable>false</immutable>
-			<pvci>true</pvci>
+			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>37</pvid>
+			<pvid>34</pvid>
 			<pvit>pj</pvit>
 			<pvn>%users</pvn>
 			<pvt>t</pvt>
@@ -200,7 +200,7 @@ Porta
 			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>37</pvid>
+			<pvid>34</pvid>
 			<pvit>pj</pvit>
 			<pvn>%version</pvn>
 			<pvt>ws</pvt>
@@ -211,10 +211,10 @@ Porta
 			<clearout>false</clearout>
 			<exportval></exportval>
 			<immutable>false</immutable>
-			<pvci>true</pvci>
+			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>37</pvid>
+			<pvid>34</pvid>
 			<pvit>pj</pvit>
 			<pvn>%active_scheduling</pvn>
 			<pvt>t</pvt>
@@ -852,7 +852,7 @@ Porta
 	</Scene>
 	<Scene sr="sceneSCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)">
 		<cdate>1731968583541</cdate>
-		<edate>1747214471909</edate>
+		<edate>1747226706425</edate>
 		<heightLand>1035</heightLand>
 		<heightPort>2019</heightPort>
 		<nme>SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</nme>
@@ -1363,7 +1363,7 @@ Porta
 	</Scene>
 	<Task sr="task10">
 		<cdate>1747108748487</cdate>
-		<edate>1747215956006</edate>
+		<edate>1747223478316</edate>
 		<id>10</id>
 		<nme>☛ CHECK_FOR_UPDATES v(1.0) ☚</nme>
 		<pri>100</pri>
@@ -1391,6 +1391,77 @@ Porta
 		</Action>
 		<Img sr="icn" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/check-update.png</fle>
+		</Img>
+	</Task>
+	<Task sr="task130">
+		<cdate>1742993227139</cdate>
+		<edate>1747231336817</edate>
+		<id>130</id>
+		<nme>☛ RECEIVE MESSAGE INFORMATION ☚</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%port
+
+%my_number
+
+%sender_number
+
+%isgroup
+
+%message_id
+
+%type
+
+%pushname
+
+%time_stamp
+
+%jid
+
+%message
+
+%file_extension
+
+%contact_phone_vcard
+
+%image_caption
+
+%video_caption
+
+%arq_caption
+
+%file_name
+
+%reaction_text
+
+%link_title
+
+%link_description
+
+%receiver_latitude
+
+%receiver_longitude
+
+%link_location_maps</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3">top,0,500</Str>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">9000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/tasks-download.png</fle>
 		</Img>
 	</Task>
 	<Task sr="task17">
@@ -2297,7 +2368,7 @@ setLocal("name", nome);</Str>
 	</Task>
 	<Task sr="task41">
 		<cdate>1731963712394</cdate>
-		<edate>1747215288095</edate>
+		<edate>1747231609927</edate>
 		<id>41</id>
 		<nme>#GENERATE CODES ( JAVA SCRIPT - CSS - SH ) v(1.0)</nme>
 		<pri>100</pri>
@@ -8731,7 +8802,7 @@ setLocal("ports_users", ports_extracted);</Str>
 	</Task>
 	<Task sr="task63">
 		<cdate>1731950391571</cdate>
-		<edate>1747215677022</edate>
+		<edate>1747232460903</edate>
 		<id>63</id>
 		<nme>☛ INSTALL_AND_CONNECT_WHATSAPP _WEB v(1.0) ☚</nme>
 		<pri>100</pri>
@@ -8750,7 +8821,7 @@ setLocal("ports_users", ports_extracted);</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%termux_installed</lhs>
@@ -8761,7 +8832,7 @@ setLocal("ports_users", ports_extracted);</Str>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%td_button</lhs>
@@ -9224,7 +9295,7 @@ Tempo restante %time
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
