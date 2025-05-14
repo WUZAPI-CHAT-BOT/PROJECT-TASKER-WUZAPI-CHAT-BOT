@@ -173,9 +173,9 @@ Porta
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
-		<pids>100,15,103,99,101</pids>
-		<scenes>CHECK_DISCONNECTION v(1.0),WAITING-FOR-SETTINGS v(1.0),INSTALLATION_INFORMATION v(1.0),NO_UPDATES v(1.0),UPDATES v(1.0),CONNECTION_STATUS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</scenes>
-		<tids>59,41,39,97,63,17,71,44,61,92,45,35,64,36,86,94,56,93,91,10</tids>
+		<pids>101,100,15,99,103</pids>
+		<scenes>CONNECTION_STATUS v(1.0),CHECK_DISCONNECTION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),NO_UPDATES v(1.0),WAITING-FOR-SETTINGS v(1.0),INSTALLATION_INFORMATION v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),UPDATES v(1.0)</scenes>
+		<tids>17,61,41,44,91,64,39,36,71,59,92,35,93,97,86,94,63,45,56,10</tids>
 		<tsort>UserReverse</tsort>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
@@ -1363,7 +1363,7 @@ Porta
 	</Scene>
 	<Task sr="task10">
 		<cdate>1747108748487</cdate>
-		<edate>1747215716399</edate>
+		<edate>1747215956006</edate>
 		<id>10</id>
 		<nme>☛ CHECK_FOR_UPDATES v(1.0) ☚</nme>
 		<pri>100</pri>
@@ -13346,14 +13346,13 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task86">
 		<cdate>1746648503426</cdate>
-		<edate>1747215800343</edate>
+		<edate>1747215961616</edate>
 		<id>86</id>
 		<nme>#WUZAPI_UPDATES v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>137</code>
-			<on>false</on>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 			<ConditionList sr="if">
