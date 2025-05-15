@@ -24,9 +24,10 @@
 	<Profile sr="prof101" ve="2">
 		<cdate>1747053944393</cdate>
 		<clp>true</clp>
-		<edate>1747291755445</edate>
+		<edate>1747318661838</edate>
 		<flags>8</flags>
 		<id>101</id>
+		<limit>true</limit>
 		<mid0>35</mid0>
 		<nme>ICON_DOWNLOAD v(1.0)</nme>
 		<Day sr="con0">
@@ -77,13 +78,13 @@
 			<pvit>pr</pvit>
 			<pvn>%start_time</pvn>
 			<pvt>t</pvt>
-			<pvv>05.00</pvv>
+			<pvv>%TIME</pvv>
 			<strout>true</strout>
 		</ProfileVariable>
 	</Profile>
 	<Profile sr="prof103" ve="2">
 		<cdate>1747053944394</cdate>
-		<edate>1747291837201</edate>
+		<edate>1747318633274</edate>
 		<flags>8</flags>
 		<id>103</id>
 		<mid0>92</mid0>
@@ -171,9 +172,9 @@ Porta
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
-		<pids>100,101,15,99,103</pids>
-		<scenes>INSTALLATION_INFORMATION v(1.0),NO_UPDATES v(1.0),WAITING-FOR-SETTINGS v(1.0),UPDATES v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),CONNECTION_STATUS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),CHECK_DISCONNECTION v(1.0)</scenes>
-		<tids>36,41,61,93,86,35,92,71,63,97,17,91,56,45,94,59,39,44,10,64</tids>
+		<pids>103,15,101,100,99</pids>
+		<scenes>WAITING-FOR-SETTINGS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),UPDATES v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),NO_UPDATES v(1.0),INSTALLATION_INFORMATION v(1.0),CONNECTION_STATUS v(1.0),CHECK_DISCONNECTION v(1.0)</scenes>
+		<tids>71,92,35,36,41,61,17,44,59,86,56,64,93,91,45,97,94,39,63,10</tids>
 		<tsort>UserReverse</tsort>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
@@ -185,7 +186,7 @@ Porta
 			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>34</pvid>
+			<pvid>33</pvid>
 			<pvit>pj</pvit>
 			<pvn>%users</pvn>
 			<pvt>t</pvt>
@@ -198,7 +199,7 @@ Porta
 			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>34</pvid>
+			<pvid>33</pvid>
 			<pvit>pj</pvit>
 			<pvn>%version</pvn>
 			<pvt>ws</pvt>
@@ -212,7 +213,7 @@ Porta
 			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>34</pvid>
+			<pvid>33</pvid>
 			<pvit>pj</pvit>
 			<pvn>%active_scheduling</pvn>
 			<pvt>t</pvt>
@@ -1369,7 +1370,7 @@ Porta
 	</Scene>
 	<Task sr="task10">
 		<cdate>1747108748487</cdate>
-		<edate>1747290230948</edate>
+		<edate>1747317295793</edate>
 		<id>10</id>
 		<nme>☛ CHECK_FOR_UPDATES v(1.0) ☚</nme>
 		<pri>100</pri>
@@ -1473,7 +1474,7 @@ Porta
 		<edate>1747139922576</edate>
 		<id>35</id>
 		<nme>#ICON_DOWNLOAD v(1.0)</nme>
-		<pri>100</pri>
+		<pri>6</pri>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>137</code>
@@ -9416,7 +9417,7 @@ The label of the button that was clicked&lt;/_array_net.dinglisch.android.tasker
 	</Task>
 	<Task sr="task71">
 		<cdate>1742831555568</cdate>
-		<edate>1747290476787</edate>
+		<edate>1747318245620</edate>
 		<id>71</id>
 		<nme>#SEND_MESSAGES_AND_FILES v(1.0)</nme>
 		<pri>100</pri>
@@ -10773,44 +10774,23 @@ setLocal('%group_info', groupInfo);</Str>
 			<Str sr="arg2" ve="3">,</Str>
 		</Action>
 		<Action sr="act187" ve="7">
-			<code>378</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ld_button
-Botão
-O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ld_selected()
-Selecionado
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%ld_selected_index()
-Índice Selecionado
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg11" val="0"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Str sr="arg2" ve="3">%name_group(#)</Str>
-			<Str sr="arg3" ve="3">%name_group()</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3">ok</Str>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="120"/>
-		</Action>
-		<Action sr="act188" ve="7">
 			<code>39</code>
 			<Str sr="arg0" ve="3">%search_jid</Str>
 			<Str sr="arg1" ve="3">%ld_selected_index()</Str>
 			<Int sr="arg2" val="1"/>
 		</Action>
-		<Action sr="act189" ve="7">
+		<Action sr="act188" ve="7">
 			<code>355</code>
 			<Str sr="arg0" ve="3">%list_name</Str>
 			<Int sr="arg1" val="999999"/>
 			<Str sr="arg2" ve="3">%name_group(%search_jid)</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act189" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%list_jid</Str>
+			<Int sr="arg1" val="999999"/>
+			<Str sr="arg2" ve="3">%jid_group(%search_jid)</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act19" ve="7">
@@ -10822,16 +10802,9 @@ Selecionado
 			<Str sr="arg4" ve="3"/>
 		</Action>
 		<Action sr="act190" ve="7">
-			<code>355</code>
-			<Str sr="arg0" ve="3">%list_jid</Str>
-			<Int sr="arg1" val="999999"/>
-			<Str sr="arg2" ve="3">%jid_group(%search_jid)</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act191" ve="7">
 			<code>40</code>
 		</Action>
-		<Action sr="act192" ve="7">
+		<Action sr="act191" ve="7">
 			<code>393</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -10847,7 +10820,7 @@ Selecionado
 			<Str sr="arg5" ve="3">%name_end_jid</Str>
 			<Str sr="arg6" ve="3"/>
 		</Action>
-		<Action sr="act193" ve="7">
+		<Action sr="act192" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -10857,7 +10830,7 @@ Selecionado
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act194" ve="7">
+		<Action sr="act193" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Str sr="arg1" ve="3">success</Str>
@@ -10867,25 +10840,25 @@ Selecionado
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act195" ve="7">
+		<Action sr="act194" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
+			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act195" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act196" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act197" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act198" ve="7">
 			<code>300</code>
 			<label>Grupos</label>
 		</Action>
-		<Action sr="act199" ve="7">
+		<Action sr="act198" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<ConditionList sr="if">
@@ -10895,6 +10868,22 @@ Selecionado
 					<rhs>group_image_message</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act199" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">#CHECK_VARIABLE_ERRORS v(1.0)</Str>
+			<Int sr="arg1">
+				<var>%priority+30</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">%type/%port/%number/%caption/%path</Str>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>548</code>
@@ -10925,22 +10914,6 @@ The variable
 			<code>38</code>
 		</Action>
 		<Action sr="act200" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">#CHECK_VARIABLE_ERRORS v(1.0)</Str>
-			<Int sr="arg1">
-				<var>%priority+30</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">%type/%port/%number/%caption/%path</Str>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act201" ve="7">
 			<code>123</code>
 			<Str sr="arg0" ve="3">base64 "%path" | tr -d '\n'</Str>
 			<Int sr="arg1" val="0"/>
@@ -10951,7 +10924,7 @@ The variable
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
-		<Action sr="act202" ve="7">
+		<Action sr="act201" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -10990,7 +10963,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act203" ve="7">
+		<Action sr="act202" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -11000,7 +10973,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act204" ve="7">
+		<Action sr="act203" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Str sr="arg1" ve="3">success</Str>
@@ -11010,7 +10983,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act205" ve="7">
+		<Action sr="act204" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Int sr="arg1" val="1"/>
@@ -11018,13 +10991,13 @@ Content-Type:application/json</Str>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
 		</Action>
+		<Action sr="act205" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act206" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act207" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act208" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<ConditionList sr="if">
@@ -11035,7 +11008,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act209" ve="7">
+		<Action sr="act208" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">#CHECK_VARIABLE_ERRORS v(1.0)</Str>
 			<Int sr="arg1">
@@ -11051,10 +11024,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act21" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act210" ve="7">
+		<Action sr="act209" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -11092,7 +11062,10 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act211" ve="7">
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act210" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -11102,7 +11075,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act212" ve="7">
+		<Action sr="act211" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Str sr="arg1" ve="3">success</Str>
@@ -11112,7 +11085,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act213" ve="7">
+		<Action sr="act212" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3"/>
 			<Int sr="arg1" val="1"/>
@@ -11120,13 +11093,13 @@ Content-Type:application/json</Str>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
 		</Action>
+		<Action sr="act213" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act214" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act215" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act216" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<ConditionList sr="if">
@@ -11137,7 +11110,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act217" ve="7">
+		<Action sr="act216" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">#CHECK_VARIABLE_ERRORS v(1.0)</Str>
 			<Int sr="arg1">
@@ -11153,7 +11126,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act218" ve="7">
+		<Action sr="act217" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%input_audio</Str>
 			<Str sr="arg1" ve="3">%path</Str>
@@ -11163,7 +11136,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act219" ve="7">
+		<Action sr="act218" ve="7">
 			<code>547</code>
 			<label>pasta para o arquivo .sh</label>
 			<Str sr="arg0" ve="3">%termux_path</Str>
@@ -11174,18 +11147,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act22" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>audio_message</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act220" ve="7">
+		<Action sr="act219" ve="7">
 			<code>410</code>
 			<Str sr="arg0" ve="3">%termux_path/ffmpeg.sh</Str>
 			<Str sr="arg1" ve="3">#!/bin/bash
@@ -11239,7 +11201,18 @@ echo "OUTPUT_FILE_CONVERTED=$OUTPUT_FILE_CONVERTED"
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act221" ve="7">
+		<Action sr="act22" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>audio_message</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act220" ve="7">
 			<code>389</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -11262,7 +11235,7 @@ true</Str>
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</Action>
-		<Action sr="act222" ve="7">
+		<Action sr="act221" ve="7">
 			<code>365</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -11272,7 +11245,7 @@ true</Str>
 			</Bundle>
 			<Str sr="arg1" ve="3">TermuxCommand(%exe,%script,%path,%bkg)</Str>
 		</Action>
-		<Action sr="act223" ve="7">
+		<Action sr="act222" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">#GENERATE CODES ( JAVA SCRIPT - CSS - SH ) v(1.0)</Str>
 			<Int sr="arg1">
@@ -11288,7 +11261,7 @@ true</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act224" ve="7">
+		<Action sr="act223" ve="7">
 			<code>129</code>
 			<Str sr="arg0" ve="3">var input_audio = local("input_audio"); 
 var output_audio = input_audio.replace(/\.(mp3|wav|aac|flac|m4a|wma|ogg|amr|opus)$/i, ".opus");
@@ -11297,7 +11270,7 @@ setLocal("output_audio", output_audio);</Str>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="45"/>
 		</Action>
-		<Action sr="act225" ve="7">
+		<Action sr="act224" ve="7">
 			<code>123</code>
 			<Str sr="arg0" ve="3">base64 "%output_audio" | tr -d '\n'</Str>
 			<Int sr="arg1" val="0"/>
@@ -11308,7 +11281,7 @@ setLocal("output_audio", output_audio);</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
-		<Action sr="act226" ve="7">
+		<Action sr="act225" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -11346,7 +11319,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act227" ve="7">
+		<Action sr="act226" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="500"/>
 			<Int sr="arg1" val="1"/>
@@ -11354,7 +11327,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act228" ve="7">
+		<Action sr="act227" ve="7">
 			<code>406</code>
 			<Str sr="arg0" ve="3">%output_audio</Str>
 			<Int sr="arg1" val="0"/>
@@ -11368,7 +11341,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act229" ve="7">
+		<Action sr="act228" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -11377,6 +11350,16 @@ Content-Type:application/json</Str>
 					<rhs>200</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act229" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%result</Str>
+			<Str sr="arg1" ve="3">success</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act23" ve="7">
 			<code>130</code>
@@ -11395,16 +11378,6 @@ Content-Type:application/json</Str>
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act230" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%result</Str>
-			<Str sr="arg1" ve="3">success</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act231" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3"/>
 			<Int sr="arg1" val="1"/>
@@ -11412,13 +11385,13 @@ Content-Type:application/json</Str>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
 		</Action>
+		<Action sr="act231" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act232" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act233" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act234" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<ConditionList sr="if">
@@ -11429,7 +11402,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act235" ve="7">
+		<Action sr="act234" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">#CHECK_VARIABLE_ERRORS v(1.0)</Str>
 			<Int sr="arg1">
@@ -11445,7 +11418,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act236" ve="7">
+		<Action sr="act235" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="5"/>
@@ -11453,7 +11426,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act237" ve="7">
+		<Action sr="act236" ve="7">
 			<code>123</code>
 			<Str sr="arg0" ve="3">base64 "%path" | tr -d '\n'</Str>
 			<Int sr="arg1" val="0"/>
@@ -11464,7 +11437,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
-		<Action sr="act238" ve="7">
+		<Action sr="act237" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -11503,7 +11476,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act239" ve="7">
+		<Action sr="act238" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -11512,6 +11485,16 @@ Content-Type:application/json</Str>
 					<rhs>200</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act239" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%result</Str>
+			<Str sr="arg1" ve="3">success</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act24" ve="7">
 			<code>547</code>
@@ -11524,16 +11507,6 @@ Content-Type:application/json</Str>
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act240" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%result</Str>
-			<Str sr="arg1" ve="3">success</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act241" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3"/>
 			<Int sr="arg1" val="1"/>
@@ -11541,13 +11514,13 @@ Content-Type:application/json</Str>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
 		</Action>
+		<Action sr="act241" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act242" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act243" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act244" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<ConditionList sr="if">
@@ -11558,7 +11531,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act245" ve="7">
+		<Action sr="act244" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">#CHECK_VARIABLE_ERRORS v(1.0)</Str>
 			<Int sr="arg1">
@@ -11574,7 +11547,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act246" ve="7">
+		<Action sr="act245" ve="7">
 			<code>129</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">var fullPath = local('path');
@@ -11586,7 +11559,7 @@ setLocal('name_pdf', fileName);</Str>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="45"/>
 		</Action>
-		<Action sr="act247" ve="7">
+		<Action sr="act246" ve="7">
 			<code>123</code>
 			<Str sr="arg0" ve="3">base64 -w 0 "%path"</Str>
 			<Int sr="arg1">
@@ -11599,7 +11572,7 @@ setLocal('name_pdf', fileName);</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
-		<Action sr="act248" ve="7">
+		<Action sr="act247" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -11646,7 +11619,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act249" ve="7">
+		<Action sr="act248" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -11692,6 +11665,16 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
+		<Action sr="act249" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_response_code</lhs>
+					<op>2</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
 		<Action sr="act25" ve="7">
 			<code>547</code>
 			<label>pasta para o arquivo .sh</label>
@@ -11704,16 +11687,6 @@ Content-Type:application/json</Str>
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act250" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%http_response_code</lhs>
-					<op>2</op>
-					<rhs>200</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act251" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Str sr="arg1" ve="3">success</Str>
@@ -11723,7 +11696,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act252" ve="7">
+		<Action sr="act251" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Int sr="arg1" val="1"/>
@@ -11731,13 +11704,13 @@ Content-Type:application/json</Str>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
 		</Action>
+		<Action sr="act252" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act253" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act254" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act255" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<ConditionList sr="if">
@@ -11748,7 +11721,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act256" ve="7">
+		<Action sr="act255" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">#CHECK_VARIABLE_ERRORS v(1.0)</Str>
 			<Int sr="arg1">
@@ -11764,7 +11737,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act257" ve="7">
+		<Action sr="act256" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -11809,7 +11782,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act258" ve="7">
+		<Action sr="act257" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -11854,7 +11827,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act259" ve="7">
+		<Action sr="act258" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -11864,6 +11837,16 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 					<rhs>200</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act259" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%result</Str>
+			<Str sr="arg1" ve="3">success</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act26" ve="7">
 			<code>410</code>
@@ -11920,16 +11903,6 @@ echo "OUTPUT_FILE_CONVERTED=$OUTPUT_FILE_CONVERTED"
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act260" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%result</Str>
-			<Str sr="arg1" ve="3">success</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act261" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Int sr="arg1" val="1"/>
@@ -11937,13 +11910,13 @@ echo "OUTPUT_FILE_CONVERTED=$OUTPUT_FILE_CONVERTED"
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
 		</Action>
+		<Action sr="act261" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act262" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act263" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act264" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<ConditionList sr="if">
@@ -11954,7 +11927,7 @@ echo "OUTPUT_FILE_CONVERTED=$OUTPUT_FILE_CONVERTED"
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act265" ve="7">
+		<Action sr="act264" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">#CHECK_VARIABLE_ERRORS v(1.0)</Str>
 			<Int sr="arg1">
@@ -11970,7 +11943,7 @@ echo "OUTPUT_FILE_CONVERTED=$OUTPUT_FILE_CONVERTED"
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act266" ve="7">
+		<Action sr="act265" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -11980,7 +11953,7 @@ echo "OUTPUT_FILE_CONVERTED=$OUTPUT_FILE_CONVERTED"
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act267" ve="7">
+		<Action sr="act266" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%caption</Str>
 			<Str sr="arg1" ve="3">Lat %lat  Log %log </Str>
@@ -11990,10 +11963,10 @@ echo "OUTPUT_FILE_CONVERTED=$OUTPUT_FILE_CONVERTED"
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act268" ve="7">
+		<Action sr="act267" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act269" ve="7">
+		<Action sr="act268" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -12033,6 +12006,16 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
+		<Action sr="act269" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_response_code</lhs>
+					<op>2</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
 		<Action sr="act27" ve="7">
 			<code>389</code>
 			<Bundle sr="arg0">
@@ -12057,16 +12040,6 @@ true</Str>
 			<Int sr="arg8" val="0"/>
 		</Action>
 		<Action sr="act270" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%http_response_code</lhs>
-					<op>2</op>
-					<rhs>200</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act271" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Str sr="arg1" ve="3">success</Str>
@@ -12076,7 +12049,7 @@ true</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act272" ve="7">
+		<Action sr="act271" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Int sr="arg1" val="1"/>
@@ -12084,13 +12057,13 @@ true</Str>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
 		</Action>
+		<Action sr="act272" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act273" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act274" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act275" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<ConditionList sr="if">
@@ -12101,7 +12074,7 @@ true</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act276" ve="7">
+		<Action sr="act275" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">#CHECK_VARIABLE_ERRORS v(1.0)</Str>
 			<Int sr="arg1">
@@ -12117,7 +12090,7 @@ true</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act277" ve="7">
+		<Action sr="act276" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -12156,7 +12129,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act278" ve="7">
+		<Action sr="act277" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -12167,7 +12140,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act279" ve="7">
+		<Action sr="act278" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Str sr="arg1" ve="3">success</Str>
@@ -12176,6 +12149,14 @@ Content-Type:application/json</Str>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act279" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
 		</Action>
 		<Action sr="act28" ve="7">
 			<code>365</code>
@@ -12188,20 +12169,12 @@ Content-Type:application/json</Str>
 			<Str sr="arg1" ve="3">TermuxCommand(%exe,%script,%path,%bkg)</Str>
 		</Action>
 		<Action sr="act280" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
+			<code>38</code>
 		</Action>
 		<Action sr="act281" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act282" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act283" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<label>&lt;b&gt;&lt;font color=red&gt; falta corrigir</label>
@@ -12214,7 +12187,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act284" ve="7">
+		<Action sr="act283" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">#CHECK_VARIABLE_ERRORS v(1.0)</Str>
@@ -12231,7 +12204,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act285" ve="7">
+		<Action sr="act284" ve="7">
 			<code>339</code>
 			<on>false</on>
 			<se>false</se>
@@ -12273,7 +12246,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act286" ve="7">
+		<Action sr="act285" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<on>false</on>
@@ -12285,7 +12258,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act287" ve="7">
+		<Action sr="act286" ve="7">
 			<code>547</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%result</Str>
@@ -12296,7 +12269,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act288" ve="7">
+		<Action sr="act287" ve="7">
 			<code>126</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%result</Str>
@@ -12304,6 +12277,10 @@ Content-Type:application/json</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act288" ve="7">
+			<code>38</code>
+			<on>false</on>
 		</Action>
 		<Action sr="act289" ve="7">
 			<code>38</code>
@@ -12326,10 +12303,6 @@ Content-Type:application/json</Str>
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act290" ve="7">
-			<code>38</code>
-			<on>false</on>
-		</Action>
-		<Action sr="act291" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<ConditionList sr="if">
@@ -12340,7 +12313,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act292" ve="7">
+		<Action sr="act291" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">#CHECK_VARIABLE_ERRORS v(1.0)</Str>
 			<Int sr="arg1">
@@ -12356,7 +12329,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act293" ve="7">
+		<Action sr="act292" ve="7">
 			<code>123</code>
 			<Str sr="arg0" ve="3">base64 "%path" | tr -d '\n'</Str>
 			<Int sr="arg1" val="0"/>
@@ -12367,7 +12340,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
-		<Action sr="act294" ve="7">
+		<Action sr="act293" ve="7">
 			<code>339</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -12405,7 +12378,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act295" ve="7">
+		<Action sr="act294" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -12416,7 +12389,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act296" ve="7">
+		<Action sr="act295" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Str sr="arg1" ve="3">success</Str>
@@ -12426,7 +12399,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act297" ve="7">
+		<Action sr="act296" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Int sr="arg1" val="1"/>
@@ -12434,10 +12407,10 @@ Content-Type:application/json</Str>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
 		</Action>
-		<Action sr="act298" ve="7">
+		<Action sr="act297" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act299" ve="7">
+		<Action sr="act298" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act3" ve="7">
@@ -13470,7 +13443,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task86">
 		<cdate>1746648503426</cdate>
-		<edate>1747288807007</edate>
+		<edate>1747318677568</edate>
 		<id>86</id>
 		<nme>#WUZAPI_UPDATES v(1.0)</nme>
 		<pri>100</pri>
@@ -13496,27 +13469,32 @@ Content-Type:application/json</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>38</code>
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
 		</Action>
 		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act12" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%http_data</lhs>
-					<op>3</op>
+					<lhs>%update_info_site</lhs>
+					<op>1</op>
 					<rhs>%update_info</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%active_scheduling</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">#GENERATE CODES ( JAVA SCRIPT - CSS - SH ) v(1.0)</Str>
 			<Int sr="arg1">
@@ -13532,11 +13510,11 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">UPDATES v(1.0)</Str>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">UPDATES v(1.0)</Str>
 			<Int sr="arg1" val="3"/>
@@ -13550,11 +13528,11 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">UPDATES v(1.0)</Str>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
@@ -13572,7 +13550,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%active_scheduling</Str>
 			<Int sr="arg1" val="0"/>
@@ -13583,17 +13561,6 @@ Content-Type:application/json</Str>
 					<lhs>%to_update</lhs>
 					<op>2</op>
 					<rhs>update now</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%active_scheduling</lhs>
-					<op>12</op>
-					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -13632,6 +13599,17 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act20" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%active_scheduling</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%active_scheduling</Str>
 			<Str sr="arg1" ve="3">%active_scheduling.horario</Str>
@@ -13641,7 +13619,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act22" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%active_scheduling</Str>
 			<Str sr="arg1" ve="3">\:</Str>
@@ -13652,42 +13630,23 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">.</Str>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act23" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">CHECK_SCHEDULE v(1.0)</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act25" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">CHECK_SCHEDULE v(1.0)</Str>
 			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">atualizaca realizada</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act27" ve="7">
 			<code>549</code>
@@ -13742,17 +13701,14 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act3" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">template_url_update</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%http_response_code</lhs>
-					<op>3</op>
-					<rhs>200</rhs>
-				</Condition>
-			</ConditionList>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%update_info_site</Str>
+			<Str sr="arg1" ve="3">%http_data</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act30" ve="7">
 			<code>135</code>
@@ -13886,19 +13842,15 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>37</code>
-			<coll>false</coll>
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">template_url_update</Str>
 			<ConditionList sr="if">
-				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%http_data</lhs>
-					<op>2</op>
-					<rhs>%update_info</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%par1</lhs>
-					<op>2</op>
-					<rhs>update</rhs>
+					<lhs>%http_response_code</lhs>
+					<op>3</op>
+					<rhs>200</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -13929,7 +13881,7 @@ URI de Conteúdo
 		<Action sr="act42" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%update_info</Str>
-			<Str sr="arg1" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">%update_info_site</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -13945,6 +13897,23 @@ URI de Conteúdo
 			<code>38</code>
 		</Action>
 		<Action sr="act5" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%update_info_site</lhs>
+					<op>0</op>
+					<rhs>%update_info</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>update</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">#GENERATE CODES ( JAVA SCRIPT - CSS - SH ) v(1.0)</Str>
 			<Int sr="arg1">
@@ -13960,12 +13929,12 @@ URI de Conteúdo
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>49</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">NO_UPDATES v(1.0)</Str>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>47</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">NO_UPDATES v(1.0)</Str>
@@ -13980,18 +13949,13 @@ URI de Conteúdo
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>53</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">NO_UPDATES v(1.0)</Str>
 			<Str sr="arg1" ve="3">UPDATES v(1.0)</Str>
 			<Int sr="arg2" val="0"/>
 			<Str sr="arg3" ve="3"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/update.png</fle>
@@ -14049,9 +14013,10 @@ URI de Conteúdo
 			<pvit>t</pvit>
 			<pvn>%update_info</pvn>
 			<pvt>t</pvt>
-			<pvv>🟢 Não há atualizações no momento
-</pvv>
-			<strout>false</strout>
+			<pvv>15/05/2025
+• Ajuste na cena NO_UPDATES v(1.0)
+• Identificação do nome de grupos na variável group_name</pvv>
+			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
 	<Task sr="task91">
@@ -14471,7 +14436,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 	</Task>
 	<Task sr="task92">
 		<cdate>1745605035679</cdate>
-		<edate>1747291837201</edate>
+		<edate>1747318633274</edate>
 		<id>92</id>
 		<nme>#PARSE_RECEIVED_MESSAGES v(1.0)</nme>
 		<pri>11</pri>
@@ -14523,7 +14488,7 @@ true if there was a match, false otherwise&lt;/_array_net.dinglisch.android.task
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>37</code>
-			<coll>true</coll>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%isgroup</lhs>
@@ -14554,23 +14519,19 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 				</Vals>
 			</Bundle>
 			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg11" val="1"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
 			<Int sr="arg12" val="1"/>
 			<Str sr="arg2" ve="3">http://localhost:8080/group/list</Str>
 			<Str sr="arg3" ve="3">Token: %port</Str>
 			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3">{
-  "Phone": "51923035013",
-  "Caption": "testee",
-  "Image": "data:image/jpeg;base64,%base"
-}</Str>
+			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8">
-				<var>15</var>
+				<var>30</var>
 			</Int>
-			<Int sr="arg9" val="1"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>129</code>
@@ -15150,7 +15111,7 @@ try {
 	</Task>
 	<Task sr="task94">
 		<cdate>1733452720303</cdate>
-		<edate>1747260616008</edate>
+		<edate>1747313108078</edate>
 		<id>94</id>
 		<nme>☛ UNLINK_USER_FROM_WHATSAPP_WEB v(1.0) ☚</nme>
 		<pri>100</pri>
