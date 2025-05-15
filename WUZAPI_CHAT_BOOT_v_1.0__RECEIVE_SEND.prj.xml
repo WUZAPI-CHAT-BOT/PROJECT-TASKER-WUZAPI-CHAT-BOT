@@ -2,8 +2,7 @@
 	<dmetric>1080.0,2400.0</dmetric>
 	<Profile sr="prof100" ve="2">
 		<cdate>1747053944391</cdate>
-		<clp>true</clp>
-		<edate>1747264797552</edate>
+		<edate>1747319053419</edate>
 		<flags>8</flags>
 		<id>100</id>
 		<mid0>61</mid0>
@@ -24,7 +23,7 @@
 	<Profile sr="prof101" ve="2">
 		<cdate>1747053944393</cdate>
 		<clp>true</clp>
-		<edate>1747318661838</edate>
+		<edate>1747319068832</edate>
 		<flags>8</flags>
 		<id>101</id>
 		<limit>true</limit>
@@ -84,6 +83,7 @@
 	</Profile>
 	<Profile sr="prof103" ve="2">
 		<cdate>1747053944394</cdate>
+		<clp>true</clp>
 		<edate>1747318633274</edate>
 		<flags>8</flags>
 		<id>103</id>
@@ -154,7 +154,7 @@ Porta
 	<Profile sr="prof99" ve="2">
 		<cdate>1747053944390</cdate>
 		<clp>true</clp>
-		<edate>1747232466213</edate>
+		<edate>1747318890481</edate>
 		<flags>8</flags>
 		<id>99</id>
 		<mid0>86</mid0>
@@ -172,9 +172,9 @@ Porta
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
-		<pids>103,15,101,100,99</pids>
-		<scenes>WAITING-FOR-SETTINGS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),UPDATES v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),NO_UPDATES v(1.0),INSTALLATION_INFORMATION v(1.0),CONNECTION_STATUS v(1.0),CHECK_DISCONNECTION v(1.0)</scenes>
-		<tids>71,92,35,36,41,61,17,44,59,86,56,64,93,91,45,97,94,39,63,10</tids>
+		<pids>101,103,15,99,100</pids>
+		<scenes>NO_UPDATES v(1.0),WAITING-FOR-SETTINGS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),CONNECTION_STATUS v(1.0),UPDATES v(1.0),INSTALLATION_INFORMATION v(1.0),CHECK_DISCONNECTION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</scenes>
+		<tids>61,93,35,92,36,17,41,56,97,86,44,45,64,71,63,59,94,10,39,91</tids>
 		<tsort>UserReverse</tsort>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
@@ -1370,7 +1370,7 @@ Porta
 	</Scene>
 	<Task sr="task10">
 		<cdate>1747108748487</cdate>
-		<edate>1747317295793</edate>
+		<edate>1747318855618</edate>
 		<id>10</id>
 		<nme>☛ CHECK_FOR_UPDATES v(1.0) ☚</nme>
 		<pri>100</pri>
@@ -1471,7 +1471,7 @@ Porta
 	</Task>
 	<Task sr="task35">
 		<cdate>1746553999747</cdate>
-		<edate>1747139922576</edate>
+		<edate>1747318993899</edate>
 		<id>35</id>
 		<nme>#ICON_DOWNLOAD v(1.0)</nme>
 		<pri>6</pri>
@@ -1744,14 +1744,6 @@ https://i.ibb.co/sdWsLCWS/time-management.png</Str>
 		</Action>
 		<Action sr="act24" ve="7">
 			<code>38</code>
-		</Action>
-		<Action sr="act25" ve="7">
-			<code>342</code>
-			<Int sr="arg0" val="5"/>
-			<Str sr="arg1" ve="3">Trad</Str>
-			<Str sr="arg2" ve="3">%exist</Str>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
@@ -8313,7 +8305,7 @@ if (missingVariables.length &gt; 0) {
 	</Task>
 	<Task sr="task61">
 		<cdate>1733522055846</cdate>
-		<edate>1747264797552</edate>
+		<edate>1747319053419</edate>
 		<id>61</id>
 		<nme>#RESET_CONNECTION_TO_THE_SERVER v(1.0)</nme>
 		<pri>51</pri>
@@ -8336,33 +8328,6 @@ if (missingVariables.length &gt; 0) {
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>129</code>
-			<label>extrai as portas dos usuários conectados</label>
-			<Str sr="arg0" ve="3">let Users = JSON.parse(local('users'));
-
-let ports_extracted = Users.map(user =&gt; user.port).join(',');
-
-// Armazenando no Tasker
-setLocal("ports_users", ports_extracted);</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>354</code>
-			<Str sr="arg0" ve="3">%ports_users</Str>
-			<Str sr="arg1" ve="3">%ports_users</Str>
-			<Str sr="arg2" ve="3">,</Str>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>39</code>
-			<coll>false</coll>
-			<label>laco</label>
-			<Str sr="arg0" ve="3">%port</Str>
-			<Str sr="arg1" ve="3">%ports_users()</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act13" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -8396,7 +8361,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="10"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act11" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -8407,14 +8372,14 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act12" ve="7">
 			<code>341</code>
 			<label>conectar ip ao servidor</label>
 			<Int sr="arg0" val="11"/>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3">%local_ip</Str>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act13" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -8448,38 +8413,22 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act14" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">laco</Str>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act15" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act16" ve="7">
 			<code>354</code>
 			<Str sr="arg0" ve="3">%ports_users</Str>
 			<Str sr="arg1" ve="3">%ports_users</Str>
 			<Str sr="arg2" ve="3">,</Str>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">#REWRITE_USER v(1.0)</Str>
-			<Int sr="arg1">
-				<var>%priority+10</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act17" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -8490,7 +8439,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act18" ve="7">
 			<code>523</code>
 			<Str sr="arg0" ve="3">Servidor Desconectado</Str>
 			<Str sr="arg1" ve="3"/>
@@ -8509,7 +8458,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="0"/>
 			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act19" ve="7">
 			<code>365</code>
 			<label>reconectar</label>
 			<se>false</se>
@@ -8521,7 +8470,23 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			</Bundle>
 			<Str sr="arg1" ve="3">TermuxCommand(/data/data/com.termux/files/home/WUZAPI-CHAT-BOT/start_wuzapi.sh,,,true)</Str>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">#REWRITE_USER v(1.0)</Str>
+			<Int sr="arg1">
+				<var>%priority+10</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -8560,7 +8525,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act21" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -8594,7 +8559,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act22" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -8602,7 +8567,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act23" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
@@ -8615,7 +8580,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act24" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -8626,7 +8591,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act25" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -8660,7 +8625,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act26" ve="7">
 			<code>394</code>
 			<label>HH:m  dd/M/y</label>
 			<Bundle sr="arg0">
@@ -8694,15 +8659,7 @@ Seconds Since Epoch&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="100"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act27" ve="7">
 			<code>523</code>
 			<Str sr="arg0" ve="3">Porta %port Reconectada Com O Servidor !!!</Str>
 			<Str sr="arg1" ve="3">%time_stamp</Str>
@@ -8721,20 +8678,14 @@ Seconds Since Epoch&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&
 			<Int sr="arg8" val="0"/>
 			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act31" ve="7">
-			<code>159</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">RESET_CONNECTION_TO_THE_SERVER v(1.0)</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act28" ve="7">
 			<code>341</code>
 			<label>conectar ip ao servidor</label>
 			<Int sr="arg0" val="11"/>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3">%local_ip</Str>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act29" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -8768,24 +8719,32 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act3" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="100"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act31" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act32" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act33" ve="7">
 			<code>40</code>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act34" ve="7">
 			<code>779</code>
 			<Str sr="arg0" ve="3">Servidor Desconectado</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act35" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">#RESET_CONNECTION_TO_THE_SERVER v(1.0)</Str>
@@ -8821,27 +8780,31 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<code>38</code>
 		</Action>
 		<Action sr="act7" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<label>inicio</label>
-			<on>false</on>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%users</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
+			<code>129</code>
+			<label>extrai as portas dos usuários conectados</label>
+			<Str sr="arg0" ve="3">let Users = JSON.parse(local('users'));
+
+let ports_extracted = Users.map(user =&gt; user.port).join(',');
+
+// Armazenando no Tasker
+setLocal("ports_users", ports_extracted);</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
 		</Action>
 		<Action sr="act8" ve="7">
-			<code>159</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">PARSE_RECEIVED_MESSAGES v(1.0)</Str>
-			<Int sr="arg1" val="1"/>
+			<code>354</code>
+			<Str sr="arg0" ve="3">%ports_users</Str>
+			<Str sr="arg1" ve="3">%ports_users</Str>
+			<Str sr="arg2" ve="3">,</Str>
 		</Action>
 		<Action sr="act9" ve="7">
-			<code>38</code>
-			<on>false</on>
+			<code>39</code>
+			<coll>false</coll>
+			<label>laco</label>
+			<Str sr="arg0" ve="3">%port</Str>
+			<Str sr="arg1" ve="3">%ports_users()</Str>
+			<Int sr="arg2" val="1"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/check-errors.png</fle>
@@ -13443,7 +13406,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task86">
 		<cdate>1746648503426</cdate>
-		<edate>1747318677568</edate>
+		<edate>1747318890481</edate>
 		<id>86</id>
 		<nme>#WUZAPI_UPDATES v(1.0)</nme>
 		<pri>100</pri>
@@ -14015,7 +13978,8 @@ URI de Conteúdo
 			<pvt>t</pvt>
 			<pvv>15/05/2025
 • Ajuste na cena NO_UPDATES v(1.0)
-• Identificação do nome de grupos na variável group_name</pvv>
+• Identificação do nome de grupos na variável group_name
+</pvv>
 			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
