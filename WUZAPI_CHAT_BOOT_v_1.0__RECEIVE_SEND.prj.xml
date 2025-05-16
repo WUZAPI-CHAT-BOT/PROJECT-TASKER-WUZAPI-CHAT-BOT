@@ -2,7 +2,7 @@
 	<dmetric>1080.0,2400.0</dmetric>
 	<Profile sr="prof107" ve="2">
 		<cdate>1747340947728</cdate>
-		<edate>1747362861654</edate>
+		<edate>1747364475735</edate>
 		<flags>8</flags>
 		<id>107</id>
 		<limit>true</limit>
@@ -172,9 +172,9 @@ Porta
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
-		<pids>107,121,127,122,126</pids>
-		<scenes>INSTALLATION_INFORMATION v(1.0),UPDATES v(1.0),CONNECTION_STATUS v(1.0),NO_UPDATES v(1.0),WAITING-FOR-SETTINGS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),CHECK_DISCONNECTION v(1.0)</scenes>
-		<tids>100,41,99,64,59,36,93,44,61,39,94,35,86,97,63,91,101,71,56,92,103,45</tids>
+		<pids>122,107,127,126,121</pids>
+		<scenes>INSTALLATION_INFORMATION v(1.0),NO_UPDATES v(1.0),CONNECTION_STATUS v(1.0),UPDATES v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),WAITING-FOR-SETTINGS v(1.0),CHECK_DISCONNECTION v(1.0)</scenes>
+		<tids>64,36,93,86,92,35,41,99,71,101,91,39,44,61,63,103,59,97,100,56,94,45</tids>
 		<tsort>UserReverse</tsort>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
@@ -785,7 +785,7 @@ Porta
 	</Scene>
 	<Scene sr="sceneNO_UPDATES v(1.0)">
 		<cdate>1747103759707</cdate>
-		<edate>1747331928722</edate>
+		<edate>1747363256066</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2261</heightPort>
 		<nme>NO_UPDATES v(1.0)</nme>
@@ -818,7 +818,7 @@ Porta
             &lt;p&gt;Nenhuma nova atualização disponível no momento!&lt;/p&gt;
         &lt;/header&gt;
         &lt;main&gt;
-            &lt;button id="view-btn" class="btn"&gt;Visualizar&lt;/button&gt;
+            &lt;button id="view-btn" class="btn"&gt;Histórico de Atualizações&lt;/button&gt;
             &lt;button id="exit-btn" class="btn"&gt;Sair&lt;/button&gt;
         &lt;/main&gt;
     &lt;/div&gt;
@@ -1161,7 +1161,7 @@ Porta
 	</Scene>
 	<Scene sr="sceneUPDATES v(1.0)">
 		<cdate>1747103759707</cdate>
-		<edate>1747331906060</edate>
+		<edate>1747363179781</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2400</heightPort>
 		<nme>UPDATES v(1.0)</nme>
@@ -2911,7 +2911,7 @@ if (missingVariables.length &gt; 0) {
 	</Task>
 	<Task sr="task101">
 		<cdate>1746648503426</cdate>
-		<edate>1747343943101</edate>
+		<edate>1747363081719</edate>
 		<id>101</id>
 		<nme>#WUZAPI_UPDATES v(1.0)</nme>
 		<pri>100</pri>
@@ -4440,6 +4440,7 @@ try {
 		<cdate>1747331892714</cdate>
 		<edate>1747331892714</edate>
 		<id>36</id>
+		<pri>103</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">UPDATES v(1.0)</Str>
@@ -6569,7 +6570,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 	</Task>
 	<Task sr="task71">
 		<cdate>1747108748487</cdate>
-		<edate>1747342423393</edate>
+		<edate>1747363009414</edate>
 		<id>71</id>
 		<nme>☛ CHECK_FOR_UPDATES v(1.0) ☚</nme>
 		<pri>100</pri>
