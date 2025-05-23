@@ -1,12 +1,122 @@
-<TaskerData sr="" dvi="1" tv="6.5.6-rc">
+<TaskerData sr="" dvi="1" tv="6.5.7-rc">
 	<dmetric>1080.0,2400.0</dmetric>
-	<Profile sr="prof948" ve="2">
-		<cdate>1747589601317</cdate>
-		<edate>1747650176693</edate>
+	<Profile sr="prof1198" ve="2">
+		<cdate>1747652700866</cdate>
+		<clp>true</clp>
+		<edate>1747661812333</edate>
 		<flags>8</flags>
-		<id>948</id>
+		<id>1198</id>
+		<mid0>1186</mid0>
+		<nme>PARSE_RECEIVED_MESSAGES v(1.0)</nme>
+		<pri>10</pri>
+		<Event sr="con0" ve="2">
+			<code>2089</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_request_files()
+Arquivos
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_request_multipart_names()
+Arquivos
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_request_multipart_types()
+Arquivos
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_request_multipart_values()
+Arquivos
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_request_headers()
+Cabeçalhos
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_request_path
+Caminho
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%http_request_body
+Corpo
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%http_request_ip_address_v4
+Endereço IP v4
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%http_request_id
+ID da Requisição
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%http_request_method
+Método
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%http_request_port
+Porta
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1025"/>
+			<Str sr="arg2" ve="3">POST</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof1199" ve="2">
+		<cdate>1747652700867</cdate>
+		<clp>true</clp>
+		<edate>1747996146210</edate>
+		<flags>8</flags>
+		<id>1199</id>
+		<mid0>1190</mid0>
+		<nme>CHECK_SCHEDULE v(1.0)</nme>
+		<Event sr="con0" ve="2">
+			<code>2095</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">60000</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof1200" ve="2">
+		<cdate>1747652700868</cdate>
+		<clp>true</clp>
+		<edate>1747996402611</edate>
+		<flags>8</flags>
+		<id>1200</id>
 		<limit>true</limit>
-		<mid0>934</mid0>
+		<mid0>1187</mid0>
+		<nme>WUZAPI_UPDATES v(1.0)</nme>
+		<Day sr="con0">
+			<wday0>7</wday0>
+		</Day>
+		<Time sr="con1">
+			<fh>8</fh>
+			<fm>0</fm>
+			<th>8</th>
+			<tm>0</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof1201" ve="2">
+		<cdate>1747652700869</cdate>
+		<clp>true</clp>
+		<edate>1747996412304</edate>
+		<flags>8</flags>
+		<id>1201</id>
+		<mid0>1189</mid0>
+		<nme>RESET_CONNECTION_TO_THE_SERVER v(1.0)</nme>
+		<pri>50</pri>
+		<Event sr="con0" ve="2">
+			<code>2095</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">25000</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof1202" ve="2">
+		<cdate>1747652700870</cdate>
+		<clp>true</clp>
+		<edate>1747996428601</edate>
+		<flags>8</flags>
+		<id>1202</id>
+		<limit>true</limit>
+		<mid0>1182</mid0>
 		<nme>ICON_DOWNLOAD v(1.0)</nme>
 		<Day sr="con0">
 			<mday0>1</mday0>
@@ -52,7 +162,7 @@
 			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>948</pvid>
+			<pvid>1202</pvid>
 			<pvit>pr</pvit>
 			<pvn>%start_time</pvn>
 			<pvt>t</pvt>
@@ -60,121 +170,12 @@
 			<strout>true</strout>
 		</ProfileVariable>
 	</Profile>
-	<Profile sr="prof949" ve="2">
-		<cdate>1747589601318</cdate>
-		<clp>true</clp>
-		<edate>1747365855513</edate>
-		<flags>8</flags>
-		<id>949</id>
-		<mid0>938</mid0>
-		<nme>PARSE_RECEIVED_MESSAGES v(1.0)</nme>
-		<pri>10</pri>
-		<Event sr="con0" ve="2">
-			<code>2089</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_request_files()
-Arquivos
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_request_multipart_names()
-Arquivos
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_request_multipart_types()
-Arquivos
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_request_multipart_values()
-Arquivos
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_request_headers()
-Cabeçalhos
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_request_path
-Caminho
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%http_request_body
-Corpo
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%http_request_ip_address_v4
-Endereço IP v4
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%http_request_id
-ID da Requisição
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%http_request_method
-Método
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%http_request_port
-Porta
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="1025"/>
-			<Str sr="arg2" ve="3">POST</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="10"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-		</Event>
-	</Profile>
-	<Profile sr="prof950" ve="2">
-		<cdate>1747589601320</cdate>
-		<clp>true</clp>
-		<edate>1747482836982</edate>
-		<flags>8</flags>
-		<id>950</id>
-		<limit>true</limit>
-		<mid0>942</mid0>
-		<nme>CHECK_SCHEDULE v(1.0)</nme>
-		<Event sr="con0" ve="2">
-			<code>2095</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">60000</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof951" ve="2">
-		<cdate>1747589601320</cdate>
-		<clp>true</clp>
-		<edate>1747650159226</edate>
-		<flags>8</flags>
-		<id>951</id>
-		<mid0>939</mid0>
-		<nme>WUZAPI_UPDATES v(1.0)</nme>
-		<Day sr="con0">
-			<wday0>7</wday0>
-		</Day>
-		<Time sr="con1">
-			<fh>8</fh>
-			<fm>0</fm>
-			<th>8</th>
-			<tm>0</tm>
-		</Time>
-	</Profile>
-	<Profile sr="prof952" ve="2">
-		<cdate>1747589601320</cdate>
-		<clp>true</clp>
-		<edate>1747365529853</edate>
-		<flags>8</flags>
-		<id>952</id>
-		<mid0>941</mid0>
-		<nme>RESET_CONNECTION_TO_THE_SERVER v(1.0)</nme>
-		<pri>50</pri>
-		<Event sr="con0" ve="2">
-			<code>2095</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">25000</Str>
-		</Event>
-	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
-		<pids>948,950,952,949,951</pids>
-		<scenes>INSTALLATION_INFORMATION v(1.0),NO_UPDATES v(1.0),CHECK_DISCONNECTION v(1.0),UPDATES v(1.0),CONNECTION_STATUS v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),WAITING-FOR-SETTINGS v(1.0)</scenes>
-		<tids>942,939,944,943,926,931,941,946,927,932,945,934,938,930,937,940,933,935,929,947,928,936</tids>
+		<pids>1198,1202,1201,1199,1200</pids>
+		<scenes>SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),NO_UPDATES v(1.0),CONNECTION_STATUS v(1.0),WAITING-FOR-SETTINGS v(1.0),INSTALLATION_INFORMATION v(1.0),CHECK_DISCONNECTION v(1.0),UPDATES v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0)</scenes>
+		<tids>1182,1187,1194,1189,1190,1197,1186,1192,1181,1177,1184,1179,1178,1185,1176,1188,1191,1183,1193,1180,1195,1196</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
 		</Img>
@@ -185,7 +186,7 @@ Porta
 			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>39</pvid>
+			<pvid>36</pvid>
 			<pvit>pj</pvit>
 			<pvn>%users</pvn>
 			<pvt>t</pvt>
@@ -198,7 +199,7 @@ Porta
 			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>39</pvid>
+			<pvid>36</pvid>
 			<pvit>pj</pvit>
 			<pvn>%version</pvn>
 			<pvt>ws</pvt>
@@ -212,7 +213,7 @@ Porta
 			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>39</pvid>
+			<pvid>36</pvid>
 			<pvit>pj</pvit>
 			<pvn>%active_scheduling</pvn>
 			<pvt>t</pvt>
@@ -711,7 +712,7 @@ Porta
 			</RectElement>
 		</WebElement>
 		<TextElement sr="elements7" ve="3">
-			<clickTask>932</clickTask>
+			<clickTask>1180</clickTask>
 			<flags>4</flags>
 			<geom>929,0,146,125,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Sair</Str>
@@ -843,7 +844,7 @@ Porta
 			<Str sr="arg8" ve="3"/>
 		</WebElement>
 		<PropertiesElement sr="props">
-			<keyTask>930</keyTask>
+			<keyTask>1178</keyTask>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#00FFFFFF</Str>
@@ -1160,7 +1161,7 @@ Porta
 	</Scene>
 	<Scene sr="sceneUPDATES v(1.0)">
 		<cdate>1747103759707</cdate>
-		<edate>1747497509985</edate>
+		<edate>1747996289513</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2400</heightPort>
 		<nme>UPDATES v(1.0)</nme>
@@ -1259,7 +1260,7 @@ Porta
 			</RectElement>
 		</WebElement>
 		<PropertiesElement sr="props">
-			<keyTask>946</keyTask>
+			<keyTask>1194</keyTask>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#00FFFFFF</Str>
@@ -1269,7 +1270,6 @@ Porta
 			<Img sr="arg6" ve="2"/>
 			<Str sr="arg7" ve="3"/>
 			<LinkClickFilter sr="filter0">
-				<stopEvent>true</stopEvent>
 				<urlMatch>back</urlMatch>
 			</LinkClickFilter>
 		</PropertiesElement>
@@ -1383,329 +1383,10 @@ Porta
 			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
 	</Scene>
-	<Task sr="task926">
-		<cdate>1747108748487</cdate>
-		<edate>1747650122360</edate>
-		<id>926</id>
-		<nme>☛ CHECK_FOR_UPDATES v(1.0) ☚</nme>
-		<pri>100</pri>
-		<rty>2</rty>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">#WUZAPI_UPDATES v(1.0)</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">update</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Img sr="icn" ve="2">
-			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/check-update.png</fle>
-		</Img>
-	</Task>
-	<Task sr="task927">
-		<cdate>1742857701235</cdate>
-		<edate>1747398385354</edate>
-		<id>927</id>
-		<nme>#VIEW_AND_RESTORE_CONNECTION_DELETE_COPY v(1.0)</nme>
-		<pri>100</pri>
-		<rty>2</rty>
-		<Action sr="act0" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%users</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>300</code>
-			<label>tarefa responsável por identificar os usuários que optaram pela opção de salvar os arquivos na memória interna do aparelho eliminar os arquivos da memória raiz</label>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>410</code>
-			<label>Script com código a ser executado</label>
-			<Str sr="arg0" ve="3">%termux_path/copiar_del_arq.sh</Str>
-			<Str sr="arg1" ve="3">#!/bin/bash
-
-# Diretório de origem e destino
-ORIGEM="/data/data/com.termux/files/home/WUZAPI-CHAT-BOT/files/"
-DESTINO="/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/"
-
-# Copia apenas a pasta "user_2" e todo o seu conteúdo
-cp -r "$ORIGEM/%user" "$DESTINO/"</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>389</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">%exe
-%script
-%path
-%bkg</Str>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">$PREFIX/bin/bash
-%termux_path/copiar_del_arq.sh
-/sdcard/
-true</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>365</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">TermuxCommand(%exe,%script,%path,%bkg)</Str>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%auto_del</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="250"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>547</code>
-			<label>Caminho base para salvar arquivos da tarefa</label>
-			<Str sr="arg0" ve="3">%termux_path</Str>
-			<Str sr="arg1" ve="3">/storage/emulated/0/Tasker/termux/TASKER-WUZAPI</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>410</code>
-			<label>Script com código a ser executado</label>
-			<Str sr="arg0" ve="3">%termux_path/copiar_del_arq.sh</Str>
-			<Str sr="arg1" ve="3">#!/bin/bash
-find /data/data/com.termux/files/home/WUZAPI-CHAT-BOT/files/%user -type f ! -name "*.json" -delete
-echo "Arquivos dentro da pasta user_1 foram deletados, exceto os arquivos .json!"</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>389</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">%exe
-%script
-%path
-%bkg</Str>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">$PREFIX/bin/bash
-%termux_path/copiar_del_arq.sh
-/sdcard/
-true</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>365</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">TermuxCommand(%exe,%script,%path,%bkg)</Str>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%connected_users</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act20" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>40</code>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>300</code>
-			<label>o Shell script utilizado é o mesmo para eliminar e copiar os arquivos copiar_del_arq.sh</label>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">// Lê a variável local Tasker com o JSON, ex.: %users
-var jsonString = local('users'); // Obtém a variável local
-
-// Faz o parse do JSON para um objeto JavaScript
-var usersArray = JSON.parse(jsonString);
-
-// Array para armazenar as informações extraídas como texto
-var resultLines = [];
-// Array para armazenar apenas os identificadores user_X
-var userIdentifiers = [];
-
-// Itera sobre cada usuário no array
-for (var i = 0; i &lt; usersArray.length; i++) {
-    var user = usersArray[i];
-    // Monta o texto para cada usuário
-    var userText = 'user: user_' + (i + 1) + '\n' +
-                   'salve_media: ' + user.salve_media + '\n' +
-                   'auto_del: ' + user.auto_del;
-    resultLines.push(userText);
-    // Adiciona o identificador user_X ao array de identificadores
-    userIdentifiers.push('user_' + (i + 1));
-}
-
-// Junta os grupos de usuários com ------- como separador
-var finalText = resultLines.join('\n-------\n');
-
-// Armazena o resultado como texto puro na variável local connected_users
-setLocal('connected_users', finalText);
-
-// Armazena os identificadores (user_1,user_2,user_3) em outra variável local, separados por vírgula
-setLocal('connected_users_list', userIdentifiers.join(','));
-
-// Armazena a quantidade de usuários encontrados na variável local total_users
-setLocal('total_users', usersArray.length.toString());</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%connected_users</Str>
-			<Str sr="arg1" ve="3">%connected_users</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>354</code>
-			<Str sr="arg0" ve="3">%connected_users</Str>
-			<Str sr="arg1" ve="3">%connected_users</Str>
-			<Str sr="arg2" ve="3">
--------
-</Str>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>39</code>
-			<coll>false</coll>
-			<Str sr="arg0" ve="3">%user_list</Str>
-			<Str sr="arg1" ve="3">%connected_users()</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">// Obtém o conteúdo da variável local do Tasker
-var user_list = local("user_list");
-
-// Divide a string em linhas
-var linhas = user_list.split("\n");
-
-// Inicializa variáveis de saída
-var user = "";
-var salve_media = "";
-var auto_del = "";
-
-// Percorre cada linha para extrair os valores
-linhas.forEach(function(linha) {
-    var partes = linha.split(": "); // Divide na ocorrência de ": "
-    if (partes.length === 2) {
-        var chave = partes[0].trim();
-        var valor = partes[1].trim();
-
-        // Atribui os valores às variáveis correspondentes
-        if (chave === "user") user = valor;
-        if (chave === "salve_media") salve_media = valor;
-        if (chave === "auto_del") auto_del = valor;
-    }
-});
-
-// Retorna os valores para o Tasker
-setLocal("user", user);
-setLocal("salve_media", salve_media);
-setLocal("auto_del", auto_del);</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%salve_media</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>547</code>
-			<label>Caminho base para salvar arquivos da tarefa</label>
-			<Str sr="arg0" ve="3">%termux_path</Str>
-			<Str sr="arg1" ve="3">/storage/emulated/0/Tasker/termux/TASKER-WUZAPI</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Img sr="icn" ve="2">
-			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/reconect.png</fle>
-		</Img>
-	</Task>
-	<Task sr="task928">
+	<Task sr="task1176">
 		<cdate>1746316969002</cdate>
-		<edate>1747397452784</edate>
-		<id>928</id>
+		<edate>1747948095335</edate>
+		<id>1176</id>
 		<nme>☛ CAPTURE_NUMBER_AND_JID v(1.0) ☚</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -1819,10 +1500,10 @@ setLocal("name", nome);</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/capture-number.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task929">
+	<Task sr="task1177">
 		<cdate>1742831555568</cdate>
-		<edate>1747575227961</edate>
-		<id>929</id>
+		<edate>1747995921239</edate>
+		<id>1177</id>
 		<nme>#SEND_MESSAGES_AND_FILES v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -2754,12 +2435,13 @@ setLocal("inf_users", formattedJSON);</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">%type/%port/%phone</Str>
+			<Str sr="arg7" ve="3">%type/%port/%number</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act162" ve="7">
 			<code>339</code>
+			<se>false</se>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
@@ -2779,8 +2461,8 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 				</Vals>
 			</Bundle>
 			<Int sr="arg1" val="1"/>
-			<Int sr="arg10" val="0"/>
-			<Int sr="arg11" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg11" val="1"/>
 			<Int sr="arg12" val="1"/>
 			<Str sr="arg2" ve="3">http://localhost:8080/user/avatar</Str>
 			<Str sr="arg3" ve="3">Token: %port
@@ -2790,7 +2472,7 @@ Content-Type:application/json</Str>
 			<Str sr="arg6" ve="3"/>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="0"/>
+			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act163" ve="7">
 			<code>129</code>
@@ -5172,11 +4854,11 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg11" val="1"/>
 			<Int sr="arg12" val="1"/>
 			<Str sr="arg2" ve="3">http://localhost:8080/chat/send/text</Str>
-			<Str sr="arg3" ve="3">Token: 7774
+			<Str sr="arg3" ve="3">Token: %port
 Content-Type:application/json</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3">{
-"Phone":"%number",
+"Phone":"%number@s.whatsapp.net",
 "Body":"%caption_escap",
 "ContextInfo":{
 "StanzaId":"%message_id",
@@ -6020,20 +5702,20 @@ Content-Type:application/json</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/send-message.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task930">
+	<Task sr="task1178">
 		<cdate>1747331912132</cdate>
 		<edate>1747331912132</edate>
-		<id>930</id>
+		<id>1178</id>
 		<pri>103</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">NO_UPDATES v(1.0)</Str>
 		</Action>
 	</Task>
-	<Task sr="task931">
+	<Task sr="task1179">
 		<cdate>1731963712394</cdate>
-		<edate>1747478607001</edate>
-		<id>931</id>
+		<edate>1747951133950</edate>
+		<id>1179</id>
 		<nme>#GENERATE CODES ( JAVA SCRIPT - CSS - SH ) v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -8973,10 +8655,10 @@ modal.addEventListener('click', (e) =&gt; {
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/generate-codes.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task932">
+	<Task sr="task1180">
 		<cdate>1733280908979</cdate>
 		<edate>1733280908979</edate>
-		<id>932</id>
+		<id>1180</id>
 		<pri>112</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -8993,10 +8675,10 @@ modal.addEventListener('click', (e) =&gt; {
 			<Str sr="arg0" ve="3">INSTALLATION_INFORMATION v(1.0)</Str>
 		</Action>
 	</Task>
-	<Task sr="task933">
+	<Task sr="task1181">
 		<cdate>1733454778508</cdate>
 		<edate>1747478367132</edate>
-		<id>933</id>
+		<id>1181</id>
 		<nme>#DISCONNECT_USER_FROM_WHATSAPP v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -9301,10 +8983,10 @@ storeInTasker(jsonUsers);</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/desconect-user.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task934">
+	<Task sr="task1182">
 		<cdate>1746553999747</cdate>
-		<edate>1747649954855</edate>
-		<id>934</id>
+		<edate>1747924794141</edate>
+		<id>1182</id>
 		<nme>#ICON_DOWNLOAD v(1.0)</nme>
 		<pri>6</pri>
 		<rty>2</rty>
@@ -9731,10 +9413,10 @@ true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglis
 			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
-	<Task sr="task935">
+	<Task sr="task1183">
 		<cdate>1729096715422</cdate>
 		<edate>1747478587548</edate>
-		<id>935</id>
+		<id>1183</id>
 		<nme>#INSTALL_WUZAPI-CHAT-BOT_END_CONNECT_TO_WHATSAPP v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -10386,10 +10068,10 @@ setLocal("port_status", isPortInUse ? "false" : "true");</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/conect-user.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task936">
+	<Task sr="task1184">
 		<cdate>1743412289073</cdate>
 		<edate>1747649010073</edate>
-		<id>936</id>
+		<id>1184</id>
 		<nme>☛ TASKERS_DOWNLOAD_TASKS v(1.0) ☚</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -10801,10 +10483,10 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
-	<Task sr="task937">
+	<Task sr="task1185">
 		<cdate>1733452720303</cdate>
 		<edate>1747322055572</edate>
-		<id>937</id>
+		<id>1185</id>
 		<nme>☛ UNLINK_USER_FROM_WHATSAPP_WEB v(1.0) ☚</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -10911,10 +10593,10 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/desconect-whatsapp.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task938">
+	<Task sr="task1186">
 		<cdate>1745605035679</cdate>
-		<edate>1747365855513</edate>
-		<id>938</id>
+		<edate>1747869583383</edate>
+		<id>1186</id>
 		<nme>#PARSE_RECEIVED_MESSAGES v(1.0)</nme>
 		<pri>11</pri>
 		<rty>2</rty>
@@ -10966,6 +10648,7 @@ true if there was a match, false otherwise&lt;/_array_net.dinglisch.android.task
 		<Action sr="act11" ve="7">
 			<code>37</code>
 			<coll>false</coll>
+			<label>identificação de nome de grupo</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%isgroup</lhs>
@@ -11140,6 +10823,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act22" ve="7">
 			<code>129</code>
+			<label>vinculado a identificação de nome de grupo</label>
 			<Str sr="arg0" ve="3">var jid = local('jid');
 var http_data = local('http_data');
 var data = JSON.parse(http_data);
@@ -11160,7 +10844,7 @@ setLocal('group_name', group_name);</Str>
 		</Action>
 		<Action sr="act23" ve="7">
 			<code>129</code>
-			<label>Identifica se o usuário vinculado está no modo operacional send and receive
+			<label>Identifica se o usuário está vinculado no modo operacional send and receive
 so ativar se nao quiser receber o numero do seu proprio aparelho
 Para ativar a tarefa ☛ RECEIVE MESSAGE INFORMATION ☚ utilize a condição
 se modo_op~send and receive</label>
@@ -11435,15 +11119,16 @@ true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglis
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/receiver.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task939">
+	<Task sr="task1187">
 		<cdate>1746648503426</cdate>
-		<edate>1747650159226</edate>
-		<id>939</id>
+		<edate>1747996348585</edate>
+		<id>1187</id>
 		<nme>#WUZAPI_UPDATES v(1.0)</nme>
-		<pri>6</pri>
+		<pri>100</pri>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>137</code>
+			<on>false</on>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 			<ConditionList sr="if">
@@ -11883,7 +11568,7 @@ URI de Conteúdo
 			</App>
 			<Str sr="arg1" ve="3">%content_uri</Str>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="1"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act43" ve="7">
 			<code>137</code>
@@ -11964,7 +11649,7 @@ URI de Conteúdo
 			<pvci>true</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>639</pvid>
+			<pvid>1187</pvid>
 			<pvit>t</pvit>
 			<pvn>%template_url</pvn>
 			<pvt>t</pvt>
@@ -11978,7 +11663,7 @@ URI de Conteúdo
 			<pvci>true</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>639</pvid>
+			<pvid>1187</pvid>
 			<pvit>t</pvit>
 			<pvn>%version_url</pvn>
 			<pvt>t</pvt>
@@ -11992,7 +11677,7 @@ URI de Conteúdo
 			<pvci>true</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>639</pvid>
+			<pvid>1187</pvid>
 			<pvit>t</pvit>
 			<pvn>%template_url_update</pvn>
 			<pvt>t</pvt>
@@ -12006,46 +11691,46 @@ URI de Conteúdo
 			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>639</pvid>
+			<pvid>1187</pvid>
 			<pvit>t</pvit>
 			<pvn>%update_info</pvn>
 			<pvt>t</pvt>
 			<pvv>📋 REGISTRO DE ATUALIZAÇÕES
 
-──🛠 Otimizações e Correções─────📅 18/05/2025
+──🛠 Otimizações e Correções─────📅 19/05/2025
+• Adicionado comando Shell para eliminar resquícios de downloads do projeto.
+─────────────────────────────
 
+──🛠 Otimizações e Correções─────📅 18/05/2025
 • Ajustes internos para tratamento de variáveis com caracteres especiais.
 • Melhoria na consistência de manipulação de strings em tarefas.
 ─────────────────────────────
 
 ──🔧 Atualização Crítica─────📅 17/05/2025
-
 • Tela de atualização agora é obrigatória.
 • Usuário deve atualizar o projeto.
 ─────────────────────────────
 
 ──🎨 Melhorias Visuais─────📅 16/05/2025
-
 • Melhoria de responsividade na cena NO_UPDATES v1.0.
 • Ajuste no layout da mesma cena.
 ─────────────────────────────
 
 ──🛠 Otimizações e Correções─────📅 15/05/2025
-
 • Ajuste na cena NO_UPDATES v1.0.
 • Identificação do nome de grupos na variável group_name.
 • Remoção da barra de progresso das cenas NO_UPDATES e UPDATES v1.0.
 • Correção das informações de grupo na tarefa: Wuzapi ChatBoot - Get Group...
 • Reconexão automática na tarefa #PARSE_RECEIVED_MESSAGES v1.0.
 ─────────────────────────────
-</pvv>
+    </pvv>
 			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
-	<Task sr="task940">
+	<Task sr="task1188">
 		<cdate>1746619373833</cdate>
 		<edate>1747397508900</edate>
-		<id>940</id>
+		<id>1188</id>
 		<nme>#TASK_SEND_ICONS v(1.0)</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -12164,16 +11849,15 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/link-icons.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task941">
+	<Task sr="task1189">
 		<cdate>1733522055846</cdate>
-		<edate>1747365529853</edate>
-		<id>941</id>
+		<edate>1747951319489</edate>
+		<id>1189</id>
 		<nme>#RESET_CONNECTION_TO_THE_SERVER v(1.0)</nme>
 		<pri>51</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>137</code>
-			<on>false</on>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 			<ConditionList sr="if">
@@ -12672,10 +12356,10 @@ setLocal("ports_users", ports_extracted);</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/check-errors.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task942">
+	<Task sr="task1190">
 		<cdate>1747112431353</cdate>
-		<edate>1747648833717</edate>
-		<id>942</id>
+		<edate>1747996146210</edate>
+		<id>1190</id>
 		<nme>#CHECK_SCHEDULE v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -12741,10 +12425,10 @@ setLocal("ports_users", ports_extracted);</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/time-management.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task943">
+	<Task sr="task1191">
 		<cdate>1746536799048</cdate>
-		<edate>1747325030183</edate>
-		<id>943</id>
+		<edate>1747854633439</edate>
+		<id>1191</id>
 		<nme>#REWRITE_USER v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -13012,10 +12696,10 @@ try {
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/disconnect.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task944">
+	<Task sr="task1192">
 		<cdate>1743280624629</cdate>
-		<edate>1746768589529</edate>
-		<id>944</id>
+		<edate>1747995943383</edate>
+		<id>1192</id>
 		<nme>#CHECK_VARIABLE_ERRORS v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -14549,10 +14233,10 @@ if (missingVariables.length &gt; 0) {
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/capture-number.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task945">
+	<Task sr="task1193">
 		<cdate>1732515010938</cdate>
 		<edate>1747475658470</edate>
-		<id>945</id>
+		<id>1193</id>
 		<nme>#PROCESS_REQUISITIONS_REQUESTS v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -15088,10 +14772,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
-	<Task sr="task946">
+	<Task sr="task1194">
 		<cdate>1747331892714</cdate>
 		<edate>1747331892714</edate>
-		<id>946</id>
+		<id>1194</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
@@ -15099,10 +14783,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">UPDATES v(1.0)</Str>
 		</Action>
 	</Task>
-	<Task sr="task947">
+	<Task sr="task1195">
 		<cdate>1731950391571</cdate>
-		<edate>1747478327003</edate>
-		<id>947</id>
+		<edate>1747949337308</edate>
+		<id>1195</id>
 		<nme>☛ INSTALL_AND_CONNECT_WHATSAPP _WEB v(1.0) ☚</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -15532,7 +15216,7 @@ Tempo restante %time
 		<Action sr="act46" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</Str>
-			<Int sr="arg1" val="9"/>
+			<Int sr="arg1" val="10"/>
 			<Int sr="arg10" val="1"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3" val="100"/>
@@ -15594,7 +15278,7 @@ Tempo restante %time
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>37</code>
-			<coll>true</coll>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -15645,6 +15329,325 @@ The label of the button that was clicked&lt;/_array_net.dinglisch.android.tasker
 		</Action>
 		<Img sr="icn" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/conect-whatsapp.png</fle>
+		</Img>
+	</Task>
+	<Task sr="task1196">
+		<cdate>1747108748487</cdate>
+		<edate>1747996312600</edate>
+		<id>1196</id>
+		<nme>☛ CHECK_FOR_UPDATES v(1.0) ☚</nme>
+		<pri>100</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">#WUZAPI_UPDATES v(1.0)</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">update</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/check-update.png</fle>
+		</Img>
+	</Task>
+	<Task sr="task1197">
+		<cdate>1742857701235</cdate>
+		<edate>1747398385354</edate>
+		<id>1197</id>
+		<nme>#VIEW_AND_RESTORE_CONNECTION_DELETE_COPY v(1.0)</nme>
+		<pri>100</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%users</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>300</code>
+			<label>tarefa responsável por identificar os usuários que optaram pela opção de salvar os arquivos na memória interna do aparelho eliminar os arquivos da memória raiz</label>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>410</code>
+			<label>Script com código a ser executado</label>
+			<Str sr="arg0" ve="3">%termux_path/copiar_del_arq.sh</Str>
+			<Str sr="arg1" ve="3">#!/bin/bash
+
+# Diretório de origem e destino
+ORIGEM="/data/data/com.termux/files/home/WUZAPI-CHAT-BOT/files/"
+DESTINO="/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/"
+
+# Copia apenas a pasta "user_2" e todo o seu conteúdo
+cp -r "$ORIGEM/%user" "$DESTINO/"</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%exe
+%script
+%path
+%bkg</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">$PREFIX/bin/bash
+%termux_path/copiar_del_arq.sh
+/sdcard/
+true</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>365</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">TermuxCommand(%exe,%script,%path,%bkg)</Str>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%auto_del</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="250"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<label>Caminho base para salvar arquivos da tarefa</label>
+			<Str sr="arg0" ve="3">%termux_path</Str>
+			<Str sr="arg1" ve="3">/storage/emulated/0/Tasker/termux/TASKER-WUZAPI</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>410</code>
+			<label>Script com código a ser executado</label>
+			<Str sr="arg0" ve="3">%termux_path/copiar_del_arq.sh</Str>
+			<Str sr="arg1" ve="3">#!/bin/bash
+find /data/data/com.termux/files/home/WUZAPI-CHAT-BOT/files/%user -type f ! -name "*.json" -delete
+echo "Arquivos dentro da pasta user_1 foram deletados, exceto os arquivos .json!"</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%exe
+%script
+%path
+%bkg</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">$PREFIX/bin/bash
+%termux_path/copiar_del_arq.sh
+/sdcard/
+true</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>365</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">TermuxCommand(%exe,%script,%path,%bkg)</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%connected_users</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>300</code>
+			<label>o Shell script utilizado é o mesmo para eliminar e copiar os arquivos copiar_del_arq.sh</label>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">// Lê a variável local Tasker com o JSON, ex.: %users
+var jsonString = local('users'); // Obtém a variável local
+
+// Faz o parse do JSON para um objeto JavaScript
+var usersArray = JSON.parse(jsonString);
+
+// Array para armazenar as informações extraídas como texto
+var resultLines = [];
+// Array para armazenar apenas os identificadores user_X
+var userIdentifiers = [];
+
+// Itera sobre cada usuário no array
+for (var i = 0; i &lt; usersArray.length; i++) {
+    var user = usersArray[i];
+    // Monta o texto para cada usuário
+    var userText = 'user: user_' + (i + 1) + '\n' +
+                   'salve_media: ' + user.salve_media + '\n' +
+                   'auto_del: ' + user.auto_del;
+    resultLines.push(userText);
+    // Adiciona o identificador user_X ao array de identificadores
+    userIdentifiers.push('user_' + (i + 1));
+}
+
+// Junta os grupos de usuários com ------- como separador
+var finalText = resultLines.join('\n-------\n');
+
+// Armazena o resultado como texto puro na variável local connected_users
+setLocal('connected_users', finalText);
+
+// Armazena os identificadores (user_1,user_2,user_3) em outra variável local, separados por vírgula
+setLocal('connected_users_list', userIdentifiers.join(','));
+
+// Armazena a quantidade de usuários encontrados na variável local total_users
+setLocal('total_users', usersArray.length.toString());</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%connected_users</Str>
+			<Str sr="arg1" ve="3">%connected_users</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%connected_users</Str>
+			<Str sr="arg1" ve="3">%connected_users</Str>
+			<Str sr="arg2" ve="3">
+-------
+</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>39</code>
+			<coll>false</coll>
+			<Str sr="arg0" ve="3">%user_list</Str>
+			<Str sr="arg1" ve="3">%connected_users()</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">// Obtém o conteúdo da variável local do Tasker
+var user_list = local("user_list");
+
+// Divide a string em linhas
+var linhas = user_list.split("\n");
+
+// Inicializa variáveis de saída
+var user = "";
+var salve_media = "";
+var auto_del = "";
+
+// Percorre cada linha para extrair os valores
+linhas.forEach(function(linha) {
+    var partes = linha.split(": "); // Divide na ocorrência de ": "
+    if (partes.length === 2) {
+        var chave = partes[0].trim();
+        var valor = partes[1].trim();
+
+        // Atribui os valores às variáveis correspondentes
+        if (chave === "user") user = valor;
+        if (chave === "salve_media") salve_media = valor;
+        if (chave === "auto_del") auto_del = valor;
+    }
+});
+
+// Retorna os valores para o Tasker
+setLocal("user", user);
+setLocal("salve_media", salve_media);
+setLocal("auto_del", auto_del);</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%salve_media</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<label>Caminho base para salvar arquivos da tarefa</label>
+			<Str sr="arg0" ve="3">%termux_path</Str>
+			<Str sr="arg1" ve="3">/storage/emulated/0/Tasker/termux/TASKER-WUZAPI</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/reconect.png</fle>
 		</Img>
 	</Task>
 </TaskerData>
