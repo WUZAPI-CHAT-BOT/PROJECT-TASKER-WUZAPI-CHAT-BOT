@@ -1,34 +1,12 @@
 <TaskerData sr="" dvi="1" tv="6.5.7-rc">
 	<dmetric>1080.0,2400.0</dmetric>
-	<Profile sr="prof189" ve="2">
-		<cdate>1748204299814</cdate>
-		<clp>true</clp>
-		<edate>1748204342196</edate>
+	<Profile sr="prof185" ve="2">
+		<cdate>1748267619144</cdate>
+		<edate>1748286058921</edate>
 		<flags>8</flags>
-		<id>189</id>
+		<id>185</id>
 		<limit>true</limit>
-		<mid0>138</mid0>
-		<nme>CHECK_SCHEDULE v(1.0)</nme>
-		<Event sr="con0" ve="2">
-			<code>2095</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">60000</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof191" ve="2">
-		<cdate>1748204299817</cdate>
-		<clp>true</clp>
-		<edate>1748204342555</edate>
-		<flags>8</flags>
-		<id>191</id>
-		<limit>true</limit>
-		<mid0>133</mid0>
+		<mid0>122</mid0>
 		<nme>WUZAPI_UPDATES v(1.0)</nme>
 		<Day sr="con0">
 			<wday0>7</wday0>
@@ -40,14 +18,14 @@
 			<tm>0</tm>
 		</Time>
 	</Profile>
-	<Profile sr="prof192" ve="2">
-		<cdate>1748204299817</cdate>
+	<Profile sr="prof186" ve="2">
+		<cdate>1748267619144</cdate>
 		<clp>true</clp>
-		<edate>1748204346487</edate>
+		<edate>1748285288400</edate>
 		<flags>8</flags>
-		<id>192</id>
+		<id>186</id>
 		<limit>true</limit>
-		<mid0>137</mid0>
+		<mid0>130</mid0>
 		<nme>RESET_CONNECTION_TO_THE_SERVER v(1.0)</nme>
 		<pri>50</pri>
 		<Event sr="con0" ve="2">
@@ -62,14 +40,14 @@
 			<Str sr="arg1" ve="3">25000</Str>
 		</Event>
 	</Profile>
-	<Profile sr="prof195" ve="2">
-		<cdate>1748204299819</cdate>
+	<Profile sr="prof189" ve="2">
+		<cdate>1748267619146</cdate>
 		<clp>true</clp>
-		<edate>1748204708776</edate>
+		<edate>1748285305193</edate>
 		<flags>8</flags>
-		<id>195</id>
+		<id>189</id>
 		<limit>true</limit>
-		<mid0>185</mid0>
+		<mid0>181</mid0>
 		<nme>ICON_DOWNLOAD v(1.0)</nme>
 		<Day sr="con0">
 			<mday0>1</mday0>
@@ -115,7 +93,7 @@
 			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>195</pvid>
+			<pvid>189</pvid>
 			<pvit>pr</pvit>
 			<pvn>%start_time</pvn>
 			<pvt>t</pvt>
@@ -123,14 +101,14 @@
 			<strout>true</strout>
 		</ProfileVariable>
 	</Profile>
-	<Profile sr="prof202" ve="2">
-		<cdate>1748204299819</cdate>
+	<Profile sr="prof191" ve="2">
+		<cdate>1748267619147</cdate>
 		<clp>true</clp>
-		<edate>1748204347329</edate>
+		<edate>1748285287521</edate>
 		<flags>8</flags>
-		<id>202</id>
+		<id>191</id>
 		<limit>true</limit>
-		<mid0>130</mid0>
+		<mid0>35</mid0>
 		<nme>PARSE_RECEIVED_MESSAGES v(1.0)</nme>
 		<pri>10</pri>
 		<Event sr="con0" ve="2">
@@ -173,12 +151,32 @@ Porta
 			<Str sr="arg7" ve="3"/>
 		</Event>
 	</Profile>
+	<Profile sr="prof192" ve="2">
+		<cdate>1748267619148</cdate>
+		<clp>true</clp>
+		<edate>1748285379981</edate>
+		<flags>8</flags>
+		<id>192</id>
+		<mid0>133</mid0>
+		<nme>CHECK_SCHEDULE v(1.0)</nme>
+		<Event sr="con0" ve="2">
+			<code>2095</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">60000</Str>
+		</Event>
+	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
-		<pids>195,202,192,189,191</pids>
-		<scenes>UPDATES v(1.0),INSTALLATION_INFORMATION v(1.0),NO_UPDATES v(1.0),WAITING-FOR-SETTINGS v(1.0),CHECK_DISCONNECTION v(1.0),CONNECTION_STATUS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0)</scenes>
-		<tids>137,173,142,181,130,184,178,133,139,183,185,176,138,174,179,100,135,129,175,186,122,177</tids>
+		<pids>189,192,191,186,185</pids>
+		<scenes>CONNECTION_STATUS v(1.0),UPDATES v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),NO_UPDATES v(1.0),INSTALLATION_INFORMATION v(1.0),CHECK_DISCONNECTION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),WAITING-FOR-SETTINGS v(1.0)</scenes>
+		<tids>177,122,35,139,130,178,202,173,133,181,203,175,179,174,142,176,138,184,129,135,183,33,100,137</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
 		</Img>
@@ -189,7 +187,7 @@ Porta
 			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>42</pvid>
+			<pvid>34</pvid>
 			<pvit>pj</pvit>
 			<pvn>%users</pvn>
 			<pvt>t</pvt>
@@ -202,7 +200,7 @@ Porta
 			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>42</pvid>
+			<pvid>34</pvid>
 			<pvit>pj</pvit>
 			<pvn>%version</pvn>
 			<pvt>ws</pvt>
@@ -216,9 +214,35 @@ Porta
 			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>42</pvid>
+			<pvid>34</pvid>
 			<pvit>pj</pvit>
 			<pvn>%active_scheduling</pvn>
+			<pvt>t</pvt>
+			<strout>true</strout>
+		</ProfileVariable>
+		<ProfileVariable sr="pv3">
+			<clearout>false</clearout>
+			<exportval></exportval>
+			<immutable>false</immutable>
+			<pvci>true</pvci>
+			<pvd></pvd>
+			<pvdn></pvdn>
+			<pvid>34</pvid>
+			<pvit>pj</pvit>
+			<pvn>%aaa</pvn>
+			<pvt>t</pvt>
+			<strout>true</strout>
+		</ProfileVariable>
+		<ProfileVariable sr="pv4">
+			<clearout>false</clearout>
+			<exportval></exportval>
+			<immutable>false</immutable>
+			<pvci>true</pvci>
+			<pvd></pvd>
+			<pvdn></pvdn>
+			<pvid>34</pvid>
+			<pvit>pj</pvit>
+			<pvn>%aaa</pvn>
 			<pvt>t</pvt>
 			<strout>true</strout>
 		</ProfileVariable>
@@ -715,7 +739,7 @@ Porta
 			</RectElement>
 		</WebElement>
 		<TextElement sr="elements7" ve="3">
-			<clickTask>183</clickTask>
+			<clickTask>178</clickTask>
 			<flags>4</flags>
 			<geom>929,0,146,125,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Sair</Str>
@@ -788,7 +812,7 @@ Porta
 	</Scene>
 	<Scene sr="sceneNO_UPDATES v(1.0)">
 		<cdate>1747103759707</cdate>
-		<edate>1747497515427</edate>
+		<edate>1748268463924</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2261</heightPort>
 		<nme>NO_UPDATES v(1.0)</nme>
@@ -846,8 +870,34 @@ Porta
 			<Int sr="arg7" val="1"/>
 			<Str sr="arg8" ve="3"/>
 		</WebElement>
+		<TextElement sr="elements1" ve="3">
+			<clickTask>202</clickTask>
+			<flags>4</flags>
+			<geom>830,0,250,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">exit Scene</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#96EA0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#00038C8A</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
 		<PropertiesElement sr="props">
-			<keyTask>179</keyTask>
+			<keyTask>176</keyTask>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#00FFFFFF</Str>
@@ -1164,15 +1214,15 @@ Porta
 	</Scene>
 	<Scene sr="sceneUPDATES v(1.0)">
 		<cdate>1747103759707</cdate>
-		<edate>1747996289513</edate>
+		<edate>1748285566148</edate>
 		<heightLand>-1</heightLand>
-		<heightPort>2400</heightPort>
+		<heightPort>2261</heightPort>
 		<nme>UPDATES v(1.0)</nme>
 		<widthLand>-1</widthLand>
 		<widthPort>1080</widthPort>
 		<WebElement sr="elements0" ve="2">
 			<flags>6</flags>
-			<geom>0,0,1079,2400,-1,-1,-1,-1</geom>
+			<geom>0,0,1080,2261,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">UPDATES v(1.0)</Str>
 			<Int sr="arg1" val="2"/>
 			<Str sr="arg2" ve="3">&lt;!DOCTYPE html&gt;
@@ -1262,8 +1312,34 @@ Porta
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</WebElement>
+		<TextElement sr="elements1" ve="3">
+			<clickTask>203</clickTask>
+			<flags>4</flags>
+			<geom>832,0,246,125,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">exit Scene</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#00FFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#00000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
 		<PropertiesElement sr="props">
-			<keyTask>174</keyTask>
+			<keyTask>139</keyTask>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#00FFFFFF</Str>
@@ -1388,9 +1464,9 @@ Porta
 	</Scene>
 	<Task sr="task100">
 		<cdate>1747108748487</cdate>
-		<edate>1748204474828</edate>
+		<edate>1748285882526</edate>
 		<id>100</id>
-		<nme>☛ CHECK_FOR_UPDATES v(1.0)☚</nme>
+		<nme>☛ CHECK_FOR_UPDATES v(1.0) ☚</nme>
 		<pri>100</pri>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
@@ -1414,1066 +1490,14 @@ Porta
 		</Img>
 	</Task>
 	<Task sr="task122">
-		<cdate>1743412289073</cdate>
-		<edate>1747649010073</edate>
-		<id>122</id>
-		<nme>☛ TASKERS_DOWNLOAD_TASKS v(1.0) ☚</nme>
-		<pri>100</pri>
-		<rty>2</rty>
-		<Action sr="act0" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%users</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">Não há nenhum usuário conectado
-
-There is no user connected</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3">#FF802424</Str>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%project_url</Str>
-			<Str sr="arg1" ve="3">%http_data</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">template_url</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%http_response_code</lhs>
-					<op>3</op>
-					<rhs>200</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%project_url</Str>
-			<Str sr="arg1" ve="3">plchldr</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">%port</Str>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>549</code>
-			<label>version_url</label>
-			<Str sr="arg0" ve="3">%http_response_code</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>339</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
-Cabeçalhos de Resposta
-Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
-Cookies
-Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
-Código de Resposta
-O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
-Dado
-Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
-Saída do Arquivo
-Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
-Tamanho da Resposta
-O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="1"/>
-			<Str sr="arg2" ve="3">%version_url</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">version_url</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%http_response_code</lhs>
-					<op>3</op>
-					<rhs>200</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%version</Str>
-			<Str sr="arg1" ve="3">%http_data</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>598</code>
-			<label>remove a quebra de linha</label>
-			<Str sr="arg0" ve="3">%version</Str>
-			<Str sr="arg1" ve="3">\n</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%port(1)</Str>
-			<Str sr="arg1" ve="3">%port</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%project_url</Str>
-			<Str sr="arg1" ve="3">progvers\(vcod\)</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">v(1.0)</Str>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-		</Action>
-		<Action sr="act20" ve="7">
-			<code>547</code>
-			<label>_ID__plchldr__progvers_vcod___Wuzapi_ChatBoot___tasks_submit.prj.xml</label>
-			<Str sr="arg0" ve="3">%name_arq</Str>
-			<Str sr="arg1" ve="3">_ID__IDENTIFIER__%port(1)__progvers_vcod__WUZAPI_CHATBOOT_SEND_MESSAGES_AND_FILES.prj.xml</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%project_url</Str>
-			<Str sr="arg1" ve="3">progvers \(v cod\)</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">v(1.0)</Str>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">#TASK_SEND_ICONS v(1.0)</Str>
-			<Int sr="arg1">
-				<var>%priority+10</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%project_url</Str>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">%project_url/%port</Str>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>410</code>
-			<Str sr="arg0" ve="3">Download/WUZAPI-CHATBOT-TASKS/%name_arq</Str>
-			<Str sr="arg1" ve="3">%project_url</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act24" ve="7">
-			<code>365</code>
-			<label>FilePathToContentUri(Download/WUZAPI-CHATBOT-TASKS/%name_arq)</label>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%content_uri
-URI de Conteúdo
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">FilePathToContentUri(/storage/emulated/0/Download/WUZAPI-CHATBOT-TASKS/%name_arq)</Str>
-		</Action>
-		<Action sr="act25" ve="7">
-			<code>20</code>
-			<App sr="arg0">
-				<appClass>com.joaomgcd.taskerm.datashare.import.ActivityImportTaskerDataFromXml</appClass>
-				<appPkg>net.dinglisch.android.taskerm</appPkg>
-				<label>Tasker:com.joaomgcd.taskerm.datashare.import.ActivityImportTaskerDataFromXml</label>
-			</App>
-			<Str sr="arg1" ve="3">%content_uri</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="1"/>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%ld_button</lhs>
-					<op>2</op>
-					<rhs>SAIR</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%ld_button</lhs>
-					<op>2</op>
-					<rhs>EXIT</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>129</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">var users = JSON.parse(local("users"));
-var ports = users.map(function(user) {
-  return user.port;
-});
-var portsString = ports.join(',');
-setLocal("ports", portsString);
-setLocal("ports_count", ports.length);</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>378</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ld_button
-Botão
-O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ld_long
-Long
-true se o item foi tocado longamente, false caso contrário&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%ld_selected
-Selecionado
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%ld_selected_index
-Índice Selecionado
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="0"/>
-			<Int sr="arg11" val="0"/>
-			<Int sr="arg12" val="1"/>
-			<Str sr="arg13" ve="3">Selecione uma das portas para baixar as tarefas de envio
-
-Select one of the ports to download the shipping tasks</Str>
-			<Str sr="arg2" ve="3">PORTA(s) ENCONTRADA(s) ( %ports_count )</Str>
-			<Str sr="arg3" ve="3">%ports</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3">SAIR</Str>
-			<Str sr="arg7" ve="3">EXIT</Str>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="120"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ld_selected</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%port</Str>
-			<Str sr="arg1" ve="3">%ld_selected</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>549</code>
-			<label>template_url</label>
-			<Str sr="arg0" ve="3">%http_response_code</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>339</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
-Cabeçalhos de Resposta
-Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
-Cookies
-Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
-Código de Resposta
-O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
-Dado
-Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
-Saída do Arquivo
-Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
-Tamanho da Resposta
-O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="1"/>
-			<Str sr="arg2" ve="3">%template_url</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Img sr="icn" ve="2">
-			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/download.png</fle>
-		</Img>
-		<ProfileVariable sr="pv0">
-			<clearout>true</clearout>
-			<exportval></exportval>
-			<immutable>true</immutable>
-			<pvci>false</pvci>
-			<pvd></pvd>
-			<pvdn></pvdn>
-			<pvid>273</pvid>
-			<pvit>t</pvit>
-			<pvn>%template_url</pvn>
-			<pvt>t</pvt>
-			<pvv>https://raw.githubusercontent.com/WUZAPI-CHAT-BOT/TAREFAS-DE-ENVIO/refs/heads/main/_ID__plchldr__progvers_vcod___Wuzapi_ChatBoot___tasks_submit.prj.xml</pvv>
-			<strout>true</strout>
-		</ProfileVariable>
-		<ProfileVariable sr="pv1">
-			<clearout>true</clearout>
-			<exportval></exportval>
-			<immutable>true</immutable>
-			<pvci>false</pvci>
-			<pvd></pvd>
-			<pvdn></pvdn>
-			<pvid>273</pvid>
-			<pvit>t</pvit>
-			<pvn>%version_url</pvn>
-			<pvt>t</pvt>
-			<pvv>https://raw.githubusercontent.com/WUZAPI-CHAT-BOT/VERSION-WUZAPI-CHAT-BOOT/refs/heads/main/Version%20wuzapi%20chatbot</pvv>
-			<strout>true</strout>
-		</ProfileVariable>
-	</Task>
-	<Task sr="task129">
-		<cdate>1733452720303</cdate>
-		<edate>1747322055572</edate>
-		<id>129</id>
-		<nme>☛ UNLINK_USER_FROM_WHATSAPP_WEB v(1.0) ☚</nme>
-		<pri>100</pri>
-		<rty>2</rty>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">#DISCONNECT_USER_FROM_WHATSAPP v(1.0)</Str>
-			<Int sr="arg1">
-				<var>%priority+10</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">desconect_user</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3">%phone</Str>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">#DISCONNECT_USER_FROM_WHATSAPP v(1.0)</Str>
-			<Int sr="arg1">
-				<var>%priority+10</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">user_to_remove</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">%phone/%port</Str>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%phone</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%sucess</lhs>
-					<op>2</op>
-					<rhs>sucess</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%project_path</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">#GENERATE CODES ( JAVA SCRIPT - CSS - SH ) v(1.0)</Str>
-			<Int sr="arg1">
-				<var>%priority+10</var>
-			</Int>
-			<Int sr="arg10" val="0"/>
-			<Str sr="arg2" ve="3">confirm disconnection</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">%check_removed_user</Str>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">CHECK_DISCONNECTION v(1.0)</Str>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>47</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">CHECK_DISCONNECTION v(1.0)</Str>
-			<Int sr="arg1" val="10"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">CHECK_DISCONNECTION v(1.0)</Str>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>38</code>
-		</Action>
-		<Img sr="icn" ve="2">
-			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/desconect-whatsapp.png</fle>
-		</Img>
-	</Task>
-	<Task sr="task130">
-		<cdate>1745605035679</cdate>
-		<edate>1747869583383</edate>
-		<id>130</id>
-		<nme>#PARSE_RECEIVED_MESSAGES v(1.0)</nme>
-		<pri>11</pri>
-		<rty>2</rty>
-		<Action sr="act0" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%caller1</lhs>
-					<op>2</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>596</code>
-			<Str sr="arg0" ve="3">%http_request_body</Str>
-			<Int sr="arg1" val="18"/>
-			<Str sr="arg2" ve="3">%json_response</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>396</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%mt_match
-Equivalente
-Can also be accessed as an array&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%mt_groups()
-Groups
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%mt_match_found
-Is Match
-true if there was a match, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">%sender_received</Str>
-			<Str sr="arg3" ve="3">(?P&lt;sender_received&gt;\d+)[:@].*</Str>
-			<Str sr="arg4" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%sender_received</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<label>identificação de nome de grupo</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%isgroup</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>339</code>
-			<label>reconect</label>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
-Cabeçalhos de Resposta
-Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
-Cookies
-Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
-Código de Resposta
-O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
-Dado
-Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
-Saída do Arquivo
-Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
-Tamanho da Resposta
-O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="1"/>
-			<Str sr="arg2" ve="3">http://localhost:8080/group/list</Str>
-			<Str sr="arg3" ve="3">Token: %port</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8">
-				<var>30</var>
-			</Int>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%http_data</lhs>
-					<op>4</op>
-					<rhs>^\{\s*"code"\s*:\s*500\s*,\s*"data"\s*:\s*\{\}\s*,\s*"success"\s*:\s*true\s*\}$</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">RESET_CONNECTION_TO_THE_SERVER v(1.0)</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>339</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
-Cabeçalhos de Resposta
-Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
-Cookies
-Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
-Código de Resposta
-O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
-Dado
-Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
-Saída do Arquivo
-Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
-Tamanho da Resposta
-O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg10" val="0"/>
-			<Int sr="arg11" val="0"/>
-			<Int sr="arg12" val="1"/>
-			<Str sr="arg2" ve="3">http://localhost:8080/session/disconnect</Str>
-			<Str sr="arg3" ve="3">Token: %port</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>365</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">TermuxCommand(/data/data/com.termux/files/home/WUZAPI-CHAT-BOT/start_wuzapi.sh,,,true)</Str>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>339</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
-Cabeçalhos de Resposta
-Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
-Cookies
-Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
-Código de Resposta
-O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
-Dado
-Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
-Saída do Arquivo
-Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
-Tamanho da Resposta
-O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="1"/>
-			<Str sr="arg2" ve="3">http://localhost:8080/session/connect</Str>
-			<Str sr="arg3" ve="3">Token: %port</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3">{
-
-"Subscribe":["Message"],
-"Immediate":true
-
-}</Str>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">reconect</Str>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%json_response</Str>
-			<Str sr="arg1" ve="3">jsonData=</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act20" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">RESET_CONNECTION_TO_THE_SERVER v(1.0)</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>129</code>
-			<label>vinculado a identificação de nome de grupo</label>
-			<Str sr="arg0" ve="3">var jid = local('jid');
-var http_data = local('http_data');
-var data = JSON.parse(http_data);
-var group_name = '';
-if (data.code === 200 &amp;&amp; data.data &amp;&amp; data.data.Groups) {
-    var groups = data.data.Groups;
-    for (var i = 0; i &lt; groups.length; i++) {
-        if (groups[i].JID === jid + '@g.us') {
-            group_name = groups[i].Name;
-            break;
-        }
-    }
-}
-setLocal('group_name', group_name);</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>129</code>
-			<label>Identifica se o usuário está vinculado no modo operacional send and receive
-so ativar se nao quiser receber o numero do seu proprio aparelho
-Para ativar a tarefa ☛ RECEIVE MESSAGE INFORMATION ☚ utilize a condição
-se modo_op~send and receive</label>
-			<Str sr="arg0" ve="3">let inputPort = (local('port') || '').toString().trim();
-let usersArray = JSON.parse(local('users') || '[]');
-
-let foundUser = usersArray.find(user =&gt; {
-    return user &amp;&amp; user.port &amp;&amp; user.port.toString().trim() === inputPort;
-});
-
-setLocal('modo_op', foundUser ? foundUser.modo_op : '');</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act24" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">☛ RECEIVE MESSAGE INFORMATION ☚</Str>
-			<Int sr="arg1">
-				<var>%priority+30</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">%port/%sender_number/%my_number/%isgroup/%image_caption/%video_caption/%arq_caption/%file_extension/%file_name/%message_id/%type/%pushname/%time_stamp/%sender_received/%group_name/%jid/%contact_phone_vcard/%message/%reaction_text/%link_location/%link_title/%link_description/%link_location_maps/%receiver_latitude/%receiver_longitude/%messagesecret/%full_json</Str>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<label>pegar porta</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%http_request_multipart_values(#)</lhs>
-					<op>3</op>
-					<rhs>0</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>396</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%port
-0. Port
-Também pode ser acessado como um array&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%mt_match
-Equivalente
-Também pode ser acessado como um array&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%mt_groups()
-Grupos
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%mt_match_found
-É Correspondência
-true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">%http_request_multipart_values()</Str>
-			<Str sr="arg3" ve="3">(?&lt;port&gt;\d+)$</Str>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>396</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%port
-0. Port
-Can also be accessed as an array&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%mt_match
-Equivalente
-Can also be accessed as an array&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%mt_groups()
-Groups
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%mt_match_found
-Is Match
-true if there was a match, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">%json_response</Str>
-			<Str sr="arg3" ve="3">(?&lt;port&gt;\d+)$</Str>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>129</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">const inputJSON = local("json_response");
-
-const cleanedJSON = inputJSON.split("&amp;token=")[0];
-const tokenMatch = inputJSON.match(/&amp;token=(\d+)/);
-
-try {
-    const jsonData = JSON.parse(cleanedJSON);
-    const info = jsonData.event.Info;
-    const mensagem = jsonData.event.Message;
-
-    setLocal("full_json", inputJSON);
-
-    if (tokenMatch &amp;&amp; tokenMatch[1]) {
-        setLocal("port", tokenMatch[1]);
-    }
-
-    setLocal("sender_number", info.Sender);
-    setLocal("my_number", info.IsFromMe);
-    setLocal("message_id", info.ID); // Mantém a captura do ID
-    setLocal("pushname", info.PushName || "Desconhecido"); // Garante captura do pushname
-
-    // Verifica se é um status (status@broadcast)
-    if (info.Chat === "status@broadcast") {
-        setLocal("isgroup", false); // Define isgroup como false para status
-        setLocal("type", "status_message"); // Define tipo como status_message
-        // Não define jid para status
-    } else {
-        setLocal("isgroup", info.IsGroup);
-        setLocal("type", info.Type);
-        if (info.IsGroup) {
-            setLocal("jid", info.Chat.replace('@g.us', ''));
-        }
-    }
-
-    const data = new Date();
-    const horarioBR = new Date(data.toLocaleString("en-US", { timeZone: "America/Sao_Paulo" }));
-    const formatarNumero = num =&gt; ('0' + num).slice(-2);
-    const dia = formatarNumero(horarioBR.getDate());
-    const mes = formatarNumero(horarioBR.getMonth() + 1);
-    const ano = horarioBR.getFullYear();
-    const hora = formatarNumero(horarioBR.getHours());
-    const minuto = formatarNumero(horarioBR.getMinutes());
-    const segundo = formatarNumero(horarioBR.getSeconds());
-    setLocal("time_stamp", `${hora}:${minuto}:${segundo} ${dia}/${mes}/${ano}`);
-
-    setLocal("sender_received", info.DeviceSentMeta ? info.DeviceSentMeta.DestinationJID : null);
-
-    if (mensagem) {
-        setLocal("message", mensagem.conversation || mensagem.extendedTextMessage?.text || "");
-
-        if (mensagem.stickerMessage) {
-            setLocal("type", "stick_message");
-            setLocal("file_extension", mensagem.stickerMessage.mimetype ? mensagem.stickerMessage.mimetype.split('/')[1] : "");
-        }
-
-        if (mensagem.contactMessage &amp;&amp; mensagem.contactMessage.vcard) {
-            setLocal("type", "phone_contact");
-            const vCard = mensagem.contactMessage.vcard;
-            const phoneMatch = vCard.match(/item1.TEL;waid=(\d+):(\+[\d\s\(\)-]+)/);
-            const numeroTelefone = phoneMatch ? phoneMatch[2].trim() : null;
-            setLocal("contact_phone_vcard", JSON.stringify([{
-                "nome": mensagem.contactMessage.displayName || "Desconhecido",
-                "contato": numeroTelefone
-            }]));
-        } else if (mensagem.contactsArrayMessage?.contacts?.length &gt; 0) {
-            setLocal("type", "phone_contact");
-            const contatos = mensagem.contactsArrayMessage.contacts.map(contato =&gt; {
-                const vCard = contato.vcard;
-                const phoneMatch = vCard.match(/item1.TEL;waid=(\d+):(\+[\d\s\(\)-]+)/);
-                return {
-                    "nome": contato.displayName || "Desconhecido",
-                    "contato": phoneMatch ? phoneMatch[2].trim() : null
-                };
-            });
-            setLocal("contact_phone_vcard", JSON.stringify(contatos));
-        }
-
-        if (mensagem.audioMessage) {
-            setLocal("type", "audio_message");
-            let extension = mensagem.audioMessage.mimetype ? mensagem.audioMessage.mimetype.split('/')[1].split(';')[0] : "";
-            if (extension === "mpeg") extension = "mp3"; // Mapeia "mpeg" para "mp3"
-            if (mensagem.audioMessage.PTT &amp;&amp; extension === "ogg") extension = "opus"; // Mapeia "ogg" para "opus" apenas para PTT
-            setLocal("file_extension", extension);
-        }
-
-        if (mensagem.imageMessage) {
-            setLocal("type", info.Chat === "status@broadcast" ? "status_message" : "image_message"); // Ajuste para status
-            setLocal("%image_caption", mensagem.imageMessage.caption || "");
-            setLocal("file_extension", mensagem.imageMessage.mimetype ? mensagem.imageMessage.mimetype.split('/')[1] : "");
-        }
-
-        if (mensagem.videoMessage &amp;&amp; mensagem.videoMessage.gifPlayback) {
-            setLocal("type", "gif_message");
-            setLocal("file_extension", "gif");
-            setLocal("%image_caption", mensagem.videoMessage.caption || "");
-        } else if (mensagem.videoMessage) {
-            setLocal("type", info.Chat === "status@broadcast" ? "status_message" : "video_message"); // Ajuste para status
-            setLocal("file_extension", mensagem.videoMessage.mimetype ? mensagem.videoMessage.mimetype.split('/')[1] : "");
-            setLocal("video_caption", mensagem.videoMessage.caption || "");
-        }
-
-        if (mensagem.documentMessage) {
-            setLocal("type", "document_message");
-            let extension = mensagem.documentMessage.mimetype ? mensagem.documentMessage.mimetype.split('/')[1] : "";
-            if (extension === "plain") extension = "txt"; // Mapeia "plain" para "txt"
-            setLocal("file_extension", extension);
-            setLocal("%arq_caption", mensagem.documentMessage.caption || "");
-            // Captura o nome do arquivo sem a extensão
-            const fileNameFull = mensagem.documentMessage.fileName || "";
-            const fileName = fileNameFull.substring(0, fileNameFull.lastIndexOf('.')) || fileNameFull;
-            setLocal("file_name", fileName);
-        }
-
-        if (mensagem.reactionMessage) {
-            setLocal("type", "reaction_message");
-            setLocal("reaction_text", mensagem.reactionMessage.text);
-        }
-
-        // Ajuste para identificar link_message sempre que for um link
-        if (mensagem.conversation?.match(/^https?:\/\//)) {
-            setLocal("type", "link_message");
-            // Move a definição de text_message para dentro de um else para evitar sobrescrever
-        } else if (mensagem.conversation) {
-            setLocal("type", "text_message");
-        }
-
-        if (mensagem.extendedTextMessage?.matchedText?.match(/^https?:\/\//)) {
-            setLocal("type", "link_message");
-            setLocal("link_title", mensagem.extendedTextMessage.title || "");
-            setLocal("link_description", mensagem.extendedTextMessage.description || "");
-        }
-
-        if (mensagem.locationMessage) {
-            setLocal("receiver_latitude", mensagem.locationMessage.degreesLatitude);
-            setLocal("receiver_longitude", mensagem.locationMessage.degreesLongitude);
-            setLocal("%link_location_maps", `https://www.google.com/maps?q=${mensagem.locationMessage.degreesLatitude},${mensagem.locationMessage.degreesLongitude}`);
-            setLocal("type", "link_message");
-        }
-
-        if (mensagem.messageContextInfo?.messageSecret) {
-            setLocal("messagesecret", mensagem.messageContextInfo.messageSecret);
-        }
-
-    }
-
-} catch (e) {}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>396</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%mt_match
-Equivalente
-Também pode ser acessado como um array&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%mt_groups()
-Grupos
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%mt_match_found
-É Correspondência
-true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">%sender_number</Str>
-			<Str sr="arg3" ve="3">(?P&lt;sender_number&gt;\d+)[:@].*</Str>
-			<Str sr="arg4" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%sender_number</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Img sr="icn" ve="2">
-			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/receiver.png</fle>
-		</Img>
-	</Task>
-	<Task sr="task133">
 		<cdate>1746648503426</cdate>
-		<edate>1748204768610</edate>
-		<id>133</id>
+		<edate>1748286058921</edate>
+		<id>122</id>
 		<nme>#WUZAPI_UPDATES v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>137</code>
-			<on>false</on>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 			<ConditionList sr="if">
@@ -2493,14 +1517,22 @@ true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglis
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>53</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">NO_UPDATES v(1.0)</Str>
+			<Str sr="arg1" ve="3">UPDATES v(1.0)</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -2511,7 +1543,7 @@ true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglis
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>549</code>
 			<label>retorno</label>
 			<Str sr="arg0" ve="3">%active_scheduling</Str>
@@ -2519,7 +1551,7 @@ true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglis
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">#GENERATE CODES ( JAVA SCRIPT - CSS - SH ) v(1.0)</Str>
 			<Int sr="arg1">
@@ -2535,11 +1567,23 @@ true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglis
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">UPDATES v(1.0)</Str>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%parar</lhs>
+					<op>2</op>
+					<rhs>parar</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act18" ve="7">
 			<code>47</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">UPDATES v(1.0)</Str>
@@ -2554,42 +1598,9 @@ true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglis
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act19" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">UPDATES v(1.0)</Str>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%active_scheduling</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%to_update</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">retorno</Str>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%active_scheduling</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%to_update</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>339</code>
@@ -2626,6 +1637,39 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act20" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%active_scheduling</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%to_update</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">retorno</Str>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%active_scheduling</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%to_update</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -2636,7 +1680,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act23" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%active_scheduling</Str>
 			<Str sr="arg1" ve="3">%active_scheduling.horario</Str>
@@ -2646,7 +1690,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act24" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%active_scheduling</Str>
 			<Str sr="arg1" ve="3">\:</Str>
@@ -2657,25 +1701,25 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">.</Str>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act25" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">CHECK_SCHEDULE v(1.0)</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act26" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act27" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act28" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">CHECK_SCHEDULE v(1.0)</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act29" ve="7">
 			<code>549</code>
 			<label>template_url</label>
 			<Str sr="arg0" ve="3">%http_response_code</Str>
@@ -2683,7 +1727,17 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%update_info_site</Str>
+			<Str sr="arg1" ve="3">%http_data</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -2717,7 +1771,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act31" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%project_url</Str>
 			<Str sr="arg1" ve="3">%http_data</Str>
@@ -2727,17 +1781,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%update_info_site</Str>
-			<Str sr="arg1" ve="3">%http_data</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act32" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
@@ -2750,7 +1794,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act33" ve="7">
 			<code>549</code>
 			<label>version_url</label>
 			<Str sr="arg0" ve="3">%http_response_code</Str>
@@ -2758,7 +1802,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act34" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -2792,7 +1836,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act35" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
@@ -2805,7 +1849,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act36" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%version</Str>
 			<Str sr="arg1" ve="3">%http_data</Str>
@@ -2815,7 +1859,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act37" ve="7">
 			<code>598</code>
 			<label>remove a quebra de linha</label>
 			<Str sr="arg0" ve="3">%version</Str>
@@ -2827,7 +1871,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act38" ve="7">
 			<code>598</code>
 			<label>remove a quebra de linha</label>
 			<Str sr="arg0" ve="3">%version_url</Str>
@@ -2839,7 +1883,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act39" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%project_url</Str>
 			<Str sr="arg1" ve="3">v\(\d+\.\d+\)</Str>
@@ -2850,7 +1894,18 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">v(%version)</Str>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act4" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%update_info_site</Str>
+			<Str sr="arg1" ve="3">(\r?\n)+\z</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>547</code>
 			<label>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND.prj.xml</label>
 			<Str sr="arg0" ve="3">%name_arq</Str>
@@ -2861,27 +1916,14 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act41" ve="7">
 			<code>410</code>
 			<Str sr="arg0" ve="3">Download/WUZAPI-CHATBOT-TASKS/%name_arq</Str>
 			<Str sr="arg1" ve="3">%project_url</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">template_url_update</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%http_response_code</lhs>
-					<op>3</op>
-					<rhs>200</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act42" ve="7">
 			<code>365</code>
 			<label>FilePathToContentUri(Download/WUZAPI-CHATBOT-TASKS/%name_arq)</label>
 			<Bundle sr="arg0">
@@ -2894,7 +1936,7 @@ URI de Conteúdo
 			</Bundle>
 			<Str sr="arg1" ve="3">FilePathToContentUri(/storage/emulated/0/Download/WUZAPI-CHATBOT-TASKS/%name_arq)</Str>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act43" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%update_info</Str>
 			<Str sr="arg1" ve="3">%update_info_site</Str>
@@ -2904,7 +1946,7 @@ URI de Conteúdo
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act44" ve="7">
 			<code>20</code>
 			<App sr="arg0">
 				<appClass>com.joaomgcd.taskerm.datashare.import.ActivityImportTaskerDataFromXml</appClass>
@@ -2915,15 +1957,28 @@ URI de Conteúdo
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act45" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">#WUZAPI_UPDATES v(1.0)</Str>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act46" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act5" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">template_url_update</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_response_code</lhs>
+					<op>3</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -2940,7 +1995,7 @@ URI de Conteúdo
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">#GENERATE CODES ( JAVA SCRIPT - CSS - SH ) v(1.0)</Str>
 			<Int sr="arg1">
@@ -2956,12 +2011,12 @@ URI de Conteúdo
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>49</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">NO_UPDATES v(1.0)</Str>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>47</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">NO_UPDATES v(1.0)</Str>
@@ -2976,14 +2031,6 @@ URI de Conteúdo
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act9" ve="7">
-			<code>53</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">NO_UPDATES v(1.0)</Str>
-			<Str sr="arg1" ve="3">UPDATES v(1.0)</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-		</Action>
 		<Img sr="icn" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/update.png</fle>
 		</Img>
@@ -2994,7 +2041,7 @@ URI de Conteúdo
 			<pvci>true</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>1187</pvid>
+			<pvid>122</pvid>
 			<pvit>t</pvit>
 			<pvn>%template_url</pvn>
 			<pvt>t</pvt>
@@ -3008,7 +2055,7 @@ URI de Conteúdo
 			<pvci>true</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>1187</pvid>
+			<pvid>122</pvid>
 			<pvit>t</pvit>
 			<pvn>%version_url</pvn>
 			<pvt>t</pvt>
@@ -3022,7 +2069,7 @@ URI de Conteúdo
 			<pvci>true</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>1187</pvid>
+			<pvid>122</pvid>
 			<pvit>t</pvit>
 			<pvn>%template_url_update</pvn>
 			<pvt>t</pvt>
@@ -3036,7 +2083,7 @@ URI de Conteúdo
 			<pvci>false</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>1187</pvid>
+			<pvid>122</pvid>
 			<pvit>t</pvit>
 			<pvn>%update_info</pvn>
 			<pvt>t</pvt>
@@ -3067,16 +2114,14 @@ URI de Conteúdo
 • Remoção da barra de progresso das cenas NO_UPDATES e UPDATES v1.0.
 • Correção das informações de grupo na tarefa: Wuzapi ChatBoot - Get Group...
 • Reconexão automática na tarefa #PARSE_RECEIVED_MESSAGES v1.0.
-─────────────────────────────
-•
-</pvv>
+─────────────────────────────</pvv>
 			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
-	<Task sr="task135">
+	<Task sr="task129">
 		<cdate>1746619373833</cdate>
 		<edate>1747397508900</edate>
-		<id>135</id>
+		<id>129</id>
 		<nme>#TASK_SEND_ICONS v(1.0)</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -3195,10 +2240,10 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/link-icons.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task137">
+	<Task sr="task130">
 		<cdate>1733522055846</cdate>
-		<edate>1747951319489</edate>
-		<id>137</id>
+		<edate>1748284835410</edate>
+		<id>130</id>
 		<nme>#RESET_CONNECTION_TO_THE_SERVER v(1.0)</nme>
 		<pri>51</pri>
 		<rty>1</rty>
@@ -3637,9 +2682,71 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act35" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">#RESET_CONNECTION_TO_THE_SERVER v(1.0)</Str>
+			<code>300</code>
+			<label>Baixar grupos para resgatar o nome
+Vinculado a tarefa #PARSE_RECEIVED_MESSAGES v(1.0)</label>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var users = JSON.parse(local("users"));
+var ports = users.map(function(user) {
+  return user.port;
+});
+var portsString = ports.join(',');
+setLocal("ports", portsString);
+setLocal("ports_count", ports.length);</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%ports</Str>
+			<Str sr="arg1" ve="3">%ports</Str>
+			<Str sr="arg2" ve="3">,</Str>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>339</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
+Cabeçalhos de Resposta
+Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
+Cookies
+Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Código de Resposta
+O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
+Dado
+Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
+Saída do Arquivo
+Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Tamanho da Resposta
+O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">https://www.google.com/</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%test_connection</Str>
+			<Str sr="arg1" ve="3">%http_response_code</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>37</code>
@@ -3651,6 +2758,195 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%download_groups</Str>
+			<Str sr="arg1" ve="3">%ports()</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>339</code>
+			<label>reconect</label>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
+Cabeçalhos de Resposta
+Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
+Cookies
+Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Código de Resposta
+O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
+Dado
+Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
+Saída do Arquivo
+Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Tamanho da Resposta
+O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">http://localhost:8080/group/list</Str>
+			<Str sr="arg3" ve="3">Token: %download_groups</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8">
+				<var>30</var>
+			</Int>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%http_data</lhs>
+					<op>4</op>
+					<rhs>^\{\s*"code"\s*:\s*500\s*,\s*"data"\s*:\s*\{\}\s*,\s*"success"\s*:\s*true\s*\}$</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%test_connection</lhs>
+					<op>2</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%cont</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>339</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
+Cabeçalhos de Resposta
+Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
+Cookies
+Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Código de Resposta
+O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
+Dado
+Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
+Saída do Arquivo
+Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Tamanho da Resposta
+O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">http://localhost:8080/session/disconnect</Str>
+			<Str sr="arg3" ve="3">Token: %port</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>365</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">TermuxCommand(/data/data/com.termux/files/home/WUZAPI-CHAT-BOT/start_wuzapi.sh,,,true)</Str>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>339</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
+Cabeçalhos de Resposta
+Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
+Cookies
+Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Código de Resposta
+O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
+Dado
+Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
+Saída do Arquivo
+Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Tamanho da Resposta
+O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">http://localhost:8080/session/connect</Str>
+			<Str sr="arg3" ve="3">Token: %port</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">{
+
+"Subscribe":["Message"],
+"Immediate":false
+
+}</Str>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act47" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">&lt;big&gt;&lt;big&gt;&lt;big&gt;
+
+%cont</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="1"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">500</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="4"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%cont</lhs>
+					<op>2</op>
+					<rhs>10</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">reconect</Str>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
@@ -3667,6 +2963,46 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act50" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%path_group</Str>
+			<Str sr="arg1" ve="3">/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/groups/%download_groups.txt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">%path_group</Str>
+			<Str sr="arg1" ve="3">%http_data</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_response_code</lhs>
+					<op>2</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act53" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act54" ve="7">
+			<code>300</code>
+			<label>Baixar grupos para resgatar o nome
+Vinculado a tarefa #PARSE_RECEIVED_MESSAGES v(1.0)</label>
+		</Action>
+		<Action sr="act55" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">#RESET_CONNECTION_TO_THE_SERVER v(1.0)</Str>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>38</code>
@@ -3702,12 +3038,12 @@ setLocal("ports_users", ports_extracted);</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/check-errors.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task138">
+	<Task sr="task133">
 		<cdate>1747112431353</cdate>
 		<edate>1747996146210</edate>
-		<id>138</id>
+		<id>133</id>
 		<nme>#CHECK_SCHEDULE v(1.0)</nme>
-		<pri>100</pri>
+		<pri>6</pri>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>137</code>
@@ -3771,10 +3107,10 @@ setLocal("ports_users", ports_extracted);</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/time-management.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task139">
+	<Task sr="task135">
 		<cdate>1746536799048</cdate>
 		<edate>1747854633439</edate>
-		<id>139</id>
+		<id>135</id>
 		<nme>#REWRITE_USER v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -4042,10 +3378,549 @@ try {
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/disconnect.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task142">
+	<Task sr="task137">
+		<cdate>1732515010938</cdate>
+		<edate>1747475658470</edate>
+		<id>137</id>
+		<nme>#PROCESS_REQUISITIONS_REQUESTS v(1.0)</nme>
+		<pri>100</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>connection</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">AGUARDE CONEXÃO EM ANDAMENTO</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3">#FF07792A</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3">top,0,400</Str>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3">10</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">TENTANDO CONECTAR AO WHATSAPP WEB</Str>
+			<Str sr="arg4" ve="3">https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png</Str>
+			<Str sr="arg5" ve="3">40</Str>
+			<Str sr="arg6" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">15000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cod</Str>
+			<Str sr="arg1" ve="3">%http_data.LinkingCode</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>339</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
+Cookies
+The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_data
+Dado
+Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">http://localhost:8080/session/status</Str>
+			<Str sr="arg3" ve="3">Token: %port</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">.</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3">#FF07792A</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3">top,0,400</Str>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3">10</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png</Str>
+			<Str sr="arg5" ve="3">40</Str>
+			<Str sr="arg6" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">20</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="200"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%time</Str>
+			<Str sr="arg1" ve="3">60</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<label>cor da informação do texto na cena
+WAITING-FOR-SETTINGS v(1.0)</label>
+			<Str sr="arg0" ve="3">%color_text_inf</Str>
+			<Str sr="arg1" ve="3">#000000</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<label>margem da cena
+WAITING-FOR-SETTINGS v(1.0)
+
+
+--marginTop: flex-start
+--marginTop: center
+--marginTop: flex-end</label>
+			<Str sr="arg0" ve="3">%margin</Str>
+			<Str sr="arg1" ve="3">center</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<label>cor da informação do texto na cena
+WAITING-FOR-SETTINGS v(1.0)</label>
+			<Str sr="arg0" ve="3">%color_container</Str>
+			<Str sr="arg1" ve="3">rgba(37, 211, 102, 0.9)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>339</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
+Cookies
+The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_data
+Dado
+Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">http://localhost:8080/session/connect</Str>
+			<Str sr="arg3" ve="3">Token: %port
+Content-Type: application/json</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">{"Subscribe":["Message"],"Immediate":false}</Str>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>417</code>
+			<label>aguardando a conexão do WhatsApp web para os próximos usuários</label>
+			<Str sr="arg0" ve="3">Tasker/termux/TASKER-WUZAPI/logs/install.log</Str>
+			<Str sr="arg1" ve="3">%log_ouput</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%time</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Tempo excedido tente novamente....</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3">#FF000000</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3">top,0,800</Str>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3">10</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">Erro ao conectar</Str>
+			<Str sr="arg4" ve="3">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbiCyWWVj8-HxM4j8CL0upJDil5Bw1-nEcCdYOyJtSvCpISugBciNrp_g&amp;s=10</Str>
+			<Str sr="arg5" ve="3">40</Str>
+			<Str sr="arg6" ve="3">#FFFF0000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">1</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>779</code>
+			<Str sr="arg0" ve="3">Código De Pareamento</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%time</Str>
+			<Str sr="arg1" ve="3">%time</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%time</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>339</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
+Cookies
+The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_data
+Dado
+Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">http://localhost:8080/session/pairphone</Str>
+			<Str sr="arg3" ve="3">Token: %port
+Content-Type: application/json</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">{
+   "Phone": "%phone"
+}</Str>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>547</code>
+			<label>informação que irá ser exibido na cena
+WAITING-FOR-SETTINGS v(1.0)</label>
+			<Str sr="arg0" ve="3">%text_inf</Str>
+			<Str sr="arg1" ve="3">Código de pareamento gerado&lt;br&gt;
+☛ %cod ☚
+&lt;br&gt;
+Código válido por um minuto&lt;br&gt;
+&lt;br&gt;
+Tempo Restante ( %time )
+&lt;br&gt;
+Aguardando conexão no WhatsApp web</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>53</code>
+			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
+			<Str sr="arg1" ve="3">WAITING FOR SETTINGS</Str>
+			<Int sr="arg2" val="11"/>
+			<Str sr="arg3" ve="3"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">aguardando a conexão do WhatsApp web para os próximos usuários</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%log_ouput</lhs>
+					<op>5</op>
+					<rhs>QR pairing ok! host=0.0.0.0 role=wuzapi</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<label>conectado</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%log_ouput</lhs>
+					<op>4</op>
+					<rhs>QR pairing ok! host=0.0.0.0 role=wuzapi</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>341</code>
+			<label>conectar ip ao servidor</label>
+			<Int sr="arg0" val="11"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%local_ip</Str>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>339</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
+Cookies
+The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_data
+Dado
+Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">http://localhost:8080/webhook</Str>
+			<Str sr="arg3" ve="3">Token: %port</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">{"webhookURL":"http://%local_ip:1025"}</Str>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>779</code>
+			<Str sr="arg0" ve="3">Código De Pareamento</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%cod</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%status</Str>
+			<Str sr="arg1" ve="3">sucess</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_data</lhs>
+					<op>4</op>
+					<rhs>java.net.ConnectException: Failed to connect to localhost/127.0.0.1:8080</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Erro ao conectar</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3">#FF000000</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3">top,0,800</Str>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3">10</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">Reinicie o celular e tente novamente </Str>
+			<Str sr="arg4" ve="3">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbiCyWWVj8-HxM4j8CL0upJDil5Bw1-nEcCdYOyJtSvCpISugBciNrp_g&amp;s=10</Str>
+			<Str sr="arg5" ve="3">40</Str>
+			<Str sr="arg6" ve="3">#FFFF0000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">7000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Código De Pareamento</Str>
+			<Str sr="arg1" ve="3">%http_data.LinkingCode</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Str sr="arg12" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<var>https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png</var>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="5"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>105</code>
+			<Str sr="arg0" ve="3">%http_data.LinkingCode</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/http.png</fle>
+		</Img>
+		<ProfileVariable sr="pv0">
+			<clearout>false</clearout>
+			<exportval></exportval>
+			<immutable>false</immutable>
+			<pvci>true</pvci>
+			<pvd></pvd>
+			<pvdn></pvdn>
+			<pvid>955</pvid>
+			<pvit>t</pvit>
+			<pvn>%cod</pvn>
+			<pvt>t</pvt>
+			<strout>true</strout>
+		</ProfileVariable>
+	</Task>
+	<Task sr="task138">
 		<cdate>1743280624629</cdate>
 		<edate>1747995943383</edate>
-		<id>142</id>
+		<id>138</id>
 		<nme>#CHECK_VARIABLE_ERRORS v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -5579,549 +5454,10 @@ if (missingVariables.length &gt; 0) {
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/capture-number.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task173">
-		<cdate>1732515010938</cdate>
-		<edate>1747475658470</edate>
-		<id>173</id>
-		<nme>#PROCESS_REQUISITIONS_REQUESTS v(1.0)</nme>
-		<pri>100</pri>
-		<rty>2</rty>
-		<Action sr="act0" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>2</op>
-					<rhs>connection</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">AGUARDE CONEXÃO EM ANDAMENTO</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3">#FF07792A</Str>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3">top,0,400</Str>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3">10</Str>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3">TENTANDO CONECTAR AO WHATSAPP WEB</Str>
-			<Str sr="arg4" ve="3">https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png</Str>
-			<Str sr="arg5" ve="3">40</Str>
-			<Str sr="arg6" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">15000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cod</Str>
-			<Str sr="arg1" ve="3">%http_data.LinkingCode</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>339</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
-Cookies
-The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_data
-Dado
-Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_file_output
-File Output
-Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_code
-Response Code
-The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_headers()
-Response Headers
-The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
-Response Length
-The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="0"/>
-			<Int sr="arg11" val="0"/>
-			<Int sr="arg12" val="1"/>
-			<Str sr="arg2" ve="3">http://localhost:8080/session/status</Str>
-			<Str sr="arg3" ve="3">Token: %port</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">.</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3">#FF07792A</Str>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3">top,0,400</Str>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3">10</Str>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png</Str>
-			<Str sr="arg5" ve="3">40</Str>
-			<Str sr="arg6" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">20</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="200"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%time</Str>
-			<Str sr="arg1" ve="3">60</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>547</code>
-			<label>cor da informação do texto na cena
-WAITING-FOR-SETTINGS v(1.0)</label>
-			<Str sr="arg0" ve="3">%color_text_inf</Str>
-			<Str sr="arg1" ve="3">#000000</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>547</code>
-			<label>margem da cena
-WAITING-FOR-SETTINGS v(1.0)
-
-
---marginTop: flex-start
---marginTop: center
---marginTop: flex-end</label>
-			<Str sr="arg0" ve="3">%margin</Str>
-			<Str sr="arg1" ve="3">center</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>547</code>
-			<label>cor da informação do texto na cena
-WAITING-FOR-SETTINGS v(1.0)</label>
-			<Str sr="arg0" ve="3">%color_container</Str>
-			<Str sr="arg1" ve="3">rgba(37, 211, 102, 0.9)</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>339</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
-Cookies
-The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_data
-Dado
-Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_file_output
-File Output
-Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_code
-Response Code
-The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_headers()
-Response Headers
-The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
-Response Length
-The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg10" val="0"/>
-			<Int sr="arg11" val="0"/>
-			<Int sr="arg12" val="1"/>
-			<Str sr="arg2" ve="3">http://localhost:8080/session/connect</Str>
-			<Str sr="arg3" ve="3">Token: %port
-Content-Type: application/json</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3">{"Subscribe":["Message"],"Immediate":false}</Str>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act20" ve="7">
-			<code>417</code>
-			<label>aguardando a conexão do WhatsApp web para os próximos usuários</label>
-			<Str sr="arg0" ve="3">Tasker/termux/TASKER-WUZAPI/logs/install.log</Str>
-			<Str sr="arg1" ve="3">%log_ouput</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%time</lhs>
-					<op>2</op>
-					<rhs>0</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
-		</Action>
-		<Action sr="act24" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">Tempo excedido tente novamente....</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3">#FF000000</Str>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3">top,0,800</Str>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3">10</Str>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3">Erro ao conectar</Str>
-			<Str sr="arg4" ve="3">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbiCyWWVj8-HxM4j8CL0upJDil5Bw1-nEcCdYOyJtSvCpISugBciNrp_g&amp;s=10</Str>
-			<Str sr="arg5" ve="3">40</Str>
-			<Str sr="arg6" ve="3">#FFFF0000</Str>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">1</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act25" ve="7">
-			<code>779</code>
-			<Str sr="arg0" ve="3">Código De Pareamento</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%time</Str>
-			<Str sr="arg1" ve="3">%time</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>890</code>
-			<Str sr="arg0" ve="3">%time</Str>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>339</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
-Cookies
-The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_data
-Dado
-Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_file_output
-File Output
-Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_code
-Response Code
-The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_headers()
-Response Headers
-The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
-Response Length
-The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="1"/>
-			<Str sr="arg2" ve="3">http://localhost:8080/session/pairphone</Str>
-			<Str sr="arg3" ve="3">Token: %port
-Content-Type: application/json</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3">{
-   "Phone": "%phone"
-}</Str>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act30" ve="7">
-			<code>547</code>
-			<label>informação que irá ser exibido na cena
-WAITING-FOR-SETTINGS v(1.0)</label>
-			<Str sr="arg0" ve="3">%text_inf</Str>
-			<Str sr="arg1" ve="3">Código de pareamento gerado&lt;br&gt;
-☛ %cod ☚
-&lt;br&gt;
-Código válido por um minuto&lt;br&gt;
-&lt;br&gt;
-Tempo Restante ( %time )
-&lt;br&gt;
-Aguardando conexão no WhatsApp web</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act31" ve="7">
-			<code>53</code>
-			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
-			<Str sr="arg1" ve="3">WAITING FOR SETTINGS</Str>
-			<Int sr="arg2" val="11"/>
-			<Str sr="arg3" ve="3"/>
-		</Action>
-		<Action sr="act32" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">aguardando a conexão do WhatsApp web para os próximos usuários</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%log_ouput</lhs>
-					<op>5</op>
-					<rhs>QR pairing ok! host=0.0.0.0 role=wuzapi</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act33" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">WAITING-FOR-SETTINGS v(1.0)</Str>
-		</Action>
-		<Action sr="act34" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<label>conectado</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%log_ouput</lhs>
-					<op>4</op>
-					<rhs>QR pairing ok! host=0.0.0.0 role=wuzapi</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act35" ve="7">
-			<code>341</code>
-			<label>conectar ip ao servidor</label>
-			<Int sr="arg0" val="11"/>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">%local_ip</Str>
-		</Action>
-		<Action sr="act36" ve="7">
-			<code>339</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
-Cookies
-The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_data
-Dado
-Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_file_output
-File Output
-Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_code
-Response Code
-The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_headers()
-Response Headers
-The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
-Response Length
-The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg10" val="0"/>
-			<Int sr="arg11" val="0"/>
-			<Int sr="arg12" val="1"/>
-			<Str sr="arg2" ve="3">http://localhost:8080/webhook</Str>
-			<Str sr="arg3" ve="3">Token: %port</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3">{"webhookURL":"http://%local_ip:1025"}</Str>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act37" ve="7">
-			<code>779</code>
-			<Str sr="arg0" ve="3">Código De Pareamento</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act38" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%cod</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act39" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%status</Str>
-			<Str sr="arg1" ve="3">sucess</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%http_data</lhs>
-					<op>4</op>
-					<rhs>java.net.ConnectException: Failed to connect to localhost/127.0.0.1:8080</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act40" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="1"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act41" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act42" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">Erro ao conectar</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3">#FF000000</Str>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3">top,0,800</Str>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3">10</Str>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3">Reinicie o celular e tente novamente </Str>
-			<Str sr="arg4" ve="3">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbiCyWWVj8-HxM4j8CL0upJDil5Bw1-nEcCdYOyJtSvCpISugBciNrp_g&amp;s=10</Str>
-			<Str sr="arg5" ve="3">40</Str>
-			<Str sr="arg6" ve="3">#FFFF0000</Str>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">7000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>523</code>
-			<Str sr="arg0" ve="3">Código De Pareamento</Str>
-			<Str sr="arg1" ve="3">%http_data.LinkingCode</Str>
-			<Str sr="arg10" ve="3"/>
-			<Str sr="arg11" ve="3"/>
-			<Str sr="arg12" ve="3"/>
-			<Img sr="arg2" ve="2">
-				<var>https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png</var>
-			</Img>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5" val="5"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-			<Str sr="arg9" ve="3"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>105</code>
-			<Str sr="arg0" ve="3">%http_data.LinkingCode</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Img sr="icn" ve="2">
-			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/http.png</fle>
-		</Img>
-		<ProfileVariable sr="pv0">
-			<clearout>false</clearout>
-			<exportval></exportval>
-			<immutable>false</immutable>
-			<pvci>true</pvci>
-			<pvd></pvd>
-			<pvdn></pvdn>
-			<pvid>955</pvid>
-			<pvit>t</pvit>
-			<pvn>%cod</pvn>
-			<pvt>t</pvt>
-			<strout>true</strout>
-		</ProfileVariable>
-	</Task>
-	<Task sr="task174">
+	<Task sr="task139">
 		<cdate>1747331892714</cdate>
 		<edate>1747331892714</edate>
-		<id>174</id>
+		<id>139</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
@@ -6129,10 +5465,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">UPDATES v(1.0)</Str>
 		</Action>
 	</Task>
-	<Task sr="task175">
+	<Task sr="task142">
 		<cdate>1731950391571</cdate>
-		<edate>1747949337308</edate>
-		<id>175</id>
+		<edate>1748270522665</edate>
+		<id>142</id>
 		<nme>☛ INSTALL_AND_CONNECT_WHATSAPP _WEB v(1.0) ☚</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -6340,7 +5676,7 @@ The label of the button that was clicked&lt;/_array_net.dinglisch.android.tasker
 		</Action>
 		<Action sr="act23" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%time</lhs>
@@ -6677,10 +6013,10 @@ The label of the button that was clicked&lt;/_array_net.dinglisch.android.tasker
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/conect-whatsapp.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task176">
+	<Task sr="task173">
 		<cdate>1742857701235</cdate>
 		<edate>1747398385354</edate>
-		<id>176</id>
+		<id>173</id>
 		<nme>#VIEW_AND_RESTORE_CONNECTION_DELETE_COPY v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -6969,10 +6305,10 @@ setLocal("auto_del", auto_del);</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/reconect.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task177">
+	<Task sr="task174">
 		<cdate>1746316969002</cdate>
 		<edate>1747948095335</edate>
-		<id>177</id>
+		<id>174</id>
 		<nme>☛ CAPTURE_NUMBER_AND_JID v(1.0) ☚</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -7086,10 +6422,10 @@ setLocal("name", nome);</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/capture-number.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task178">
+	<Task sr="task175">
 		<cdate>1742831555568</cdate>
-		<edate>1747995921239</edate>
-		<id>178</id>
+		<edate>1748270440955</edate>
+		<id>175</id>
 		<nme>#SEND_MESSAGES_AND_FILES v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -11288,20 +10624,20 @@ Content-Type:application/json</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/send-message.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task179">
+	<Task sr="task176">
 		<cdate>1747331912132</cdate>
 		<edate>1747331912132</edate>
-		<id>179</id>
+		<id>176</id>
 		<pri>103</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">NO_UPDATES v(1.0)</Str>
 		</Action>
 	</Task>
-	<Task sr="task181">
+	<Task sr="task177">
 		<cdate>1731963712394</cdate>
 		<edate>1747951133950</edate>
-		<id>181</id>
+		<id>177</id>
 		<nme>#GENERATE CODES ( JAVA SCRIPT - CSS - SH ) v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -14241,10 +13577,10 @@ modal.addEventListener('click', (e) =&gt; {
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/generate-codes.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task183">
+	<Task sr="task178">
 		<cdate>1733280908979</cdate>
 		<edate>1733280908979</edate>
-		<id>183</id>
+		<id>178</id>
 		<pri>112</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -14261,10 +13597,10 @@ modal.addEventListener('click', (e) =&gt; {
 			<Str sr="arg0" ve="3">INSTALLATION_INFORMATION v(1.0)</Str>
 		</Action>
 	</Task>
-	<Task sr="task184">
+	<Task sr="task179">
 		<cdate>1733454778508</cdate>
 		<edate>1747478367132</edate>
-		<id>184</id>
+		<id>179</id>
 		<nme>#DISCONNECT_USER_FROM_WHATSAPP v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -14569,10 +13905,10 @@ storeInTasker(jsonUsers);</Str>
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/desconect-user.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task185">
+	<Task sr="task181">
 		<cdate>1746553999747</cdate>
 		<edate>1747924794141</edate>
-		<id>185</id>
+		<id>181</id>
 		<nme>#ICON_DOWNLOAD v(1.0)</nme>
 		<pri>6</pri>
 		<rty>2</rty>
@@ -14999,10 +14335,10 @@ true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglis
 			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
-	<Task sr="task186">
+	<Task sr="task183">
 		<cdate>1729096715422</cdate>
 		<edate>1747478587548</edate>
-		<id>186</id>
+		<id>183</id>
 		<nme>#INSTALL_WUZAPI-CHAT-BOT_END_CONNECT_TO_WHATSAPP v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -15652,6 +14988,967 @@ setLocal("port_status", isPortInUse ? "false" : "true");</Str>
 		</Action>
 		<Img sr="icn" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/conect-user.png</fle>
+		</Img>
+	</Task>
+	<Task sr="task184">
+		<cdate>1743412289073</cdate>
+		<edate>1748285360289</edate>
+		<id>184</id>
+		<nme>☛ TASKERS_DOWNLOAD_TASKS v(1.0) ☚</nme>
+		<pri>100</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%users</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Não há nenhum usuário conectado
+
+There is no user connected</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FF802424</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%project_url</Str>
+			<Str sr="arg1" ve="3">%http_data</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">template_url</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_response_code</lhs>
+					<op>3</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%project_url</Str>
+			<Str sr="arg1" ve="3">plchldr</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">%port</Str>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>549</code>
+			<label>version_url</label>
+			<Str sr="arg0" ve="3">%http_response_code</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>339</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
+Cabeçalhos de Resposta
+Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
+Cookies
+Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Código de Resposta
+O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
+Dado
+Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
+Saída do Arquivo
+Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Tamanho da Resposta
+O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">%version_url</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">version_url</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_response_code</lhs>
+					<op>3</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%version</Str>
+			<Str sr="arg1" ve="3">%http_data</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>598</code>
+			<label>remove a quebra de linha</label>
+			<Str sr="arg0" ve="3">%version</Str>
+			<Str sr="arg1" ve="3">\n</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%port(1)</Str>
+			<Str sr="arg1" ve="3">%port</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%project_url</Str>
+			<Str sr="arg1" ve="3">progvers\(vcod\)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">v(1.0)</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>547</code>
+			<label>_ID__plchldr__progvers_vcod___Wuzapi_ChatBoot___tasks_submit.prj.xml</label>
+			<Str sr="arg0" ve="3">%name_arq</Str>
+			<Str sr="arg1" ve="3">_ID__IDENTIFIER__%port(1)__progvers_vcod__WUZAPI_CHATBOOT_SEND_MESSAGES_AND_FILES.prj.xml</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%project_url</Str>
+			<Str sr="arg1" ve="3">progvers \(v cod\)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">v(1.0)</Str>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">#TASK_SEND_ICONS v(1.0)</Str>
+			<Int sr="arg1">
+				<var>%priority+10</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%project_url</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">%project_url/%port</Str>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">Download/WUZAPI-CHATBOT-TASKS/%name_arq</Str>
+			<Str sr="arg1" ve="3">%project_url</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>365</code>
+			<label>FilePathToContentUri(Download/WUZAPI-CHATBOT-TASKS/%name_arq)</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%content_uri
+URI de Conteúdo
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">FilePathToContentUri(/storage/emulated/0/Download/WUZAPI-CHATBOT-TASKS/%name_arq)</Str>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>com.joaomgcd.taskerm.datashare.import.ActivityImportTaskerDataFromXml</appClass>
+				<appPkg>net.dinglisch.android.taskerm</appPkg>
+				<label>Tasker:com.joaomgcd.taskerm.datashare.import.ActivityImportTaskerDataFromXml</label>
+			</App>
+			<Str sr="arg1" ve="3">%content_uri</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ld_button</lhs>
+					<op>2</op>
+					<rhs>SAIR</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%ld_button</lhs>
+					<op>2</op>
+					<rhs>EXIT</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>129</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">var users = JSON.parse(local("users"));
+var ports = users.map(function(user) {
+  return user.port;
+});
+var portsString = ports.join(',');
+setLocal("ports", portsString);
+setLocal("ports_count", ports.length);</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>378</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ld_button
+Botão
+O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ld_long
+Long
+true se o item foi tocado longamente, false caso contrário&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%ld_selected
+Selecionado
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%ld_selected_index
+Índice Selecionado
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3">Selecione uma das portas para baixar as tarefas de envio
+
+Select one of the ports to download the shipping tasks</Str>
+			<Str sr="arg2" ve="3">PORTA(s) ENCONTRADA(s) ( %ports_count )</Str>
+			<Str sr="arg3" ve="3">%ports</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">SAIR</Str>
+			<Str sr="arg7" ve="3">EXIT</Str>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="120"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ld_selected</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%port</Str>
+			<Str sr="arg1" ve="3">%ld_selected</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>549</code>
+			<label>template_url</label>
+			<Str sr="arg0" ve="3">%http_response_code</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>339</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
+Cabeçalhos de Resposta
+Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
+Cookies
+Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Código de Resposta
+O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
+Dado
+Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
+Saída do Arquivo
+Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Tamanho da Resposta
+O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">%template_url</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/download.png</fle>
+		</Img>
+		<ProfileVariable sr="pv0">
+			<clearout>true</clearout>
+			<exportval></exportval>
+			<immutable>true</immutable>
+			<pvci>false</pvci>
+			<pvd></pvd>
+			<pvdn></pvdn>
+			<pvid>273</pvid>
+			<pvit>t</pvit>
+			<pvn>%template_url</pvn>
+			<pvt>t</pvt>
+			<pvv>https://raw.githubusercontent.com/WUZAPI-CHAT-BOT/TAREFAS-DE-ENVIO/refs/heads/main/_ID__plchldr__progvers_vcod___Wuzapi_ChatBoot___tasks_submit.prj.xml</pvv>
+			<strout>true</strout>
+		</ProfileVariable>
+		<ProfileVariable sr="pv1">
+			<clearout>true</clearout>
+			<exportval></exportval>
+			<immutable>true</immutable>
+			<pvci>false</pvci>
+			<pvd></pvd>
+			<pvdn></pvdn>
+			<pvid>273</pvid>
+			<pvit>t</pvit>
+			<pvn>%version_url</pvn>
+			<pvt>t</pvt>
+			<pvv>https://raw.githubusercontent.com/WUZAPI-CHAT-BOT/VERSION-WUZAPI-CHAT-BOOT/refs/heads/main/Version%20wuzapi%20chatbot</pvv>
+			<strout>true</strout>
+		</ProfileVariable>
+	</Task>
+	<Task sr="task202">
+		<cdate>1748268450308</cdate>
+		<edate>1748268450308</edate>
+		<id>202</id>
+		<pri>103</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">NO_UPDATES v(1.0)</Str>
+		</Action>
+	</Task>
+	<Task sr="task203">
+		<cdate>1748268502724</cdate>
+		<edate>1748268502724</edate>
+		<id>203</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">UPDATES v(1.0)</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%parar</Str>
+			<Str sr="arg1" ve="3">parar</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task33">
+		<cdate>1733452720303</cdate>
+		<edate>1747322055572</edate>
+		<id>33</id>
+		<nme>☛ UNLINK_USER_FROM_WHATSAPP_WEB v(1.0) ☚</nme>
+		<pri>100</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">#DISCONNECT_USER_FROM_WHATSAPP v(1.0)</Str>
+			<Int sr="arg1">
+				<var>%priority+10</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">desconect_user</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3">%phone</Str>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">#DISCONNECT_USER_FROM_WHATSAPP v(1.0)</Str>
+			<Int sr="arg1">
+				<var>%priority+10</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">user_to_remove</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">%phone/%port</Str>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%phone</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%sucess</lhs>
+					<op>2</op>
+					<rhs>sucess</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%project_path</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">#GENERATE CODES ( JAVA SCRIPT - CSS - SH ) v(1.0)</Str>
+			<Int sr="arg1">
+				<var>%priority+10</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">confirm disconnection</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">%check_removed_user</Str>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">CHECK_DISCONNECTION v(1.0)</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>47</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">CHECK_DISCONNECTION v(1.0)</Str>
+			<Int sr="arg1" val="10"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">CHECK_DISCONNECTION v(1.0)</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Img sr="icn" ve="2">
+			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/desconect-whatsapp.png</fle>
+		</Img>
+	</Task>
+	<Task sr="task35">
+		<cdate>1745605035679</cdate>
+		<edate>1748284259759</edate>
+		<id>35</id>
+		<nme>#PARSE_RECEIVED_MESSAGES v(1.0)</nme>
+		<pri>11</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%caller1</lhs>
+					<op>2</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>596</code>
+			<Str sr="arg0" ve="3">%http_request_body</Str>
+			<Int sr="arg1" val="18"/>
+			<Str sr="arg2" ve="3">%json_response</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>396</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%mt_match
+Equivalente
+Can also be accessed as an array&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%mt_groups()
+Groups
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%mt_match_found
+Is Match
+true if there was a match, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%sender_received</Str>
+			<Str sr="arg3" ve="3">(?P&lt;sender_received&gt;\d+)[:@].*</Str>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%sender_received</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<label>identificação de nome de grupo</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isgroup</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%path_group</Str>
+			<Str sr="arg1" ve="3">/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/groups/%port.txt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">%path_group</Str>
+			<Str sr="arg1" ve="3">%group_list</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">try {
+    var group_list = local("group_list");
+    var jid = local("jid");
+    var data = JSON.parse(group_list);
+    var group_name = "";
+    for (var i = 0; i &lt; data.data.Groups.length; i++) {
+        var groupJID = data.data.Groups[i].JID.split("@")[0];
+        if (groupJID === jid) {
+            group_name = data.data.Groups[i].Name;
+            break;
+        }
+    }
+    setLocal("group_name", group_name);
+} catch (e) {
+    setLocal("group_name", "Erro: JSON inválido ou JID não encontrado");
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>129</code>
+			<label>Identifica se o usuário está vinculado no modo operacional send and receive
+so ativar se nao quiser receber o numero do seu proprio aparelho
+Para ativar a tarefa ☛ RECEIVE MESSAGE INFORMATION ☚ utilize a condição
+se modo_op~send and receive</label>
+			<Str sr="arg0" ve="3">let inputPort = (local('port') || '').toString().trim();
+let usersArray = JSON.parse(local('users') || '[]');
+
+let foundUser = usersArray.find(user =&gt; {
+    return user &amp;&amp; user.port &amp;&amp; user.port.toString().trim() === inputPort;
+});
+
+setLocal('modo_op', foundUser ? foundUser.modo_op : '');</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">☛ RECEIVE MESSAGE INFORMATION ☚</Str>
+			<Int sr="arg1">
+				<var>%priority+30</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">%port/%sender_number/%my_number/%isgroup/%image_caption/%video_caption/%arq_caption/%file_extension/%file_name/%message_id/%type/%pushname/%time_stamp/%sender_received/%group_name/%jid/%contact_phone_vcard/%message/%reaction_text/%link_location/%link_title/%link_description/%link_location_maps/%receiver_latitude/%receiver_longitude/%messagesecret/%full_json</Str>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%json_response</Str>
+			<Str sr="arg1" ve="3">jsonData=</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<label>pegar porta</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_request_multipart_values(#)</lhs>
+					<op>3</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>396</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%port
+0. Port
+Também pode ser acessado como um array&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%mt_match
+Equivalente
+Também pode ser acessado como um array&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%mt_groups()
+Grupos
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%mt_match_found
+É Correspondência
+true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%http_request_multipart_values()</Str>
+			<Str sr="arg3" ve="3">(?&lt;port&gt;\d+)$</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>396</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%port
+0. Port
+Também pode ser acessado como um array&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%mt_match
+Equivalente
+Também pode ser acessado como um array&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%mt_groups()
+Grupos
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%mt_match_found
+É Correspondência
+true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%json_response</Str>
+			<Str sr="arg3" ve="3">(?&lt;port&gt;\d+)$</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>129</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">const inputJSON = local("json_response");
+
+const cleanedJSON = inputJSON.split("&amp;token=")[0];
+const tokenMatch = inputJSON.match(/&amp;token=(\d+)/);
+
+try {
+    const jsonData = JSON.parse(cleanedJSON);
+    const info = jsonData.event.Info;
+    const mensagem = jsonData.event.Message;
+
+    setLocal("full_json", inputJSON);
+
+    if (tokenMatch &amp;&amp; tokenMatch[1]) {
+        setLocal("port", tokenMatch[1]);
+    }
+
+    setLocal("sender_number", info.Sender);
+    setLocal("my_number", info.IsFromMe);
+    setLocal("message_id", info.ID); // Mantém a captura do ID
+    setLocal("pushname", info.PushName || "Desconhecido"); // Garante captura do pushname
+
+    // Verifica se é um status (status@broadcast)
+    if (info.Chat === "status@broadcast") {
+        setLocal("isgroup", false); // Define isgroup como false para status
+        setLocal("type", "status_message"); // Define tipo como status_message
+        // Não define jid para status
+    } else {
+        setLocal("isgroup", info.IsGroup);
+        setLocal("type", info.Type);
+        if (info.IsGroup) {
+            setLocal("jid", info.Chat.replace('@g.us', ''));
+        }
+    }
+
+    const data = new Date();
+    const horarioBR = new Date(data.toLocaleString("en-US", { timeZone: "America/Sao_Paulo" }));
+    const formatarNumero = num =&gt; ('0' + num).slice(-2);
+    const dia = formatarNumero(horarioBR.getDate());
+    const mes = formatarNumero(horarioBR.getMonth() + 1);
+    const ano = horarioBR.getFullYear();
+    const hora = formatarNumero(horarioBR.getHours());
+    const minuto = formatarNumero(horarioBR.getMinutes());
+    const segundo = formatarNumero(horarioBR.getSeconds());
+    setLocal("time_stamp", `${hora}:${minuto}:${segundo} ${dia}/${mes}/${ano}`);
+
+    setLocal("sender_received", info.DeviceSentMeta ? info.DeviceSentMeta.DestinationJID : null);
+
+    if (mensagem) {
+        setLocal("message", mensagem.conversation || mensagem.extendedTextMessage?.text || "");
+
+        if (mensagem.stickerMessage) {
+            setLocal("type", "stick_message");
+            setLocal("file_extension", mensagem.stickerMessage.mimetype ? mensagem.stickerMessage.mimetype.split('/')[1] : "");
+        }
+
+        if (mensagem.contactMessage &amp;&amp; mensagem.contactMessage.vcard) {
+            setLocal("type", "phone_contact");
+            const vCard = mensagem.contactMessage.vcard;
+            const phoneMatch = vCard.match(/item1.TEL;waid=(\d+):(\+[\d\s\(\)-]+)/);
+            const numeroTelefone = phoneMatch ? phoneMatch[2].trim() : null;
+            setLocal("contact_phone_vcard", JSON.stringify([{
+                "nome": mensagem.contactMessage.displayName || "Desconhecido",
+                "contato": numeroTelefone
+            }]));
+        } else if (mensagem.contactsArrayMessage?.contacts?.length &gt; 0) {
+            setLocal("type", "phone_contact");
+            const contatos = mensagem.contactsArrayMessage.contacts.map(contato =&gt; {
+                const vCard = contato.vcard;
+                const phoneMatch = vCard.match(/item1.TEL;waid=(\d+):(\+[\d\s\(\)-]+)/);
+                return {
+                    "nome": contato.displayName || "Desconhecido",
+                    "contato": phoneMatch ? phoneMatch[2].trim() : null
+                };
+            });
+            setLocal("contact_phone_vcard", JSON.stringify(contatos));
+        }
+
+        if (mensagem.audioMessage) {
+            setLocal("type", "audio_message");
+            let extension = mensagem.audioMessage.mimetype ? mensagem.audioMessage.mimetype.split('/')[1].split(';')[0] : "";
+            if (extension === "mpeg") extension = "mp3"; // Mapeia "mpeg" para "mp3"
+            if (mensagem.audioMessage.PTT &amp;&amp; extension === "ogg") extension = "opus"; // Mapeia "ogg" para "opus" apenas para PTT
+            setLocal("file_extension", extension);
+        }
+
+        if (mensagem.imageMessage) {
+            setLocal("type", info.Chat === "status@broadcast" ? "status_message" : "image_message"); // Ajuste para status
+            setLocal("%image_caption", mensagem.imageMessage.caption || "");
+            setLocal("file_extension", mensagem.imageMessage.mimetype ? mensagem.imageMessage.mimetype.split('/')[1] : "");
+        }
+
+        if (mensagem.videoMessage &amp;&amp; mensagem.videoMessage.gifPlayback) {
+            setLocal("type", "gif_message");
+            setLocal("file_extension", "gif");
+            setLocal("%image_caption", mensagem.videoMessage.caption || "");
+        } else if (mensagem.videoMessage) {
+            setLocal("type", info.Chat === "status@broadcast" ? "status_message" : "video_message"); // Ajuste para status
+            setLocal("file_extension", mensagem.videoMessage.mimetype ? mensagem.videoMessage.mimetype.split('/')[1] : "");
+            setLocal("video_caption", mensagem.videoMessage.caption || "");
+        }
+
+        if (mensagem.documentMessage) {
+            setLocal("type", "document_message");
+            let extension = mensagem.documentMessage.mimetype ? mensagem.documentMessage.mimetype.split('/')[1] : "";
+            if (extension === "plain") extension = "txt"; // Mapeia "plain" para "txt"
+            setLocal("file_extension", extension);
+            setLocal("%arq_caption", mensagem.documentMessage.caption || "");
+            // Captura o nome do arquivo sem a extensão
+            const fileNameFull = mensagem.documentMessage.fileName || "";
+            const fileName = fileNameFull.substring(0, fileNameFull.lastIndexOf('.')) || fileNameFull;
+            setLocal("file_name", fileName);
+        }
+
+        if (mensagem.reactionMessage) {
+            setLocal("type", "reaction_message");
+            setLocal("reaction_text", mensagem.reactionMessage.text);
+        }
+
+        // Ajuste para identificar link_message sempre que for um link
+        if (mensagem.conversation?.match(/^https?:\/\//)) {
+            setLocal("type", "link_message");
+            // Move a definição de text_message para dentro de um else para evitar sobrescrever
+        } else if (mensagem.conversation) {
+            setLocal("type", "text_message");
+        }
+
+        if (mensagem.extendedTextMessage?.matchedText?.match(/^https?:\/\//)) {
+            setLocal("type", "link_message");
+            setLocal("link_title", mensagem.extendedTextMessage.title || "");
+            setLocal("link_description", mensagem.extendedTextMessage.description || "");
+        }
+
+        if (mensagem.locationMessage) {
+            setLocal("receiver_latitude", mensagem.locationMessage.degreesLatitude);
+            setLocal("receiver_longitude", mensagem.locationMessage.degreesLongitude);
+            setLocal("%link_location_maps", `https://www.google.com/maps?q=${mensagem.locationMessage.degreesLatitude},${mensagem.locationMessage.degreesLongitude}`);
+            setLocal("type", "link_message");
+        }
+
+        if (mensagem.messageContextInfo?.messageSecret) {
+            setLocal("messagesecret", mensagem.messageContextInfo.messageSecret);
+        }
+
+    }
+
+} catch (e) {}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>396</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%mt_match
+Equivalente
+Também pode ser acessado como um array&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%mt_groups()
+Grupos
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%mt_match_found
+É Correspondência
+true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%sender_number</Str>
+			<Str sr="arg3" ve="3">(?P&lt;sender_number&gt;\d+)[:@].*</Str>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%sender_number</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Img sr="icn" ve="2">
+			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/receiver.png</fle>
 		</Img>
 	</Task>
 </TaskerData>
