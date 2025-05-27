@@ -1,9 +1,9 @@
-<TaskerData sr="" dvi="1" tv="6.5.7-rc">
+<TaskerData sr="" dvi="1" tv="6.5.9">
 	<dmetric>1080.0,2400.0</dmetric>
 	<Profile sr="prof1039" ve="2">
 		<cdate>1748312909520</cdate>
 		<clp>true</clp>
-		<edate>1748313684261</edate>
+		<edate>1748380483720</edate>
 		<flags>8</flags>
 		<id>1039</id>
 		<limit>true</limit>
@@ -57,14 +57,14 @@
 			<pvit>pr</pvit>
 			<pvn>%start_time</pvn>
 			<pvt>t</pvt>
-			<pvv>%TIME</pvv>
+			<pvv>05.00</pvv>
 			<strout>true</strout>
 		</ProfileVariable>
 	</Profile>
 	<Profile sr="prof1040" ve="2">
 		<cdate>1748312909521</cdate>
 		<clp>true</clp>
-		<edate>1748313676295</edate>
+		<edate>1748380483429</edate>
 		<flags>8</flags>
 		<id>1040</id>
 		<limit>true</limit>
@@ -114,7 +114,7 @@ Porta
 	<Profile sr="prof1041" ve="2">
 		<cdate>1748312909522</cdate>
 		<clp>true</clp>
-		<edate>1748300614928</edate>
+		<edate>1748313945924</edate>
 		<flags>8</flags>
 		<id>1041</id>
 		<limit>true</limit>
@@ -134,7 +134,8 @@ Porta
 	</Profile>
 	<Profile sr="prof1042" ve="2">
 		<cdate>1748312909523</cdate>
-		<edate>1748313821253</edate>
+		<clp>true</clp>
+		<edate>1748380481458</edate>
 		<flags>8</flags>
 		<id>1042</id>
 		<limit>true</limit>
@@ -153,7 +154,7 @@ Porta
 	<Profile sr="prof1043" ve="2">
 		<cdate>1748312909524</cdate>
 		<clp>true</clp>
-		<edate>1748313675614</edate>
+		<edate>1748380483070</edate>
 		<flags>8</flags>
 		<id>1043</id>
 		<limit>true</limit>
@@ -175,9 +176,9 @@ Porta
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
-		<pids>1039,1041,1043,1040,1042</pids>
-		<scenes>NO_UPDATES v(1.0),INSTALLATION_INFORMATION v(1.0),WAITING-FOR-SETTINGS v(1.0),CONNECTION_STATUS v(1.0),CHECK_DISCONNECTION v(1.0),UPDATES v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0)</scenes>
-		<tids>1023,1025,1037,1033,1028,1031,1019,1018,1038,1024,1035,1036,1017,1034,1016,1026,1029,1022,1020,1030,1032,1027,1021,1015</tids>
+		<pids>1039,1041,1040,1042,1043</pids>
+		<scenes>UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),WAITING-FOR-SETTINGS v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),INSTALLATION_INFORMATION v(1.0),UPDATES v(1.0),CHECK_DISCONNECTION v(1.0),NO_UPDATES v(1.0),CONNECTION_STATUS v(1.0)</scenes>
+		<tids>1023,1020,1026,1034,1031,1029,1037,1018,1025,1033,1028,1016,1038,1017,1024,1022,1027,1035,1019,1032,1015,1021,1030,1036</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
 		</Img>
@@ -1439,7 +1440,7 @@ Porta
 	</Scene>
 	<Task sr="task1015">
 		<cdate>1732515010938</cdate>
-		<edate>1747475658470</edate>
+		<edate>1748376615420</edate>
 		<id>1015</id>
 		<nme>#PROCESS_REQUISITIONS_REQUESTS v(1.0)</nme>
 		<pri>100</pri>
@@ -3861,7 +3862,7 @@ setLocal("auto_del", auto_del);</Str>
 	</Task>
 	<Task sr="task1021">
 		<cdate>1746316969002</cdate>
-		<edate>1747948095335</edate>
+		<edate>1748377223623</edate>
 		<id>1021</id>
 		<nme>☛ CAPTURE_NUMBER_AND_JID v(1.0) ☚</nme>
 		<pri>100</pri>
@@ -3978,7 +3979,7 @@ setLocal("name", nome);</Str>
 	</Task>
 	<Task sr="task1022">
 		<cdate>1731950391571</cdate>
-		<edate>1748313599456</edate>
+		<edate>1748377592354</edate>
 		<id>1022</id>
 		<nme>☛ INSTALL_AND_CONNECT_WHATSAPP _WEB v(1.0) ☚</nme>
 		<pri>100</pri>
@@ -4526,7 +4527,7 @@ The label of the button that was clicked&lt;/_array_net.dinglisch.android.tasker
 	</Task>
 	<Task sr="task1023">
 		<cdate>1742831555568</cdate>
-		<edate>1748270440955</edate>
+		<edate>1748380538722</edate>
 		<id>1023</id>
 		<nme>#SEND_MESSAGES_AND_FILES v(1.0)</nme>
 		<pri>100</pri>
@@ -7443,8 +7444,6 @@ true</Str>
 		<Action sr="act293" ve="7">
 			<code>37</code>
 			<coll>true</coll>
-			<label>&lt;b&gt;&lt;font color=red&gt; falta corrigir</label>
-			<on>false</on>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%type</lhs>
@@ -7455,7 +7454,6 @@ true</Str>
 		</Action>
 		<Action sr="act294" ve="7">
 			<code>130</code>
-			<on>false</on>
 			<Str sr="arg0" ve="3">#CHECK_VARIABLE_ERRORS v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
@@ -7471,8 +7469,21 @@ true</Str>
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act295" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var msg = local("caption");
+var saida = msg
+  .replace(/\\/g, "\\\\")
+  .replace(/"/g, '\\"')
+  .replace(/\n/g, "\\n")
+  .replace(/\r/g, "\\r");
+
+setLocal("caption_escap", saida);</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act296" ve="7">
 			<code>339</code>
-			<on>false</on>
 			<se>false</se>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -7501,21 +7512,20 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 Content-Type:application/json</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3">{
-"Phone":"%number@g.us",
-"Body":"%caption",
+"Phone":"%jid@g.us",
+"Body":"%caption_escap",
 "ContextInfo":{
 "StanzaId":"%message_id",
-"Participant":"%number@s.whatsapp.net"
+"Participant":"%sender_number@s.whatsapp.net"
 }}</Str>
 			<Str sr="arg6" ve="3"/>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act296" ve="7">
+		<Action sr="act297" ve="7">
 			<code>37</code>
 			<coll>false</coll>
-			<on>false</on>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%http_response_code</lhs>
@@ -7524,9 +7534,8 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act297" ve="7">
+		<Action sr="act298" ve="7">
 			<code>547</code>
-			<on>false</on>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Str sr="arg1" ve="3">success</Str>
 			<Int sr="arg2" val="0"/>
@@ -7535,18 +7544,13 @@ Content-Type:application/json</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act298" ve="7">
+		<Action sr="act299" ve="7">
 			<code>126</code>
-			<on>false</on>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act299" ve="7">
-			<code>38</code>
-			<on>false</on>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>137</code>
@@ -7565,11 +7569,13 @@ Content-Type:application/json</Str>
 		</Action>
 		<Action sr="act300" ve="7">
 			<code>38</code>
-			<on>false</on>
 		</Action>
 		<Action sr="act301" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act302" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%type</lhs>
@@ -7578,7 +7584,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act302" ve="7">
+		<Action sr="act303" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">#CHECK_VARIABLE_ERRORS v(1.0)</Str>
 			<Int sr="arg1">
@@ -7594,7 +7600,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act303" ve="7">
+		<Action sr="act304" ve="7">
 			<code>123</code>
 			<Str sr="arg0" ve="3">base64 "%path" | tr -d '\n'</Str>
 			<Int sr="arg1" val="0"/>
@@ -7605,7 +7611,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
-		<Action sr="act304" ve="7">
+		<Action sr="act305" ve="7">
 			<code>339</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -7643,7 +7649,7 @@ Content-Type:application/json</Str>
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act305" ve="7">
+		<Action sr="act306" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -7654,7 +7660,7 @@ Content-Type:application/json</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act306" ve="7">
+		<Action sr="act307" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Str sr="arg1" ve="3">success</Str>
@@ -7664,16 +7670,13 @@ Content-Type:application/json</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act307" ve="7">
+		<Action sr="act308" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act308" ve="7">
-			<code>38</code>
 		</Action>
 		<Action sr="act309" ve="7">
 			<code>38</code>
@@ -7693,6 +7696,9 @@ Content-Type:application/json</Str>
 			<Str sr="arg7" ve="3">%termux_path/ffmpeg.sh</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act310" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act32" ve="7">
 			<code>129</code>
@@ -8738,7 +8744,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task1025">
 		<cdate>1731963712394</cdate>
-		<edate>1748313833051</edate>
+		<edate>1748377927310</edate>
 		<id>1025</id>
 		<nme>#GENERATE CODES ( JAVA SCRIPT - CSS - SH ) v(1.0)</nme>
 		<pri>100</pri>
@@ -12452,7 +12458,7 @@ true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglis
 	</Task>
 	<Task sr="task1029">
 		<cdate>1729096715422</cdate>
-		<edate>1747478587548</edate>
+		<edate>1748377387633</edate>
 		<id>1029</id>
 		<nme>#INSTALL_WUZAPI-CHAT-BOT_END_CONNECT_TO_WHATSAPP v(1.0)</nme>
 		<pri>100</pri>
@@ -15321,7 +15327,7 @@ true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglis
 	</Task>
 	<Task sr="task1035">
 		<cdate>1747108748487</cdate>
-		<edate>1748313012146</edate>
+		<edate>1748373710892</edate>
 		<id>1035</id>
 		<nme>☛ CHECK_FOR_UPDATES v(1.0) ☚</nme>
 		<pri>100</pri>
@@ -15348,7 +15354,7 @@ true se houve uma correspondência, false caso contrário&lt;/_array_net.dinglis
 	</Task>
 	<Task sr="task1036">
 		<cdate>1733452720303</cdate>
-		<edate>1747322055572</edate>
+		<edate>1748376667741</edate>
 		<id>1036</id>
 		<nme>☛ UNLINK_USER_FROM_WHATSAPP_WEB v(1.0) ☚</nme>
 		<pri>100</pri>
