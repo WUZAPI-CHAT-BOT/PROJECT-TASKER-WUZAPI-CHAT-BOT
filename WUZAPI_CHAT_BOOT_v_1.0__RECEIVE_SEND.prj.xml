@@ -23,8 +23,7 @@
 	</Profile>
 	<Profile sr="prof658" ve="2">
 		<cdate>1748383937831</cdate>
-		<clp>true</clp>
-		<edate>1748385387571</edate>
+		<edate>1748636260688</edate>
 		<flags>8</flags>
 		<id>658</id>
 		<limit>true</limit>
@@ -65,7 +64,7 @@
 	<Profile sr="prof660" ve="2">
 		<cdate>1748383937834</cdate>
 		<clp>true</clp>
-		<edate>1748636074196</edate>
+		<edate>1748636269699</edate>
 		<flags>8</flags>
 		<id>660</id>
 		<limit>true</limit>
@@ -119,7 +118,7 @@
 			<pvit>pr</pvit>
 			<pvn>%start_time</pvn>
 			<pvt>t</pvt>
-			<pvv>05.00</pvv>
+			<pvv>%TIME</pvv>
 			<strout>true</strout>
 		</ProfileVariable>
 	</Profile>
@@ -176,9 +175,9 @@ Valores Multipartes
 	<Project sr="proj0" ve="2">
 		<cdate>1728592078450</cdate>
 		<name>WUZAPI_CHAT_BOOT_v(1.0)_RECEIVE/SEND</name>
-		<pids>659,661,660,657,658</pids>
-		<scenes>CHECK_DISCONNECTION v(1.0),INSTALLATION_INFORMATION v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),UPDATES v(1.0),NO_UPDATES v(1.0),CONNECTION_STATUS v(1.0),WAITING-FOR-SETTINGS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0)</scenes>
-		<tids>637,645,656,653,634,646,638,642,654,649,533,648,643,541,644,633,639,650,647,655,652,641,651,770</tids>
+		<pids>657,661,659,660,658</pids>
+		<scenes>NO_UPDATES v(1.0),INSTALLATION_INFORMATION v(1.0),UPDATES v(1.0),CONNECTION_STATUS v(1.0),SCENE_TO_CONNECT_WUZAPI_TO_WHATSAPP_WEB v(1.0),WAITING-FOR-SETTINGS v(1.0),UNLINK_USER_FROM_WHATSAPP_WEB v(1.0),CHECK_DISCONNECTION v(1.0)</scenes>
+		<tids>654,652,648,633,638,646,533,639,644,647,656,643,637,655,653,645,641,642,634,541,651,770,649,650</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/TASKER-WUZAPI/img/wuzapi-icon.png</fle>
 		</Img>
@@ -14619,7 +14618,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task654">
 		<cdate>1746648503426</cdate>
-		<edate>1748384237659</edate>
+		<edate>1748636134029</edate>
 		<id>654</id>
 		<nme>#WUZAPI_UPDATES v(1.0)</nme>
 		<pri>100</pri>
